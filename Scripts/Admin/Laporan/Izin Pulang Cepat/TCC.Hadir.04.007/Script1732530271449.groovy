@@ -36,15 +36,14 @@ WebUI.setText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Pa
 // Date selection
 WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'))
 WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'), 'Nov 1, 2024')
-WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'))
-WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'), 'Nov 25, 2024')
+
 
 // Execute search
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60'))
 
 // Verification step
 boolean isKazamaPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama'), 10)
-assert isKazamaPresent : "The search result for 'Kazama' is not displayed."
+assert isKazamaPresent : "The search result for 'Nov 1, 2024' is displayed."
 
 WebUI.closeBrowser()
 

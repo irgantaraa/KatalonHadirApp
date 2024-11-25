@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data izin pulang cepat dengan filter departemen</description>
+   <name>TCC.Hadir.04.009</name>
+   <tag>IzinPulangCepat</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d15b6520-24d4-427a-a452-a065551c5d2d</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data izin pulang cepat dengan nama filter yang tidak valid</description>
+   <name>TCC.Hadir.04.010</name>
+   <tag>IzinPulangCepat</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>13adabcf-9702-43b3-9318-9e8e86b5ab24</testCaseGuid>
+</TestCaseEntity>

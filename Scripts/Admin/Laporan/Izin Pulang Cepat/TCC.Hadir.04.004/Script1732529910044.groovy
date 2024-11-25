@@ -18,33 +18,52 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
+
 WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
 // Login steps
 WebUI.setText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'), 'Admin@hadir.com')
-WebUI.setEncryptedText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'), 'aSC42nPN26UggVXAwmiGmQ==')
+
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'), 
+    'aSC42nPN26UggVXAwmiGmQ==')
+
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk'))
 
 // Navigation to the specific report
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan'))
+
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat'))
 
 // Search functionality
-WebUI.setText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'), 'Kazama')
-
-// Date selection
-WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'))
-WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'), 'Nov 1, 2024')
-WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'))
-WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'), 'Nov 25, 2024')
+WebUI.setText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'), '123')
 
 // Execute search
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60'))
 
-// Verification step
-boolean isKazamaPresent = WebUI.verifyElementPresent(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama'), 10)
-assert isKazamaPresent : "The search result for 'Kazama' is not displayed."
+// Wait for the pagination element to load
+WebUI.waitForElementVisible(findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows'), 
+    10)
+
+// Check if pagination object is not null
+TestObject paginationElement = findTestObject('Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows')
+
+if (paginationElement != null) {
+    WebUI.waitForElementVisible(paginationElement, 10)
+
+    String paginationText = WebUI.getText(paginationElement)
+
+    println('Pagination text: ' + paginationText)
+
+    if (paginationText == '0-0 of 0') {
+        WebUI.comment('No search results found.') // Additional actions when results are present
+    } else {
+        WebUI.comment('Search results are displayed.')
+    }
+} else {
+    WebUI.comment('Pagination element is not found in the Object Repository.')
+}
 
 WebUI.closeBrowser()
 

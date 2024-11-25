@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data izin pulang cepat dengan input angka pada nama</description>
+   <name>TCC.Hadir.04.004</name>
+   <tag>IzinPulangCepat</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>95fdcfee-038d-4a60-9bd4-1b8d8173e1e3</testCaseGuid>
+</TestCaseEntity>

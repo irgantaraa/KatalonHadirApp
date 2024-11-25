@@ -69,6 +69,16 @@
       "proposedLocatorMethod": "XPATH",
       "recoveryMethod": "XPATH",
       "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin/IzinPulangCepatPage/input_1_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Start Date_MuiInputBase-input MuiOutl_05daa2_1",
+      "brokenLocator": "//input[@value\u003d\u0027N\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[2]/div/div/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Start Date_MuiInputBase-input MuiOutl_05daa2_1_idRelative.png"
     }
   ]
 }
