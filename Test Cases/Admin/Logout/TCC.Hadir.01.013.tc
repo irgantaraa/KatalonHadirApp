@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi Log out akun</description>
+   <name>TCC.Hadir.01.013</name>
+   <tag>Logout</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>50116b11-cb02-4869-96b0-b5f6a39f6313</testCaseGuid>
+</TestCaseEntity>

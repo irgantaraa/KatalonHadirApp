@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email tanpa menggunakan simbol &quot;@&quot;</description>
+   <name>TCC.Hadir.01.004</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>a58a76a3-814f-4d94-b181-3f5a9606d733</testCaseGuid>
+</TestCaseEntity>

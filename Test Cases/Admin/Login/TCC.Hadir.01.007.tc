@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login tanpa memasukkan Email &amp; password</description>
+   <name>TCC.Hadir.01.007</name>
+   <tag></tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>71e38990-7896-47dd-bede-e3bd58f20781</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan menggunakan password invalid</description>
+   <name>TCC.Hadir.01.010</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f3a42558-d434-4593-b655-1570c8850db7</testCaseGuid>
+</TestCaseEntity>

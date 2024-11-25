@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan email dengan menggunakan double simbol &quot;@&quot;</description>
+   <name>TCC.Hadir.01.005</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>8326f820-e819-4d37-a8b3-91205a84f72b</testCaseGuid>
+</TestCaseEntity>

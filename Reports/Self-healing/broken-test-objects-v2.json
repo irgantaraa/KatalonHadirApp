@@ -1,0 +1,74 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cuti/Page_HADIR/p_Berhasil login",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div[2]/div/div/div/div/div/div[2]/p",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027​\u0027])[1]/preceding::p[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cuti/Page_HADIR/p_Berhasil login_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cuti/Page_HADIR/span_24",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div/div/div[3]/div/div[2]/button[24]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sat\u0027])[1]/following::span[48]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cuti/Page_HADIR/span_24_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Cuti/Page_HADIR/span_30",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div/div/div[3]/div/div[2]/button[30]/span[2]/span",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sat\u0027])[1]/following::span[67]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Cuti/Page_HADIR/span_30_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Page_HADIR/div_Berhasil login",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div[2]/div/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027​\u0027])[1]/preceding::div[4]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": ""
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Login_Page/Page_HADIR/polyline",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "button \u003e\u003e internal:has-text\u003d\"AHi,Admin Hadir\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Login/Login_Page/Page_HADIR/polyline_SMART_LOCATOR.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/IzinPulangCepatPage/div_Laporan",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/div/div[2]/div/div/div/div[2]/div/div/div/div/div/div[2]/div[2]/div/div/div[2]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin/IzinPulangCepatPage/div_Laporan_idRelative.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/IzinPulangCepatPage/input_1",
+      "brokenLocator": "(//input[@value\u003d\u0027\u0027])[4]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div/div/div/div/span/input",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Admin/IzinPulangCepatPage/input_1_idRelative.png"
+    }
+  ]
+}

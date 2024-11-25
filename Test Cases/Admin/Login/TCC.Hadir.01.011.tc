@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi Password Masking ketika memasukkan password</description>
+   <name>TCC.Hadir.01.011</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a9d13fd-0a80-44e6-92f4-8749ac6066d8</testCaseGuid>
+</TestCaseEntity>

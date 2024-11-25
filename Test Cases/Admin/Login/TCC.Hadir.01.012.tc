@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Nonaktifkan Password Masking</description>
+   <name>TCC.Hadir.01.012</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a015b33-8103-4d5b-af9a-13ebcaad3cb3</testCaseGuid>
+</TestCaseEntity>

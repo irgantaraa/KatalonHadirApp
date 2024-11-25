@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Login dengan password kosong</description>
+   <name>TCC.Hadir.01.009</name>
+   <tag>Login</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2d756e82-781c-48c0-8582-d21cb42ebaa1</testCaseGuid>
+</TestCaseEntity>
