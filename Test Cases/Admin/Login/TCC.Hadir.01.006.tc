@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
-   <description></description>
+   <description>Login dengan email tanpa menggunakan format .com, .co.id, dll</description>
    <name>TCC.Hadir.01.006</name>
    <tag>Login</tag>
    <comment></comment>

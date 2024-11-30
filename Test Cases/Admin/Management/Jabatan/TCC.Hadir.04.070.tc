@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengedit tabel data point tanpa mengisi field nama tetapi mengisi field lain</description>
+   <name>TCC.Hadir.04.070</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>afb56536-4d69-478d-810d-b6aa695cee76</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti dengan filter nama yang tidak valid</description>
+   <name>TCC.Hadir.04.023</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0e70b527-c125-4873-8cae-fa9fc651374f</testCaseGuid>
+</TestCaseEntity>

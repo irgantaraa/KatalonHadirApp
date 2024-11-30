@@ -1,0 +1,232 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Izin Pulang Cepat,Chrome 131.0.0.0,,,25-11-2024 19:36:41,25-11-2024 19:40:21,3m - 40.162s,FAILED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.001,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input tanggal yang sesuai,,25-11-2024 19:36:41,25-11-2024 19:37:04,22.443s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:36:41,25-11-2024 19:36:43,1.495s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:36:43,25-11-2024 19:36:43,0.043s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:36:43,25-11-2024 19:36:45,2.519s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/input_Email_email (1)""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:36:45,25-11-2024 19:36:46,0.812s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:36:46,25-11-2024 19:36:46,0.299s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/button_Masuk (1)""))",Chrome 131.0.0.0,,,25-11-2024 19:36:46,25-11-2024 19:36:47,0.293s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/p_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:36:47,25-11-2024 19:36:50,2.888s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:36:50,25-11-2024 19:36:51,1.217s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/svg_Start Date_feather feather-calendar (1)""))",Chrome 131.0.0.0,,,25-11-2024 19:36:51,25-11-2024 19:36:52,1.540s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/November1""))",Chrome 131.0.0.0,,,25-11-2024 19:36:52,25-11-2024 19:37:01,8.255s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/November24""))",Chrome 131.0.0.0,,,25-11-2024 19:37:01,25-11-2024 19:37:02,0.886s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/button_save""))",Chrome 131.0.0.0,,,25-11-2024 19:37:02,25-11-2024 19:37:02,0.489s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/button_Search (1)""))",Chrome 131.0.0.0,,,25-11-2024 19:37:02,25-11-2024 19:37:02,0.473s,PASSED
+"assert verifyElementText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/td_kazama (1)""), ""kazama"")",Chrome 131.0.0.0,,,25-11-2024 19:37:02,25-11-2024 19:37:03,0.978s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:37:03,25-11-2024 19:37:04,0.110s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.002,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input nama dan tanggal yang sesuai,IzinPulangCepat,25-11-2024 19:37:04,25-11-2024 19:37:17,13.442s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:37:04,25-11-2024 19:37:04,0.657s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:37:04,25-11-2024 19:37:04,0.040s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:37:04,25-11-2024 19:37:07,2.270s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:37:07,25-11-2024 19:37:07,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:37:07,25-11-2024 19:37:08,0.276s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:37:08,25-11-2024 19:37:08,0.277s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:37:08,25-11-2024 19:37:11,3.181s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:37:11,25-11-2024 19:37:12,1.310s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Kazama"")",Chrome 131.0.0.0,,,25-11-2024 19:37:12,25-11-2024 19:37:14,1.765s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,25-11-2024 19:37:14,25-11-2024 19:37:14,0.258s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""), ""Nov 1, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:37:14,25-11-2024 19:37:15,0.522s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,25-11-2024 19:37:15,25-11-2024 19:37:15,0.249s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""), ""Nov 25, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:37:15,25-11-2024 19:37:16,0.499s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:37:16,25-11-2024 19:37:16,0.270s,PASSED
+"isKazamaPresent = verifyElementPresent(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:37:16,25-11-2024 19:37:17,0.951s,PASSED
+"assert isKazamaPresent : ""The search result for 'Kazama' is not displayed.""",Chrome 131.0.0.0,,,25-11-2024 19:37:17,25-11-2024 19:37:17,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:37:17,25-11-2024 19:37:17,0.120s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.003,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input nama yang tidak sesuai,,25-11-2024 19:37:17,25-11-2024 19:37:29,12.075s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:37:17,25-11-2024 19:37:18,0.645s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:37:18,25-11-2024 19:37:18,0.034s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:37:18,25-11-2024 19:37:20,2.180s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:37:20,25-11-2024 19:37:21,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:37:21,25-11-2024 19:37:21,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:37:21,25-11-2024 19:37:21,0.276s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:37:21,25-11-2024 19:37:24,2.914s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:37:24,25-11-2024 19:37:26,1.350s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Abc"")",Chrome 131.0.0.0,,,25-11-2024 19:37:26,25-11-2024 19:37:27,1.747s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:37:27,25-11-2024 19:37:28,0.278s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:37:28,25-11-2024 19:37:28,0.948s,PASSED
+"paginationElement = findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"")",Chrome 131.0.0.0,,,25-11-2024 19:37:28,25-11-2024 19:37:28,0.004s,PASSED
+if (paginationElement != null),Chrome 131.0.0.0,,,25-11-2024 19:37:28,25-11-2024 19:37:29,0.489s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:37:29,25-11-2024 19:37:29,0.112s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.004,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input angka pada nama,IzinPulangCepat,25-11-2024 19:37:29,25-11-2024 19:37:41,12.024s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:37:29,25-11-2024 19:37:30,0.650s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:37:30,25-11-2024 19:37:30,0.031s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:37:30,25-11-2024 19:37:32,2.531s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:37:32,25-11-2024 19:37:33,0.738s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:37:33,25-11-2024 19:37:33,0.268s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:37:33,25-11-2024 19:37:34,0.279s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:37:34,25-11-2024 19:37:36,2.791s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:37:36,25-11-2024 19:37:38,1.134s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""123"")",Chrome 131.0.0.0,,,25-11-2024 19:37:38,25-11-2024 19:37:39,1.732s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:37:39,25-11-2024 19:37:40,0.278s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:37:40,25-11-2024 19:37:41,0.949s,PASSED
+"paginationElement = findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"")",Chrome 131.0.0.0,,,25-11-2024 19:37:41,25-11-2024 19:37:41,0.002s,PASSED
+if (paginationElement != null),Chrome 131.0.0.0,,,25-11-2024 19:37:41,25-11-2024 19:37:41,0.480s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:37:41,25-11-2024 19:37:41,0.106s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.005,Chrome 131.0.0.0,"Menampilkan data izin pulang cepat tanpa mengisi nama, tanggal, dan filter",IzinPulangCepat,25-11-2024 19:37:41,25-11-2024 19:37:52,11.243s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:37:41,25-11-2024 19:37:42,0.711s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:37:42,25-11-2024 19:37:42,0.037s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:37:42,25-11-2024 19:37:44,2.494s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:37:44,25-11-2024 19:37:45,0.735s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:37:45,25-11-2024 19:37:45,0.274s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:37:45,25-11-2024 19:37:46,0.272s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:37:46,25-11-2024 19:37:48,2.786s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:37:48,25-11-2024 19:37:49,1.015s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,25-11-2024 19:37:49,25-11-2024 19:37:51,1.544s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama""))",Chrome 131.0.0.0,,,25-11-2024 19:37:51,25-11-2024 19:37:52,0.985s,PASSED
+"isPresent = verifyElementVisible(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama""))",Chrome 131.0.0.0,,,25-11-2024 19:37:52,25-11-2024 19:37:52,0.259s,PASSED
+"assert isPresent == true : ""Search result for 'Kazama' not found.""",Chrome 131.0.0.0,,,25-11-2024 19:37:52,25-11-2024 19:37:52,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:37:52,25-11-2024 19:37:52,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.006,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input tanggal tanpa memilih start date,IzinPulangCepat,25-11-2024 19:37:52,25-11-2024 19:38:06,13.631s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:37:52,25-11-2024 19:37:53,0.713s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:37:53,25-11-2024 19:37:53,0.023s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:37:53,25-11-2024 19:37:55,2.128s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:37:55,25-11-2024 19:37:56,0.741s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:37:56,25-11-2024 19:37:56,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:37:56,25-11-2024 19:37:57,0.277s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:37:57,25-11-2024 19:38:02,4.941s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:38:02,25-11-2024 19:38:03,1.121s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,25-11-2024 19:38:03,25-11-2024 19:38:04,1.521s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""), ""Nov 25, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:38:04,25-11-2024 19:38:05,0.503s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:38:05,25-11-2024 19:38:05,0.267s,PASSED
+"isKazamaPresent = verifyElementPresent(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:38:05,25-11-2024 19:38:06,0.959s,PASSED
+"assert isKazamaPresent : ""The search result for 'Nov 25, 2024' is displayed.""",Chrome 131.0.0.0,,,25-11-2024 19:38:06,25-11-2024 19:38:06,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:38:06,25-11-2024 19:38:06,0.120s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.007,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input tanggal tanpa memilih end date,IzinPulangCepat,25-11-2024 19:38:06,25-11-2024 19:38:18,12.373s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:38:06,25-11-2024 19:38:07,0.634s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:38:07,25-11-2024 19:38:07,0.035s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:38:07,25-11-2024 19:38:09,2.116s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:38:09,25-11-2024 19:38:10,0.745s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:38:10,25-11-2024 19:38:10,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:38:10,25-11-2024 19:38:10,0.279s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:38:10,25-11-2024 19:38:13,3.079s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:38:13,25-11-2024 19:38:15,1.321s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Kazama"")",Chrome 131.0.0.0,,,25-11-2024 19:38:15,25-11-2024 19:38:16,1.741s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,25-11-2024 19:38:16,25-11-2024 19:38:17,0.270s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""), ""Nov 1, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:38:17,25-11-2024 19:38:17,0.523s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:38:17,25-11-2024 19:38:17,0.278s,PASSED
+"isKazamaPresent = verifyElementPresent(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:38:17,25-11-2024 19:38:18,0.939s,PASSED
+"assert isKazamaPresent : ""The search result for 'Nov 1, 2024' is displayed.""",Chrome 131.0.0.0,,,25-11-2024 19:38:18,25-11-2024 19:38:18,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:38:18,25-11-2024 19:38:18,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.008,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan input tanggal yang akan datang,IzinPulangCepat,25-11-2024 19:38:18,25-11-2024 19:38:31,12.919s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:38:18,25-11-2024 19:38:19,0.636s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:38:19,25-11-2024 19:38:19,0.036s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:38:19,25-11-2024 19:38:22,2.520s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:38:22,25-11-2024 19:38:22,0.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:38:22,25-11-2024 19:38:23,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:38:23,25-11-2024 19:38:23,0.277s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:38:23,25-11-2024 19:38:26,2.758s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:38:26,25-11-2024 19:38:27,1.010s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Kazama"")",Chrome 131.0.0.0,,,25-11-2024 19:38:27,25-11-2024 19:38:28,1.755s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,25-11-2024 19:38:28,25-11-2024 19:38:29,0.264s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate""), ""Nov 30, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:38:29,25-11-2024 19:38:29,0.517s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,25-11-2024 19:38:29,25-11-2024 19:38:29,0.252s,PASSED
+"setText(findTestObject(""Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate""), ""Nov 30, 2024"")",Chrome 131.0.0.0,,,25-11-2024 19:38:29,25-11-2024 19:38:30,0.502s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:38:30,25-11-2024 19:38:30,0.274s,PASSED
+"isTablePresent = verifyElementPresent(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:38:30,25-11-2024 19:38:31,0.944s,PASSED
+"assert isTablePresent : ""The search result for 'Nov 30,2024' is displayed.""",Chrome 131.0.0.0,,,25-11-2024 19:38:31,25-11-2024 19:38:31,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:38:31,25-11-2024 19:38:31,0.108s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan filter departemen,IzinPulangCepat,25-11-2024 19:38:31,25-11-2024 19:38:47,15.472s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:38:31,25-11-2024 19:38:32,0.659s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:38:32,25-11-2024 19:38:32,0.039s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:38:32,25-11-2024 19:38:34,2.203s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:38:34,25-11-2024 19:38:35,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:38:35,25-11-2024 19:38:35,0.270s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:38:35,25-11-2024 19:38:36,0.263s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:38:36,25-11-2024 19:38:39,3.074s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:38:39,25-11-2024 19:38:39,0.682s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter""))",Chrome 131.0.0.0,,,25-11-2024 19:38:39,25-11-2024 19:38:42,2.775s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""IT Programmer"")",Chrome 131.0.0.0,,,25-11-2024 19:38:42,25-11-2024 19:38:43,0.758s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,25-11-2024 19:38:43,25-11-2024 19:38:43,0.665s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:38:43,25-11-2024 19:38:44,0.795s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:38:44,25-11-2024 19:38:45,1.176s,PASSED
+"actualNama = getText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama""))",Chrome 131.0.0.0,,,25-11-2024 19:38:45,25-11-2024 19:38:46,0.957s,PASSED
+"actualUnit = getText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit""))",Chrome 131.0.0.0,,,25-11-2024 19:38:46,25-11-2024 19:38:47,0.240s,PASSED
+"expectedNama = ""kazama""",Chrome 131.0.0.0,,,25-11-2024 19:38:47,25-11-2024 19:38:47,0.001s,PASSED
+"expectedUnit = ""IT Programmer""",Chrome 131.0.0.0,,,25-11-2024 19:38:47,25-11-2024 19:38:47,0.000s,PASSED
+assert actualNama == expectedNama,Chrome 131.0.0.0,,,25-11-2024 19:38:47,25-11-2024 19:38:47,0.000s,PASSED
+assert actualUnit == expectedUnit,Chrome 131.0.0.0,,,25-11-2024 19:38:47,25-11-2024 19:38:47,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:38:47,25-11-2024 19:38:47,0.112s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.010,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan nama filter yang tidak valid,IzinPulangCepat,25-11-2024 19:39:28,25-11-2024 19:39:42,13.682s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:39:28,25-11-2024 19:39:29,0.769s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:39:29,25-11-2024 19:39:29,0.038s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:39:29,25-11-2024 19:39:31,2.243s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:39:31,25-11-2024 19:39:32,0.740s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:39:32,25-11-2024 19:39:32,0.277s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:39:32,25-11-2024 19:39:32,0.261s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:39:32,25-11-2024 19:39:35,2.981s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:39:35,25-11-2024 19:39:36,1.316s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter""))",Chrome 131.0.0.0,,,25-11-2024 19:39:36,25-11-2024 19:39:38,1.521s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""Keuangan"")",Chrome 131.0.0.0,,,25-11-2024 19:39:38,25-11-2024 19:39:39,0.714s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:39:39,25-11-2024 19:39:39,0.674s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:39:39,25-11-2024 19:39:41,1.173s,PASSED
+"actualUnit = getText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit""))",Chrome 131.0.0.0,,,25-11-2024 19:39:41,25-11-2024 19:39:42,0.966s,PASSED
+"expectedUnit = ""Keuangan""",Chrome 131.0.0.0,,,25-11-2024 19:39:42,25-11-2024 19:39:42,0.000s,PASSED
+assert actualUnit == expectedUnit,Chrome 131.0.0.0,,,25-11-2024 19:39:42,25-11-2024 19:39:42,0.001s,FAILED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.011,Chrome 131.0.0.0,Menampilkan data izin pulang cepat dengan filter nama dan departemen,IzinPulangCepat,25-11-2024 19:39:42,25-11-2024 19:39:56,14.624s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:39:42,25-11-2024 19:39:42,0.747s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:39:42,25-11-2024 19:39:42,0.021s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:39:42,25-11-2024 19:39:44,2.127s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:39:44,25-11-2024 19:39:45,0.742s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:39:45,25-11-2024 19:39:46,0.274s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,25-11-2024 19:39:46,25-11-2024 19:39:46,0.259s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:39:46,25-11-2024 19:39:49,2.878s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:39:49,25-11-2024 19:39:49,0.689s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Agung Aji Nugraha"")",Chrome 131.0.0.0,,,25-11-2024 19:39:49,25-11-2024 19:39:51,1.801s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter""))",Chrome 131.0.0.0,,,25-11-2024 19:39:51,25-11-2024 19:39:51,0.284s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""AMEX MERCHANT"")",Chrome 131.0.0.0,,,25-11-2024 19:39:51,25-11-2024 19:39:52,0.749s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,25-11-2024 19:39:52,25-11-2024 19:39:53,0.666s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:39:53,25-11-2024 19:39:54,0.813s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60""))",Chrome 131.0.0.0,,,25-11-2024 19:39:54,25-11-2024 19:39:55,1.189s,PASSED
+"actualNama = getText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama""))",Chrome 131.0.0.0,,,25-11-2024 19:39:55,25-11-2024 19:39:56,0.971s,PASSED
+"actualUnit = getText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit""))",Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.245s,PASSED
+"expectedNama = ""Agung Aji Nugraha""",Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.000s,PASSED
+"expectedUnit = ""AMEX MERCHANT""",Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.000s,PASSED
+assert actualNama == expectedNama,Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.000s,PASSED
+assert actualUnit == expectedUnit,Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:56,0.109s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.012,Chrome 131.0.0.0,Menggunakan tombol Batal untuk keluar dari modal filter,IzinPulangCepat,25-11-2024 19:39:56,25-11-2024 19:40:08,12.056s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:39:56,25-11-2024 19:39:57,0.641s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:39:57,25-11-2024 19:39:57,0.025s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:39:57,25-11-2024 19:39:59,2.186s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:39:59,25-11-2024 19:40:00,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:40:00,25-11-2024 19:40:00,0.272s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:40:00,25-11-2024 19:40:00,0.255s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:40:00,25-11-2024 19:40:03,2.960s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:40:03,25-11-2024 19:40:05,1.298s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter""))",Chrome 131.0.0.0,,,25-11-2024 19:40:05,25-11-2024 19:40:06,1.530s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""Keuangan"")",Chrome 131.0.0.0,,,25-11-2024 19:40:06,25-11-2024 19:40:07,0.727s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:40:07,25-11-2024 19:40:08,0.686s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/ButtonbatalFilter""))",Chrome 131.0.0.0,,,25-11-2024 19:40:08,25-11-2024 19:40:08,0.587s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:40:08,25-11-2024 19:40:08,0.104s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.013,Chrome 131.0.0.0,Menghapus filter yang dipilih dengan tombol X,IzinPulangCepat,25-11-2024 19:40:08,25-11-2024 19:40:21,12.976s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,25-11-2024 19:40:08,25-11-2024 19:40:09,0.632s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,25-11-2024 19:40:09,25-11-2024 19:40:09,0.038s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,25-11-2024 19:40:09,25-11-2024 19:40:11,2.266s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,25-11-2024 19:40:11,25-11-2024 19:40:12,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,25-11-2024 19:40:12,25-11-2024 19:40:12,0.274s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,25-11-2024 19:40:12,25-11-2024 19:40:12,0.257s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,25-11-2024 19:40:12,25-11-2024 19:40:15,2.853s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat""))",Chrome 131.0.0.0,,,25-11-2024 19:40:15,25-11-2024 19:40:17,1.298s,PASSED
+"click(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter""))",Chrome 131.0.0.0,,,25-11-2024 19:40:17,25-11-2024 19:40:18,1.411s,PASSED
+"waitForElementVisible(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter""), 10)",Chrome 131.0.0.0,,,25-11-2024 19:40:18,25-11-2024 19:40:18,0.432s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""IT Programmer"")",Chrome 131.0.0.0,,,25-11-2024 19:40:18,25-11-2024 19:40:19,0.551s,PASSED
+"click(findTestObject(""Admin/IzinPulangCepatPage/009/Page_HADIR/buttonX""))",Chrome 131.0.0.0,,,25-11-2024 19:40:19,25-11-2024 19:40:20,0.702s,PASSED
+"waitForElementAttributeValue(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""value"", """", 10)",Chrome 131.0.0.0,,,25-11-2024 19:40:20,25-11-2024 19:40:21,1.113s,PASSED
+"unitValueAfterClear = getAttribute(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement""), ""value"")",Chrome 131.0.0.0,,,25-11-2024 19:40:21,25-11-2024 19:40:21,0.236s,PASSED
+"assert unitValueAfterClear == """"",Chrome 131.0.0.0,,,25-11-2024 19:40:21,25-11-2024 19:40:21,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,25-11-2024 19:40:21,25-11-2024 19:40:21,0.114s,PASSED

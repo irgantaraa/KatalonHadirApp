@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Memverifikasi tombol Reset berfungsi dengan benar</description>
+   <name>TCC.Hadir.04.073</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>6a8260dd-0f5e-469d-81d3-531e1012afda</testCaseGuid>
+</TestCaseEntity>

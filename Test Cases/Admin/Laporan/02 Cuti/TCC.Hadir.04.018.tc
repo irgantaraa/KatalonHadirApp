@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti tanpa mengisi nama, tanggal, dan filter</description>
+   <name>TCC.Hadir.04.018</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>42daaf50-4efa-47b0-8e7a-59b6ab4b467f</testCaseGuid>
+</TestCaseEntity>

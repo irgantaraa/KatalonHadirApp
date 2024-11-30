@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti dengan input nama yang tidak valid</description>
+   <name>TCC.Hadir.04.016</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>72d71671-f7e4-45d7-a82e-d8630201a155</testCaseGuid>
+</TestCaseEntity>

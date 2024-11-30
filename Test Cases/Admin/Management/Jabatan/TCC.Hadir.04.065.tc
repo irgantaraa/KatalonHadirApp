@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan data jabatan tanpa mengisi form</description>
+   <name>TCC.Hadir.04.065</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>31bc16bc-57b4-45ed-a0fa-88c8613f6398</testCaseGuid>
+</TestCaseEntity>

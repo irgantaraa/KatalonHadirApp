@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan data jabatan tanpa mengisi field level tetapi mengisi field lain</description>
+   <name>TCC.Hadir.04.067</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>41d30e3a-80ef-43eb-944a-2bb968ba9c30</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti dengan input tanggal tanpa memilih end date</description>
+   <name>TCC.Hadir.04.020</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f7f4e1a0-3346-437d-a32a-479079008cfe</testCaseGuid>
+</TestCaseEntity>

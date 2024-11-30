@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mencari data berdasarkan level</description>
+   <name>TCC.Hadir.04.061</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3eb6ac16-6515-42ed-8e8c-fc3b8c46738a</testCaseGuid>
+</TestCaseEntity>

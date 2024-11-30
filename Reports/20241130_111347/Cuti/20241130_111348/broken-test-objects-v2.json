@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(//button[@type\u003d\u0027button\u0027])[22]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241130_111347/Cuti/20241130_111348/Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit_attributes.png"
+    }
+  ]
+}

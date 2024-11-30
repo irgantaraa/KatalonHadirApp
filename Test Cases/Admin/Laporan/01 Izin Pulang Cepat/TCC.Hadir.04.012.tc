@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menggunakan tombol Batal untuk keluar dari modal filter</description>
+   <name>TCC.Hadir.04.012</name>
+   <tag>IzinPulangCepat</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4043b09e-3c3d-446c-a2c2-67c496b0fa80</testCaseGuid>
+</TestCaseEntity>

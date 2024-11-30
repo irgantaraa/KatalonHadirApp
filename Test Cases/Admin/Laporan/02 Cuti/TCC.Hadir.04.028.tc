@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Melakukan edit pada tabel</description>
+   <name>TCC.Hadir.04.028</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>2a1a8ba0-61dc-4585-8598-7282080813f4</testCaseGuid>
+</TestCaseEntity>

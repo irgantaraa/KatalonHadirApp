@@ -1,0 +1,240 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Jabatan,Chrome 131.0.0.0,,,30-11-2024 11:25:34,30-11-2024 11:27:11,1m - 37.204s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.061,Chrome 131.0.0.0,Mencari data berdasarkan level,Jabatan,30-11-2024 11:25:34,30-11-2024 11:25:41,7.567s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:25:34,30-11-2024 11:25:36,1.456s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:25:36,30-11-2024 11:25:36,0.040s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:25:36,30-11-2024 11:25:36,0.390s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:25:36,30-11-2024 11:25:37,0.801s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:25:37,30-11-2024 11:25:37,0.294s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:25:37,30-11-2024 11:25:37,0.278s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:25:37,30-11-2024 11:25:39,1.438s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:25:39,30-11-2024 11:25:39,0.694s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""3"")",Chrome 131.0.0.0,,,30-11-2024 11:25:39,30-11-2024 11:25:41,1.068s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,30-11-2024 11:25:41,30-11-2024 11:25:41,0.265s,PASSED
+"isPresent = verifyElementPresent(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/tableRows""), 5, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:25:41,30-11-2024 11:25:41,0.561s,PASSED
+"assert isPresent == true : ""Data not found!""",Chrome 131.0.0.0,,,30-11-2024 11:25:41,30-11-2024 11:25:41,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:25:41,30-11-2024 11:25:41,0.110s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.062,Chrome 131.0.0.0,Mencari data di luar level,Jabatan,30-11-2024 11:25:41,30-11-2024 11:25:48,6.244s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:25:42,30-11-2024 11:25:42,0.669s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:25:42,30-11-2024 11:25:42,0.025s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:25:42,30-11-2024 11:25:43,0.358s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:25:43,30-11-2024 11:25:43,0.744s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:25:43,30-11-2024 11:25:44,0.297s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:25:44,30-11-2024 11:25:44,0.282s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:25:44,30-11-2024 11:25:45,1.256s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:25:45,30-11-2024 11:25:46,0.721s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""Abc"")",Chrome 131.0.0.0,,,30-11-2024 11:25:46,30-11-2024 11:25:47,1.067s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,30-11-2024 11:25:47,30-11-2024 11:25:47,0.258s,PASSED
+"isNotPresent = verifyElementNotPresent(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/tableRows""), 5, CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:25:47,30-11-2024 11:25:48,0.413s,PASSED
+"assert isNotPresent == true : ""Unexpected data found in the table!""",Chrome 131.0.0.0,,,30-11-2024 11:25:48,30-11-2024 11:25:48,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:25:48,30-11-2024 11:25:48,0.095s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.063,Chrome 131.0.0.0,Mencari data menggunakan huruf,Jabatan,30-11-2024 11:25:48,30-11-2024 11:25:54,6.119s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:25:48,30-11-2024 11:25:48,0.653s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:25:48,30-11-2024 11:25:48,0.038s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:25:48,30-11-2024 11:25:49,0.431s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:25:49,30-11-2024 11:25:50,0.736s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:25:50,30-11-2024 11:25:50,0.280s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:25:50,30-11-2024 11:25:50,0.270s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:25:50,30-11-2024 11:25:51,1.140s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:25:51,30-11-2024 11:25:52,0.696s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""Service"")",Chrome 131.0.0.0,,,30-11-2024 11:25:52,30-11-2024 11:25:53,1.035s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,30-11-2024 11:25:53,30-11-2024 11:25:53,0.262s,PASSED
+"isNotPresent = verifyElementNotPresent(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/tableRows""), 5, CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:25:53,30-11-2024 11:25:54,0.433s,PASSED
+"assert isNotPresent == true : ""Unexpected data found in the table!""",Chrome 131.0.0.0,,,30-11-2024 11:25:54,30-11-2024 11:25:54,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:25:54,30-11-2024 11:25:54,0.087s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.064,Chrome 131.0.0.0,Menambahkan data jabatan dengan data valid,Jabatan,30-11-2024 11:25:54,30-11-2024 11:26:03,9.111s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:25:54,30-11-2024 11:25:55,0.679s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:25:55,30-11-2024 11:25:55,0.033s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:25:55,30-11-2024 11:25:55,0.368s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:25:55,30-11-2024 11:25:56,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:25:56,30-11-2024 11:25:56,0.289s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:25:56,30-11-2024 11:25:56,0.274s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:25:56,30-11-2024 11:25:57,1.095s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:25:57,30-11-2024 11:25:58,0.797s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambahkan""))",Chrome 131.0.0.0,,,30-11-2024 11:25:58,30-11-2024 11:25:59,0.921s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:25:59,30-11-2024 11:26:00,0.463s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), ""Service Customer"")",Chrome 131.0.0.0,,,30-11-2024 11:26:00,30-11-2024 11:26:00,0.514s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:00,30-11-2024 11:26:00,0.253s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), ""2"")",Chrome 131.0.0.0,,,30-11-2024 11:26:00,30-11-2024 11:26:01,0.490s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambah""))",Chrome 131.0.0.0,,,30-11-2024 11:26:01,30-11-2024 11:26:01,0.267s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""2"")",Chrome 131.0.0.0,,,30-11-2024 11:26:01,30-11-2024 11:26:02,0.924s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,30-11-2024 11:26:02,30-11-2024 11:26:02,0.266s,PASSED
+"rowText = getText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/tableRows""))",Chrome 131.0.0.0,,,30-11-2024 11:26:02,30-11-2024 11:26:03,0.558s,PASSED
+"actualLevel = split(""\s+"").last()",Chrome 131.0.0.0,,,30-11-2024 11:26:03,30-11-2024 11:26:03,0.002s,PASSED
+"expectedLevel = ""2""",Chrome 131.0.0.0,,,30-11-2024 11:26:03,30-11-2024 11:26:03,0.000s,PASSED
+assert actualLevel == expectedLevel,Chrome 131.0.0.0,,,30-11-2024 11:26:03,30-11-2024 11:26:03,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:03,30-11-2024 11:26:03,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.065,Chrome 131.0.0.0,Menambahkan data jabatan tanpa mengisi form,Jabatan,30-11-2024 11:26:03,30-11-2024 11:26:10,7.400s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:03,30-11-2024 11:26:04,0.698s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:04,30-11-2024 11:26:04,0.028s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:04,30-11-2024 11:26:04,0.536s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:04,30-11-2024 11:26:05,0.628s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:05,30-11-2024 11:26:05,0.285s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:05,30-11-2024 11:26:05,0.278s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:05,30-11-2024 11:26:07,1.192s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:07,30-11-2024 11:26:07,0.727s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambahkan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:07,30-11-2024 11:26:08,0.936s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:08,30-11-2024 11:26:09,0.710s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:09,30-11-2024 11:26:10,0.511s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambah""))",Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:10,0.264s,PASSED
+"namaField = findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama"")",Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:10,0.002s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(findWebElement(namaField, 5)))",Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:10,0.435s,PASSED
+"assert validationMessage == ""Please fill out this field.""",Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:10,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:10,0.100s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.066,Chrome 131.0.0.0,Menambahkan data jabatan dengan tidak mengisi field nama tetapi mengisi field lain,Jabatan,30-11-2024 11:26:10,30-11-2024 11:26:17,7.154s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:10,30-11-2024 11:26:11,0.703s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:11,30-11-2024 11:26:11,0.030s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:11,30-11-2024 11:26:11,0.363s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:11,30-11-2024 11:26:12,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:12,30-11-2024 11:26:13,0.281s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:13,30-11-2024 11:26:13,0.267s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:13,30-11-2024 11:26:14,1.150s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:14,30-11-2024 11:26:15,0.712s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambahkan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:15,30-11-2024 11:26:15,0.834s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:15,30-11-2024 11:26:16,0.699s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), ""1"")",Chrome 131.0.0.0,,,30-11-2024 11:26:16,30-11-2024 11:26:17,0.514s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambah""))",Chrome 131.0.0.0,,,30-11-2024 11:26:17,30-11-2024 11:26:17,0.269s,PASSED
+"namaField = findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama"")",Chrome 131.0.0.0,,,30-11-2024 11:26:17,30-11-2024 11:26:17,0.002s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(findWebElement(namaField, 5)))",Chrome 131.0.0.0,,,30-11-2024 11:26:17,30-11-2024 11:26:17,0.433s,PASSED
+"assert validationMessage == ""Please fill out this field.""",Chrome 131.0.0.0,,,30-11-2024 11:26:17,30-11-2024 11:26:17,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:17,30-11-2024 11:26:17,0.100s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.067,Chrome 131.0.0.0,Menambahkan data jabatan tanpa mengisi field level tetapi mengisi field lain,Jabatan,30-11-2024 11:26:17,30-11-2024 11:26:25,7.159s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:18,30-11-2024 11:26:18,0.636s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:18,30-11-2024 11:26:18,0.030s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:18,30-11-2024 11:26:19,0.499s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:19,30-11-2024 11:26:19,0.639s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:19,30-11-2024 11:26:20,0.286s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:20,30-11-2024 11:26:20,0.276s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:20,30-11-2024 11:26:21,1.126s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:21,30-11-2024 11:26:22,0.720s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambahkan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:22,30-11-2024 11:26:23,0.832s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), ""Customer"")",Chrome 131.0.0.0,,,30-11-2024 11:26:23,30-11-2024 11:26:23,0.722s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:23,30-11-2024 11:26:24,0.503s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Tambah""))",Chrome 131.0.0.0,,,30-11-2024 11:26:24,30-11-2024 11:26:24,0.263s,PASSED
+"levelField = findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel"")",Chrome 131.0.0.0,,,30-11-2024 11:26:24,30-11-2024 11:26:24,0.002s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(findWebElement(levelField, 5)))",Chrome 131.0.0.0,,,30-11-2024 11:26:24,30-11-2024 11:26:25,0.455s,PASSED
+"assert validationMessage == ""Please fill out this field.""",Chrome 131.0.0.0,,,30-11-2024 11:26:25,30-11-2024 11:26:25,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:25,30-11-2024 11:26:25,0.114s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.068,Chrome 131.0.0.0,Mengedit tabel data point dengan mengubah field nama,Jabatan,30-11-2024 11:26:25,30-11-2024 11:26:34,9.199s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:25,30-11-2024 11:26:25,0.710s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:25,30-11-2024 11:26:25,0.039s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:25,30-11-2024 11:26:26,0.365s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:26,30-11-2024 11:26:27,0.742s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:27,30-11-2024 11:26:27,0.285s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:27,30-11-2024 11:26:27,0.270s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:27,30-11-2024 11:26:28,1.163s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:28,30-11-2024 11:26:29,0.695s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Action""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:29,30-11-2024 11:26:30,0.846s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_EditTabel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:30,30-11-2024 11:26:30,0.524s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:30,30-11-2024 11:26:31,0.466s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), Keys.chord(CONTROL, ""a""))",Chrome 131.0.0.0,,,30-11-2024 11:26:31,30-11-2024 11:26:31,0.256s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), Keys.chord(DELETE))",Chrome 131.0.0.0,,,30-11-2024 11:26:31,30-11-2024 11:26:31,0.246s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), ""Customer Service"")",Chrome 131.0.0.0,,,30-11-2024 11:26:31,30-11-2024 11:26:32,0.503s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,30-11-2024 11:26:32,30-11-2024 11:26:32,0.260s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""2"")",Chrome 131.0.0.0,,,30-11-2024 11:26:32,30-11-2024 11:26:33,1.384s,PASSED
+"searchResult = findTestObject(""Admin/Jabatan/Page_HADIR/tableRows"")",Chrome 131.0.0.0,,,30-11-2024 11:26:33,30-11-2024 11:26:33,0.002s,PASSED
+resultText = getText(searchResult),Chrome 131.0.0.0,,,30-11-2024 11:26:33,30-11-2024 11:26:34,0.259s,PASSED
+"assert resultText.contains(""2"")",Chrome 131.0.0.0,,,30-11-2024 11:26:34,30-11-2024 11:26:34,0.005s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:34,30-11-2024 11:26:34,0.100s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.069,Chrome 131.0.0.0,Mengedit tabel data point dengan mengubah field level,Jabatan,30-11-2024 11:26:34,30-11-2024 11:26:43,8.870s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:34,30-11-2024 11:26:35,0.710s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:35,30-11-2024 11:26:35,0.031s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:35,30-11-2024 11:26:35,0.354s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:35,30-11-2024 11:26:36,0.741s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:36,30-11-2024 11:26:36,0.284s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:36,30-11-2024 11:26:36,0.264s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:36,30-11-2024 11:26:37,1.118s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:37,30-11-2024 11:26:38,0.682s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Action""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:38,30-11-2024 11:26:39,0.900s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_EditTabel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:39,30-11-2024 11:26:40,0.495s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:40,30-11-2024 11:26:40,0.458s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(CONTROL, ""a""))",Chrome 131.0.0.0,,,30-11-2024 11:26:40,30-11-2024 11:26:40,0.238s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(DELETE))",Chrome 131.0.0.0,,,30-11-2024 11:26:40,30-11-2024 11:26:40,0.249s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), ""1"")",Chrome 131.0.0.0,,,30-11-2024 11:26:40,30-11-2024 11:26:41,0.473s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,30-11-2024 11:26:41,30-11-2024 11:26:41,0.248s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""1"")",Chrome 131.0.0.0,,,30-11-2024 11:26:41,30-11-2024 11:26:42,1.195s,PASSED
+"searchResult = findTestObject(""Admin/Jabatan/Page_HADIR/tableRows"")",Chrome 131.0.0.0,,,30-11-2024 11:26:42,30-11-2024 11:26:42,0.002s,PASSED
+resultText = getText(searchResult),Chrome 131.0.0.0,,,30-11-2024 11:26:42,30-11-2024 11:26:43,0.253s,PASSED
+"assert resultText.contains(""1"")",Chrome 131.0.0.0,,,30-11-2024 11:26:43,30-11-2024 11:26:43,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:43,30-11-2024 11:26:43,0.103s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.070,Chrome 131.0.0.0,Mengedit tabel data point tanpa mengisi field nama tetapi mengisi field lain,Jabatan,30-11-2024 11:26:43,30-11-2024 11:26:50,7.617s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:43,30-11-2024 11:26:44,0.707s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:44,30-11-2024 11:26:44,0.033s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:44,30-11-2024 11:26:44,0.343s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:44,30-11-2024 11:26:45,0.729s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:45,30-11-2024 11:26:45,0.279s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:45,30-11-2024 11:26:45,0.266s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:45,30-11-2024 11:26:46,1.138s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:46,30-11-2024 11:26:47,0.692s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Action""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:47,30-11-2024 11:26:48,0.835s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_EditTabel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:48,30-11-2024 11:26:48,0.493s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:48,30-11-2024 11:26:49,0.458s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), Keys.chord(CONTROL, ""a""))",Chrome 131.0.0.0,,,30-11-2024 11:26:49,30-11-2024 11:26:49,0.249s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), Keys.chord(DELETE))",Chrome 131.0.0.0,,,30-11-2024 11:26:49,30-11-2024 11:26:49,0.247s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:49,30-11-2024 11:26:50,0.481s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:50,0.265s,PASSED
+"namaField = findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanNama"")",Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:50,0.002s,PASSED
+"validationMessage = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(findWebElement(namaField, 5)))",Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:50,0.223s,PASSED
+"assert validationMessage == ""Please fill out this field.""",Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:50,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:50,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.071,Chrome 131.0.0.0,Mengedit data absen point dengan tidak mengisi field level tetapi mengisi field lain,Jabatan,30-11-2024 11:26:50,30-11-2024 11:26:58,7.530s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:50,30-11-2024 11:26:51,0.644s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:51,30-11-2024 11:26:51,0.032s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:51,30-11-2024 11:26:51,0.364s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:51,30-11-2024 11:26:52,0.738s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:26:52,30-11-2024 11:26:52,0.281s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:26:52,30-11-2024 11:26:53,0.266s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:26:53,30-11-2024 11:26:54,1.142s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:26:54,30-11-2024 11:26:55,0.698s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Action""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:55,30-11-2024 11:26:55,0.815s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_EditTabel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:55,30-11-2024 11:26:56,0.487s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:26:56,30-11-2024 11:26:56,0.450s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(CONTROL, ""a""))",Chrome 131.0.0.0,,,30-11-2024 11:26:56,30-11-2024 11:26:57,0.247s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(DELETE))",Chrome 131.0.0.0,,,30-11-2024 11:26:57,30-11-2024 11:26:57,0.239s,PASSED
+"setText(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), """")",Chrome 131.0.0.0,,,30-11-2024 11:26:57,30-11-2024 11:26:57,0.477s,PASSED
+"sendKeys(findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,30-11-2024 11:26:57,30-11-2024 11:26:58,0.252s,PASSED
+"levelField = findTestObject(""Admin/Jabatan/Page_HADIR/txtTambahkanLevel"")",Chrome 131.0.0.0,,,30-11-2024 11:26:58,30-11-2024 11:26:58,0.002s,PASSED
+"validationMessageLevel = executeJavaScript(""return arguments[0].validationMessage;"", Arrays.asList(findWebElement(levelField, 5)))",Chrome 131.0.0.0,,,30-11-2024 11:26:58,30-11-2024 11:26:58,0.221s,PASSED
+"assert validationMessageLevel == ""Please fill out this field.""",Chrome 131.0.0.0,,,30-11-2024 11:26:58,30-11-2024 11:26:58,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:26:58,30-11-2024 11:26:58,0.098s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.072,Chrome 131.0.0.0,Menghapus data pada tabel yang ada atau sudah dibuat,Jabatan,30-11-2024 11:26:58,30-11-2024 11:27:04,6.142s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:26:58,30-11-2024 11:26:59,0.648s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:26:59,30-11-2024 11:26:59,0.027s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:26:59,30-11-2024 11:26:59,0.360s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:26:59,30-11-2024 11:27:00,0.743s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:27:00,30-11-2024 11:27:00,0.274s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:27:00,30-11-2024 11:27:00,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:27:00,30-11-2024 11:27:01,1.212s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:27:01,30-11-2024 11:27:02,0.709s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Action""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:27:02,30-11-2024 11:27:03,0.815s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_DeleteTabel""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:27:03,30-11-2024 11:27:03,0.493s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Yes""), STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:27:03,30-11-2024 11:27:04,0.454s,PASSED
+closeBrowser(STOP_ON_FAILURE),Chrome 131.0.0.0,,,30-11-2024 11:27:04,30-11-2024 11:27:04,0.097s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073,Chrome 131.0.0.0,Memverifikasi tombol Reset berfungsi dengan benar,Jabatan,30-11-2024 11:27:04,30-11-2024 11:27:11,6.957s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,30-11-2024 11:27:04,30-11-2024 11:27:05,0.640s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,30-11-2024 11:27:05,30-11-2024 11:27:05,0.036s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,30-11-2024 11:27:05,30-11-2024 11:27:05,0.512s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,30-11-2024 11:27:05,30-11-2024 11:27:06,0.628s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,30-11-2024 11:27:06,30-11-2024 11:27:06,0.279s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,30-11-2024 11:27:06,30-11-2024 11:27:06,0.267s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,30-11-2024 11:27:06,30-11-2024 11:27:08,1.129s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan""))",Chrome 131.0.0.0,,,30-11-2024 11:27:08,30-11-2024 11:27:08,0.806s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search""), ""3"")",Chrome 131.0.0.0,,,30-11-2024 11:27:08,30-11-2024 11:27:09,1.048s,PASSED
+"click(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,30-11-2024 11:27:09,30-11-2024 11:27:10,0.249s,PASSED
+"click(findTestObject(""Admin/Jabatan/Page_HADIR/button_Reset""))",Chrome 131.0.0.0,,,30-11-2024 11:27:10,30-11-2024 11:27:10,0.570s,PASSED
+"isPresent = verifyElementPresent(findTestObject(""Object Repository/Admin/Jabatan/Page_HADIR/tableRows""), 5, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,30-11-2024 11:27:10,30-11-2024 11:27:11,0.662s,PASSED
+"assert isPresent == true : ""Data not found!""",Chrome 131.0.0.0,,,30-11-2024 11:27:11,30-11-2024 11:27:11,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,30-11-2024 11:27:11,30-11-2024 11:27:11,0.086s,PASSED

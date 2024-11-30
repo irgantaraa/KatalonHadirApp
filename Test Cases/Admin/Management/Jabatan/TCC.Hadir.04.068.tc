@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengedit tabel data point dengan mengubah field nama</description>
+   <name>TCC.Hadir.04.068</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>89cf7875-7898-4f08-9f12-a3f66b0143bc</testCaseGuid>
+</TestCaseEntity>

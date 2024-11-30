@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menambahkan data jabatan dengan data valid</description>
+   <name>TCC.Hadir.04.064</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>374d15c3-17b1-432b-8a48-3cdb6ae22b90</testCaseGuid>
+</TestCaseEntity>

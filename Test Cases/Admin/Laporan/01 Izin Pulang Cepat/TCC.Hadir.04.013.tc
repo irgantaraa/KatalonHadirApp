@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menghapus filter yang dipilih dengan tombol X</description>
+   <name>TCC.Hadir.04.013</name>
+   <tag>IzinPulangCepat</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>0f96891f-eb45-47db-897e-443e12a5f203</testCaseGuid>
+</TestCaseEntity>

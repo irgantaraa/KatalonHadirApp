@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mencari data di luar level</description>
+   <name>TCC.Hadir.04.062</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>4b278b97-584c-48fb-8822-c7d08e8e877c</testCaseGuid>
+</TestCaseEntity>

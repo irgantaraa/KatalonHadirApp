@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menghapus filter yang dipilih dengan tombol X</description>
+   <name>TCC.Hadir.04.027</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>bac1fa71-dcd6-475e-a0c0-7d092850dc19</testCaseGuid>
+</TestCaseEntity>

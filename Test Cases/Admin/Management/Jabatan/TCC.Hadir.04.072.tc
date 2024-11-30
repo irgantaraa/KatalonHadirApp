@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menghapus data pada tabel yang ada atau sudah dibuat</description>
+   <name>TCC.Hadir.04.072</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>381d6dd9-547c-4918-bbff-38b3f83b4d8f</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mencari data menggunakan huruf</description>
+   <name>TCC.Hadir.04.063</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>f6102ee6-6e60-434c-9362-8e2576a942d0</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Mengedit data absen point dengan tidak mengisi field level tetapi mengisi field lain</description>
+   <name>TCC.Hadir.04.071</name>
+   <tag>Jabatan</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>c098de86-0ad4-4e8d-820d-9b12a77a91c4</testCaseGuid>
+</TestCaseEntity>

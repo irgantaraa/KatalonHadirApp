@@ -7689,10 +7689,7 @@ TCC.Hadir.01.001.run(TCC.Hadir.01.001:38)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
-</log>
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <!DOCTYPE log SYSTEM "logger.dtd">
-<log>
 <record>
   <date>2024-11-25T09:53:30.598566900Z</date>
   <millis>1732528410598</millis>

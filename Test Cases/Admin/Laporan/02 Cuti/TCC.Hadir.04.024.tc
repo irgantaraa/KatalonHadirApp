@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti dengan nama karyawan dan filter departemen</description>
+   <name>TCC.Hadir.04.024</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3fd158c4-c29d-4b4f-b1ed-6e6f53daeace</testCaseGuid>
+</TestCaseEntity>

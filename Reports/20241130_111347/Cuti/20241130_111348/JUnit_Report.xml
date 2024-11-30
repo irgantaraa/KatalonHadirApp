@@ -1,0 +1,1777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cuti" time="256.335" tests="15" failures="1" errors="2">
+   <testsuite name="Cuti" tests="15" failures="1" errors="2" time="256.335" skipped="0" timestamp="30-11-2024T11:13:54" hostname="Irga - Irga.mshome.net" id="Test Suites/Cuti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940093854.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940105938.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940248711.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940265434.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940273587.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940283961.png, C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940290388.png"/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.27.128.1"/>
+         <property name="sessionId" value="b8a4eb8b04c086a3421869a9143d5926"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014" time="9.289" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615&#xa;	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[30-11-2024T11:14:21 - [TEST_CASE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:14:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:14:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:14:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:14:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:14:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:14:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:14:22 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:14:22 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:22 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:23 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:14:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:14:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/StartDate"), "Jun 1, 2024"): Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:14:29 - [MESSAGE][PASSED] - Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:14:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/EndDate"), "Nov 16, 2024"): Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:14:30 - [MESSAGE][PASSED] - Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - expectedLeaveDate = "24 Sep 2024": null
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - dateObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal"): null
+
+30-11-2024T11:14:30 - [TEST_STEP][ERROR] - verifyElementText(nameObject, expectedName, STOP_ON_FAILURE): Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:14:30 - [MESSAGE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[30-11-2024T11:14:21 - [TEST_CASE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.015" time="10.836" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.015" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:14:30 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.015: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.015
+
+30-11-2024T11:14:30 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:14:30 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:14:31 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:14:31 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:14:31 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:14:31 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:14:31 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:14:31 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:32 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:32 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:32 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:32 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:33 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Anif Biantoro"): Text 'Anif Biantoro' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:36 - [MESSAGE][PASSED] - Text 'Anif Biantoro' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:14:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:14:36 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/StartDate"), "Jun 1, 2024"): Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:14:37 - [MESSAGE][PASSED] - Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:14:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:14:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/EndDate"), "Nov 16, 2024"): Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:14:37 - [MESSAGE][PASSED] - Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:14:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:38 - [TEST_STEP][PASSED] - expectedName = "Anif Biantoro": null
+
+30-11-2024T11:14:38 - [TEST_STEP][PASSED] - expectedLeaveDate = "24 Sep 2024": null
+
+30-11-2024T11:14:38 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:14:38 - [TEST_STEP][PASSED] - dateObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal"): null
+
+30-11-2024T11:14:38 - [TEST_STEP][PASSED] - verifyElementText(nameObject, expectedName, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' are matched.
+
+30-11-2024T11:14:40 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' are matched.
+
+30-11-2024T11:14:40 - [TEST_STEP][PASSED] - verifyElementText(dateObject, expectedLeaveDate, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal' are matched.
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal' are matched.
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - actualStartDate = getAttribute(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/StartDate"), "value"): Attribute 'value' of object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is: 'Jun 1, 2024'
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is: 'Jun 1, 2024'
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - actualEndDate = getAttribute(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/EndDate"), "value"): Attribute 'value' of object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is: 'Nov 16, 2024'
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is: 'Nov 16, 2024'
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - verifyMatch(actualStartDate, "Jun 1, 2024", false): Actual text 'Jun 1, 2024' and expected text 'Jun 1, 2024' are matched 
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Actual text 'Jun 1, 2024' and expected text 'Jun 1, 2024' are matched 
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - verifyMatch(actualEndDate, "Nov 16, 2024", false): Actual text 'Nov 16, 2024' and expected text 'Nov 16, 2024' are matched 
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Actual text 'Nov 16, 2024' and expected text 'Nov 16, 2024' are matched 
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:14:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.016" time="12.341" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.016" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:14:41 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.016: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.016
+
+30-11-2024T11:14:41 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:14:41 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:14:41 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:14:42 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:14:42 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:14:42 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:14:42 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:42 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:42 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:43 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:43 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:43 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:46 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Abc"): Text 'Abc' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:47 - [MESSAGE][PASSED] - Text 'Abc' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:47 - [TEST_STEP][PASSED] - tableObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Table"): null
+
+30-11-2024T11:14:47 - [TEST_STEP][PASSED] - isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TCC.Hadir.04.016.run(TCC.Hadir.04.016:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+30-11-2024T11:14:53 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tbody/tr'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-11-2024T11:14:53 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TCC.Hadir.04.016.run(TCC.Hadir.04.016:44)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940093854.png]]
+
+30-11-2024T11:14:53 - [TEST_STEP][PASSED] - if (isTablePresent): null
+
+30-11-2024T11:14:53 - [TEST_STEP][PASSED] - else: null
+
+30-11-2024T11:14:53 - [TEST_STEP][PASSED] - comment("Table is not present on the page."): Table is not present on the page.
+
+30-11-2024T11:14:53 - [MESSAGE][INFO] - Table is not present on the page.
+
+30-11-2024T11:14:53 - [TEST_STEP][PASSED] - assert true: null
+
+30-11-2024T11:14:53 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:14:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.017" time="13.596" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.017" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:14:54 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.017: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.017
+
+30-11-2024T11:14:54 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:14:54 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:14:54 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:14:54 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:14:54 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:14:54 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:14:54 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:55 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:14:55 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:55 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:14:55 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:56 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:14:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:14:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:14:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "29001"): Text '29001' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:59 - [MESSAGE][PASSED] - Text '29001' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:14:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:14:59 - [TEST_STEP][PASSED] - tableObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Table"): null
+
+30-11-2024T11:14:59 - [TEST_STEP][PASSED] - isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL): com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TCC.Hadir.04.017.run(TCC.Hadir.04.017:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+
+30-11-2024T11:15:05 - [MESSAGE][INFO] - Unable to find the element located by 'By.xpath: //tbody/tr'. Please recheck the objects properties to make sure the desired element is located. 
+
+30-11-2024T11:15:06 - [MESSAGE][WARNING] - com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found (Root cause: com.kms.katalon.core.exception.StepFailedException: com.kms.katalon.core.webui.exception.WebElementNotFoundException: Web element with id: 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' located by '//tbody/tr' not found
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.doCall(VerifyElementPresentKeyword.groovy:85)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword$_verifyElementPresent_closure1.call(VerifyElementPresentKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.verifyElementPresent(VerifyElementPresentKeyword.groovy:92)
+	at com.kms.katalon.core.webui.keyword.builtin.VerifyElementPresentKeyword.execute(VerifyElementPresentKeyword.groovy:68)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.verifyElementPresent(WebUiBuiltInKeywords.groovy:1524)
+	at TCC.Hadir.04.017.run(TCC.Hadir.04.017:63)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940105938.png]]
+
+30-11-2024T11:15:06 - [TEST_STEP][PASSED] - if (isTablePresent): null
+
+30-11-2024T11:15:06 - [TEST_STEP][PASSED] - else: null
+
+30-11-2024T11:15:06 - [TEST_STEP][PASSED] - comment("Table is not present on the page."): Table is not present on the page.
+
+30-11-2024T11:15:06 - [MESSAGE][INFO] - Table is not present on the page.
+
+30-11-2024T11:15:06 - [TEST_STEP][PASSED] - assert true: null
+
+30-11-2024T11:15:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:15:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.018" time="6.53" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.018" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:15:07 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.018: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.018
+
+30-11-2024T11:15:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:15:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:15:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:15:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:15:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:15:08 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:15:08 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:08 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:09 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:13 - [TEST_STEP][PASSED] - tableObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Table"): null
+
+30-11-2024T11:15:13 - [TEST_STEP][PASSED] - isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' is present
+
+30-11-2024T11:15:13 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' is present
+
+30-11-2024T11:15:13 - [TEST_STEP][PASSED] - if (isTablePresent): null
+
+30-11-2024T11:15:13 - [TEST_STEP][PASSED] - tableText = getText(tableObject).trim(): Text of object 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' is: 'AB
+Anif Biantoro
+24 Sep 2024
+25 Sep 2024 - 25 Sep 2024
+Sayurbox
+-
+-
+Cuti persalinan (3 bulan)
+Testing 3 (Ajuan di tanggal sama)
+Lihat Selengkapnya
+Dibatalkan
+Notes :
+Lihat Selengkapnya'
+
+30-11-2024T11:15:14 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Cuti/014/Page_HADIR/Table' is: 'AB
+Anif Biantoro
+24 Sep 2024
+25 Sep 2024 - 25 Sep 2024
+Sayurbox
+-
+-
+Cuti persalinan (3 bulan)
+Testing 3 (Ajuan di tanggal sama)
+Lihat Selengkapnya
+Dibatalkan
+Notes :
+Lihat Selengkapnya'
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - if (tableText == null || tableText.isEmpty()): null
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - else: null
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - comment("Table contains data: " + tableText): Table contains data: AB
+Anif Biantoro
+24 Sep 2024
+25 Sep 2024 - 25 Sep 2024
+Sayurbox
+-
+-
+Cuti persalinan (3 bulan)
+Testing 3 (Ajuan di tanggal sama)
+Lihat Selengkapnya
+Dibatalkan
+Notes :
+Lihat Selengkapnya
+
+30-11-2024T11:15:14 - [MESSAGE][INFO] - Table contains data: AB
+Anif Biantoro
+24 Sep 2024
+25 Sep 2024 - 25 Sep 2024
+Sayurbox
+-
+-
+Cuti persalinan (3 bulan)
+Testing 3 (Ajuan di tanggal sama)
+Lihat Selengkapnya
+Dibatalkan
+Notes :
+Lihat Selengkapnya
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - assert true: null
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:15:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.019" time="8.844" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.019" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:15:14 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.019: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.019
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:15:14 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:15:14 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:15:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:15:14 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:15:14 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:15 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:16 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:16 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:16 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:15:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:15:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/EndDate"), "Nov 16, 2024"): Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:15:22 - [MESSAGE][PASSED] - Text 'Nov 16, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:15:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:15:22 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:15:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:15:23 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.020" time="9.167" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.020" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:15:23 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.020: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.020
+
+30-11-2024T11:15:23 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:15:23 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:15:23 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:15:23 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:15:23 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:15:23 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:15:23 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:24 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:24 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:24 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:25 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:29 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:15:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:15:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/StartDate"), "Jun 1, 2024"): Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:15:30 - [MESSAGE][PASSED] - Text 'Jun 1, 2024' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:15:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:15:31 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:15:31 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:15:32 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:15:32 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:15:32 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:15:32 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:15:32 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:15:32 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021" time="6.727" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021" status="ERROR">
+         <error type="ERROR" message="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021 FAILED.&#xa;Reason:&#xa;groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732721739405&#xa;	at TCC.Hadir.04.021.run(TCC.Hadir.04.021:52)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[30-11-2024T11:15:55 - [TEST_CASE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732721739405
+	at TCC.Hadir.04.021.run(TCC.Hadir.04.021:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:15:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:15:55 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:15:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:15:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:15:56 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:15:56 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:15:56 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:15:56 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:56 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:15:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:57 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:15:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:15:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:15:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:15:59 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:16:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate' is clicked on
+
+30-11-2024T11:16:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/StartDate"), "Nov 30, 2025"): Text 'Nov 30, 2025' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:16:00 - [MESSAGE][PASSED] - Text 'Nov 30, 2025' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/StartDate'
+
+30-11-2024T11:16:00 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/014/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate' is clicked on
+
+30-11-2024T11:16:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/EndDate"), "Nov 30, 2025"): Text 'Nov 30, 2025' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:16:01 - [MESSAGE][PASSED] - Text 'Nov 30, 2025' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/EndDate'
+
+30-11-2024T11:16:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:16:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:16:01 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:01 - [TEST_STEP][PASSED] - dateObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal"): null
+
+30-11-2024T11:16:01 - [TEST_STEP][ERROR] - verifyElementText(nameObject, expectedName, STOP_ON_FAILURE): Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732721739405
+	at TCC.Hadir.04.021.run(TCC.Hadir.04.021:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:16:01 - [MESSAGE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732721739405
+	at TCC.Hadir.04.021.run(TCC.Hadir.04.021:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[30-11-2024T11:15:55 - [TEST_CASE][ERROR] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732721739405
+	at TCC.Hadir.04.021.run(TCC.Hadir.04.021:52)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.022" time="10.088" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.022" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:16:02 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.022: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.022
+
+30-11-2024T11:16:02 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:16:02 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:16:02 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:16:02 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:16:02 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:16:02 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:16:02 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:16:02 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:03 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:03 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:03 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:03 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:04 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), "AMEX MERCHANT"): Text 'AMEX MERCHANT' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:10 - [MESSAGE][PASSED] - Text 'AMEX MERCHANT' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:10 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:11 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:11 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:11 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:16:11 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:16:11 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:16:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.023" time="7.392" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.023" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:16:12 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.023: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.023
+
+30-11-2024T11:16:12 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:16:12 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:16:12 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:16:12 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:16:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:16:12 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:16:12 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:13 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:13 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:13 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:14 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), "ABC"): Text 'ABC' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:17 - [MESSAGE][PASSED] - Text 'ABC' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:18 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:18 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:18 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:18 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:19 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:19 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:16:19 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:16:19 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:16:19 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:16:19 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.024" time="9.154" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.024" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:16:19 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.024: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.024
+
+30-11-2024T11:16:19 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:16:19 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:16:19 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:16:20 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:16:20 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:16:20 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:16:20 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:20 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:20 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:21 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:21 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:21 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:21 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:16:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:16:24 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), "IT Programmer"): Text 'IT Programmer' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:25 - [MESSAGE][PASSED] - Text 'IT Programmer' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:25 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:26 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:26 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:26 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:16:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/022/Page_HADIR/button__FilterTerapkan")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__FilterTerapkan' is clicked on
+
+30-11-2024T11:16:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__FilterTerapkan' is clicked on
+
+30-11-2024T11:16:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Anif Biantoro"): Text 'Anif Biantoro' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:16:27 - [MESSAGE][PASSED] - Text 'Anif Biantoro' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+30-11-2024T11:16:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:16:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Search' is clicked on
+
+30-11-2024T11:16:27 - [TEST_STEP][PASSED] - expectedName = "Anif Biantoro": null
+
+30-11-2024T11:16:27 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:27 - [TEST_STEP][PASSED] - verifyElementText(nameObject, expectedName, STOP_ON_FAILURE): Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' are matched.
+
+30-11-2024T11:16:28 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' are matched.
+
+30-11-2024T11:16:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:16:28 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.025" time="8.088" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.025" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:16:28 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.025: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.025
+
+30-11-2024T11:16:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:16:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:16:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:16:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:16:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:16:29 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:16:29 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:29 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:30 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti' is clicked on
+
+30-11-2024T11:16:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti' is clicked on
+
+30-11-2024T11:16:32 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/025/Page_HADIR/button__filter")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button__filter' is clicked on
+
+30-11-2024T11:16:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button__filter' is clicked on
+
+30-11-2024T11:16:33 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby")): Object 'Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby' is visible
+
+30-11-2024T11:16:34 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby' is visible
+
+30-11-2024T11:16:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal' is clicked on
+
+30-11-2024T11:16:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal' is clicked on
+
+30-11-2024T11:16:34 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-11-2024T11:16:36 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:36 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:16:36 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:16:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.026" time="8.075" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.026" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:16:36 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.026: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.026
+
+30-11-2024T11:16:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:16:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:16:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:16:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:16:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:16:37 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:16:37 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:37 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:16:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:38 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email'
+
+30-11-2024T11:16:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password'
+
+30-11-2024T11:16:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:16:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti' is clicked on
+
+30-11-2024T11:16:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti' is clicked on
+
+30-11-2024T11:16:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/025/Page_HADIR/button__filter")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button__filter' is clicked on
+
+30-11-2024T11:16:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button__filter' is clicked on
+
+30-11-2024T11:16:41 - [TEST_STEP][PASSED] - verifyElementVisible(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby")): Object 'Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby' is visible
+
+30-11-2024T11:16:42 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby' is visible
+
+30-11-2024T11:16:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal' is clicked on
+
+30-11-2024T11:16:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal' is clicked on
+
+30-11-2024T11:16:42 - [TEST_STEP][PASSED] - delay(2): Delayed 2 second(s)
+
+30-11-2024T11:16:44 - [MESSAGE][PASSED] - Delayed 2 second(s)
+
+30-11-2024T11:16:44 - [TEST_STEP][PASSED] - nameObject = findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"): null
+
+30-11-2024T11:16:44 - [TEST_STEP][PASSED] - isTableVisible = verifyElementPresent(nameObject, 10): Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:44 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table' is present
+
+30-11-2024T11:16:44 - [TEST_STEP][PASSED] - if (isTableVisible): Data table is visible on the page.
+
+30-11-2024T11:16:44 - [TEST_STEP][PASSED] - comment("Data table is visible on the page."): Data table is visible on the page.
+
+30-11-2024T11:16:44 - [MESSAGE][INFO] - Data table is visible on the page.
+
+30-11-2024T11:16:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:16:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.027" time="8.005" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.027" status="PASSED">
+         <system-out><![CDATA[30-11-2024T11:17:28 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.027: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.027
+
+30-11-2024T11:17:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:17:28 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:17:28 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:17:28 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:17:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:17:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:17:29 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:17:29 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:17:29 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:17:29 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:17:30 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email'
+
+30-11-2024T11:17:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:17:30 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password'
+
+30-11-2024T11:17:30 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:17:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:17:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:17:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:17:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:17:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:17:33 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter")): Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:17:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter' is clicked on
+
+30-11-2024T11:17:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), "IT Programmer"): Text 'IT Programmer' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:34 - [MESSAGE][PASSED] - Text 'IT Programmer' is set on object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:34 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:35 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:35 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement'
+
+30-11-2024T11:17:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Cuti/025/Page_HADIR/button_clear")): Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_clear' is clicked on
+
+30-11-2024T11:17:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/025/Page_HADIR/button_clear' is clicked on
+
+30-11-2024T11:17:36 - [TEST_STEP][PASSED] - inputValue = getAttribute(findTestObject("Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement"), "value"): Attribute 'value' of object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement' is: ''
+
+30-11-2024T11:17:36 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement' is: ''
+
+30-11-2024T11:17:36 - [TEST_STEP][PASSED] - assert inputValue == "" : "Input field is not cleared!": null
+
+30-11-2024T11:17:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+30-11-2024T11:17:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028" time="6.437" classname="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028" status="FAILED">
+         <failure type="FAILED" message="Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.&#xa;Reason:&#xa;java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false&#xa;	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)&#xa;	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)&#xa;	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)&#xa;	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)&#xa;	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)&#xa;	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)&#xa;	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)&#xa;	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)&#xa;	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)&#xa;"/>
+         <system-out><![CDATA[30-11-2024T11:18:04 - [TEST_CASE][FAILED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.
+Reason:
+java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:18:04 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+30-11-2024T11:18:04 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+30-11-2024T11:18:04 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+30-11-2024T11:18:04 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+30-11-2024T11:18:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+30-11-2024T11:18:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+30-11-2024T11:18:04 - [MESSAGE][PASSED] - Current window maximized
+
+30-11-2024T11:18:04 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:18:05 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+30-11-2024T11:18:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/028/Page_HADIR/input_Email_email'
+
+30-11-2024T11:18:05 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Cuti/028/Page_HADIR/input_Email_email'
+
+30-11-2024T11:18:05 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Cuti/028/Page_HADIR/input_Password_password'
+
+30-11-2024T11:18:06 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Cuti/028/Page_HADIR/input_Password_password'
+
+30-11-2024T11:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:18:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk' is clicked on
+
+30-11-2024T11:18:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:18:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/div_Laporan' is clicked on
+
+30-11-2024T11:18:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/p_Cuti")): Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:18:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/p_Cuti' is clicked on
+
+30-11-2024T11:18:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/svg_Menunggu Approval V1_feather feather-mo_10e371")): Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/svg_Menunggu Approval V1_feather feather-mo_10e371' is clicked on
+
+30-11-2024T11:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/svg_Menunggu Approval V1_feather feather-mo_10e371' is clicked on
+
+30-11-2024T11:18:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit")): Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit' is clicked on
+
+30-11-2024T11:18:09 - [MESSAGE][WARNING] - [SELF-HEALING] Failed to find element with id 'Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit'. Try using Self-healing.
+
+30-11-2024T11:18:09 - [MESSAGE][WARNING] - [SELF-HEALING] The current locator of test object 'Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit' was broken. Propose an alternative one: '(//button[@type='button'])[22]'.
+
+30-11-2024T11:18:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit' is clicked on
+
+30-11-2024T11:18:09 - [TEST_STEP][FAILED] - try: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [b8a4eb8b04c086a3421869a9143d5926, clearElement {id=f.2646F13783A86E7EFA9E3CE950D5083A.d.D555E978246843FF2EA027A2297EAD3A.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58943/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:35156/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (b8a4eb8b04c086a3421869a9143d5926)] -> xpath: (.//*[normalize-space(text()) and normalize-space(.)='Atasan 2'])[1]/following::p[1]]
+Session ID: b8a4eb8b04c086a3421869a9143d5926
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$faKnhBFj.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1732788469144.run(Script1732788469144.groovy:21)
+	... 18 more
+)
+
+30-11-2024T11:18:09 - [TEST_STEP][FAILED] - setText(findTestObject("Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner"), "BCA"): Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [b8a4eb8b04c086a3421869a9143d5926, clearElement {id=f.2646F13783A86E7EFA9E3CE950D5083A.d.D555E978246843FF2EA027A2297EAD3A.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58943/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:35156/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (b8a4eb8b04c086a3421869a9143d5926)] -> xpath: (.//*[normalize-space(text()) and normalize-space(.)='Atasan 2'])[1]/following::p[1]]
+Session ID: b8a4eb8b04c086a3421869a9143d5926
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$faKnhBFj.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1732788469144.run(Script1732788469144.groovy:21)
+	... 18 more
+)
+
+30-11-2024T11:18:10 - [MESSAGE][FAILED] - Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner' (Root cause: com.kms.katalon.core.exception.StepFailedException: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:21)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.InvalidElementStateException: invalid element state
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [b8a4eb8b04c086a3421869a9143d5926, clearElement {id=f.2646F13783A86E7EFA9E3CE950D5083A.d.D555E978246843FF2EA027A2297EAD3A.e.68}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58943}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58943/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:35156/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (b8a4eb8b04c086a3421869a9143d5926)] -> xpath: (.//*[normalize-space(text()) and normalize-space(.)='Atasan 2'])[1]/following::p[1]]
+Session ID: b8a4eb8b04c086a3421869a9143d5926
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.clear(RemoteWebElement.java:129)
+	at jdk.internal.reflect.GeneratedMethodAccessor27.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$faKnhBFj.clear(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.doCall(SetTextKeyword.groovy:55)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword$_setText_closure1.call(SetTextKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.setText(SetTextKeyword.groovy:86)
+	at com.kms.katalon.core.webui.keyword.builtin.SetTextKeyword.execute(SetTextKeyword.groovy:39)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.setText(WebUiBuiltInKeywords.groovy:1056)
+	at Script1732788469144.run(Script1732788469144.groovy:21)
+	... 18 more
+)
+[[ATTACHMENT|C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241130_111347\\Cuti\\20241130_111348\\1732940290388.png]]
+
+30-11-2024T11:18:10 - [TEST_STEP][FAILED] - catch (Exception e): Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.
+Reason:
+java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:18:10 - [TEST_STEP][FAILED] - assert false: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.
+Reason:
+java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+
+
+30-11-2024T11:18:10 - [MESSAGE][FAILED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.
+Reason:
+java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+         <system-err><![CDATA[30-11-2024T11:18:04 - [TEST_CASE][FAILED] - Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028 FAILED.
+Reason:
+java.lang.AssertionError: An unexpected exception occurred: Unable to set text 'BCA' of object 'Object Repository/Admin/Cuti/028/Page_HADIR/inputUpliner'. Expression: false
+	at TCC.Hadir.04.028.run(TCC.Hadir.04.028:26)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:369)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+      </testcase>
+      <system-out><![CDATA[30-11-2024T11:13:54 - [TEST_SUITE][ERROR] - Cuti: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-out>
+      <system-err><![CDATA[30-11-2024T11:13:54 - [TEST_SUITE][ERROR] - Cuti: Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014 FAILED.
+Reason:
+groovy.lang.MissingPropertyException: No such property: expectedName for class: Script1732592106615
+	at TCC.Hadir.04.014.run(TCC.Hadir.04.014:53)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1732940028884.run(TempTestSuite1732940028884.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)]]></system-err>
+   </testsuite>
+</testsuites>

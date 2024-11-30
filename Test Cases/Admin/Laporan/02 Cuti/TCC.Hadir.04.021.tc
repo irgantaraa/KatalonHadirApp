@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan data cuti dengan input tanggal yang akan datang</description>
+   <name>TCC.Hadir.04.021</name>
+   <tag>Cuti</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d083c439-f7d1-4631-9096-7edced286932</testCaseGuid>
+</TestCaseEntity>
