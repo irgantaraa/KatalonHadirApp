@@ -6,4 +6,30 @@
    <comment></comment>
    <recordOption>OTHER</recordOption>
    <testCaseGuid>e85b5f2e-eab0-489e-af47-9d0f7d328e3d</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>27cf42f8-5bcc-45b8-937a-c56d8f846f1e</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>167dc9a2-ef6b-466a-8b1b-f489b98cfca1</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'Admin@hadir.com'</defaultValue>
+      <description></description>
+      <id>27cf42f8-5bcc-45b8-937a-c56d8f846f1e</id>
+      <masked>false</masked>
+      <name>username</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>167dc9a2-ef6b-466a-8b1b-f489b98cfca1</id>
+      <masked>false</masked>
+      <name>password</name>
+   </variable>
 </TestCaseEntity>

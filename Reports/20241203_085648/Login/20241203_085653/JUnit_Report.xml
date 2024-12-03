@@ -1,0 +1,629 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="37.929" tests="12" failures="0" errors="0">
+   <testsuite name="Login" tests="12" failures="0" errors="0" time="37.929" skipped="0" timestamp="03-12-2024T09:01:28" hostname="Irga - Irga.mshome.net" id="Test Suites/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_085648\\Login\\20241203_085653"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_085648\\Login\\20241203_085653\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.24.112.1"/>
+         <property name="sessionId" value="3a89916da91f51714971827478a2140d"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.001" time="5.205" classname="Test Cases/Admin/Login/TCC.Hadir.01.001" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:28 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.001: Test Cases/Admin/Login/TCC.Hadir.01.001
+
+03-12-2024T09:01:28 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:30 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:30 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:30 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:30 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:30 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:30 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:31 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:31 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:31 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:31 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:32 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:32 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+03-12-2024T09:01:32 - [MESSAGE][PASSED] - Wait for page load successfully
+
+03-12-2024T09:01:32 - [TEST_STEP][PASSED] - loginSuccess = verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/p_2022 Aplikasi Hadir"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/Login/Login_Page/p_2022 Aplikasi Hadir' is present
+
+03-12-2024T09:01:33 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/p_2022 Aplikasi Hadir' is present
+
+03-12-2024T09:01:33 - [TEST_STEP][PASSED] - if (loginSuccess): Login successful. Verification passed.
+
+03-12-2024T09:01:33 - [TEST_STEP][PASSED] - comment("Login successful. Verification passed."): Login successful. Verification passed.
+
+03-12-2024T09:01:33 - [MESSAGE][INFO] - Login successful. Verification passed.
+
+03-12-2024T09:01:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.002" time="2.786" classname="Test Cases/Admin/Login/TCC.Hadir.01.002" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:33 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.002: Test Cases/Admin/Login/TCC.Hadir.01.002
+
+03-12-2024T09:01:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:34 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:34 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:34 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:35 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:35 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:35 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Irga@hadir.com"): Text 'Irga@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:36 - [MESSAGE][PASSED] - Text 'Irga@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:36 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:36 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:36 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.003" time="2.988" classname="Test Cases/Admin/Login/TCC.Hadir.01.003" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:36 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.003: Test Cases/Admin/Login/TCC.Hadir.01.003
+
+03-12-2024T09:01:36 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:36 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:36 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:37 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:37 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:38 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:38 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:38 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Irga@hadir.com"): Text 'Irga@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:39 - [MESSAGE][PASSED] - Text 'Irga@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:39 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:39 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:39 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:39 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.004" time="3.242" classname="Test Cases/Admin/Login/TCC.Hadir.01.004" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:39 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.004: Test Cases/Admin/Login/TCC.Hadir.01.004
+
+03-12-2024T09:01:39 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:39 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:39 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:40 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:40 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:40 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:40 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:41 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Adminhadir.com"): Text 'Adminhadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:41 - [MESSAGE][PASSED] - Text 'Adminhadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - emailField = getWebDriver().findElement(By.name("email")): null
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - validationMessage = emailField.getAttribute("validationMessage"): null
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - expectedMessage = "Please include an '@' in the email address. 'adminhadir.com' is missing an '@'.": null
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - if (validationMessage == expectedMessage): null
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - else: Validation message is incorrect. Found: Please include an '@' in the email address. 'Adminhadir.com' is missing an '@'.
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - comment(Validation message is incorrect. Found: $validationMessage): Validation message is incorrect. Found: Please include an '@' in the email address. 'Adminhadir.com' is missing an '@'.
+
+03-12-2024T09:01:42 - [MESSAGE][INFO] - Validation message is incorrect. Found: Please include an '@' in the email address. 'Adminhadir.com' is missing an '@'.
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:42 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.005" time="3.58" classname="Test Cases/Admin/Login/TCC.Hadir.01.005" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:42 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.005: Test Cases/Admin/Login/TCC.Hadir.01.005
+
+03-12-2024T09:01:42 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:43 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:43 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:44 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:44 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:44 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@@hadir.com"): Text 'Admin@@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:45 - [MESSAGE][PASSED] - Text 'Admin@@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:45 - [TEST_STEP][PASSED] - emailField = getWebDriver().findElement(By.name("email")): null
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - validationMessage = emailField.getAttribute("validationMessage"): null
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - expectedMessage = "A part following '@' should not contain the symbol '@'.": null
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - if (validationMessage == expectedMessage): Validation message is correct: A part following '@' should not contain the symbol '@'.
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - comment(Validation message is correct: $validationMessage): Validation message is correct: A part following '@' should not contain the symbol '@'.
+
+03-12-2024T09:01:46 - [MESSAGE][INFO] - Validation message is correct: A part following '@' should not contain the symbol '@'.
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.006" time="2.64" classname="Test Cases/Admin/Login/TCC.Hadir.01.006" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:46 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.006: Test Cases/Admin/Login/TCC.Hadir.01.006
+
+03-12-2024T09:01:46 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:46 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:46 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:47 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:47 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:47 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:47 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:47 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:47 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:47 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:47 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.co.id"): Text 'Admin@hadir.co.id' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:48 - [MESSAGE][PASSED] - Text 'Admin@hadir.co.id' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:48 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:48 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:49 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:49 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.007" time="2.988" classname="Test Cases/Admin/Login/TCC.Hadir.01.007" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:49 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.007: Test Cases/Admin/Login/TCC.Hadir.01.007
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:49 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:49 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:49 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:49 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:49 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:50 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:50 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:51 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), ""): Text '' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:51 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), ""): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:51 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:52 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:52 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.008" time="2.776" classname="Test Cases/Admin/Login/TCC.Hadir.01.008" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:52 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.008: Test Cases/Admin/Login/TCC.Hadir.01.008
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:52 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:52 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:52 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:53 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:53 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:53 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), ""): Text '' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:54 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:54 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:54 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:54 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.009" time="2.694" classname="Test Cases/Admin/Login/TCC.Hadir.01.009" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:54 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.009: Test Cases/Admin/Login/TCC.Hadir.01.009
+
+03-12-2024T09:01:55 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:55 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:55 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:55 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:55 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:55 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:55 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:56 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:56 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:56 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:56 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:57 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), ""): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:57 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:57 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:57 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:01:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.010" time="2.68" classname="Test Cases/Admin/Login/TCC.Hadir.01.010" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:01:57 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.010: Test Cases/Admin/Login/TCC.Hadir.01.010
+
+03-12-2024T09:01:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:01:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:01:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:01:58 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:01:58 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:01:58 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:01:58 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:58 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:01:58 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:59 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:01:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:59 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:01:59 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "4nvbrPglk7k="): Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:01:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_Masuk")): Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:02:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_Masuk' is clicked on
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - errorMessageObject = findTestObject("Object Repository/Login/Login_Page/div_ErrorMessage"): Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:02:00 - [MESSAGE][WARNING] - Test object with id 'Object Repository/Login/Login_Page/div_ErrorMessage' does not exist
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - if (errorMessageObject != null): null
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - else: Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - comment("Error message object not found. Verify the Object Repository setup."): Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:02:00 - [MESSAGE][INFO] - Error message object not found. Verify the Object Repository setup.
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:02:00 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.011" time="2.914" classname="Test Cases/Admin/Login/TCC.Hadir.01.011" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:02:00 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.011: Test Cases/Admin/Login/TCC.Hadir.01.011
+
+03-12-2024T09:02:00 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:02:00 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:02:00 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:02:01 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:02:01 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:02:01 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:02:01 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:02:01 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:02:01 - [TEST_STEP][PASSED] - verifyElementPresent(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), 10, STOP_ON_FAILURE): Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:02:02 - [MESSAGE][PASSED] - Object 'Object Repository/Login/Login_Page/input_Email_email' is present
+
+03-12-2024T09:02:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:02:02 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:02:02 - [TEST_STEP][PASSED] - inputFieldType = getAttribute(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "type"): Attribute 'type' of object 'Object Repository/Login/Login_Page/input_Password_password' is: 'password'
+
+03-12-2024T09:02:03 - [MESSAGE][PASSED] - Attribute 'type' of object 'Object Repository/Login/Login_Page/input_Password_password' is: 'password'
+
+03-12-2024T09:02:03 - [TEST_STEP][PASSED] - verifyMatch(inputFieldType, "password", false): Actual text 'password' and expected text 'password' are matched 
+
+03-12-2024T09:02:03 - [MESSAGE][PASSED] - Actual text 'password' and expected text 'password' are matched 
+
+03-12-2024T09:02:03 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:02:03 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Login/TCC.Hadir.01.012" time="3.222" classname="Test Cases/Admin/Login/TCC.Hadir.01.012" status="PASSED">
+         <system-out><![CDATA[03-12-2024T09:02:03 - [TEST_CASE][PASSED] - Test Cases/Admin/Login/TCC.Hadir.01.012: Test Cases/Admin/Login/TCC.Hadir.01.012
+
+03-12-2024T09:02:03 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T09:02:03 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T09:02:03 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T09:02:04 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T09:02:04 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T09:02:04 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T09:02:04 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:02:04 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T09:02:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:02:05 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Login/Login_Page/input_Email_email'
+
+03-12-2024T09:02:05 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "admin@hadir"): Text 'admin@hadir' is set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:02:05 - [MESSAGE][PASSED] - Text 'admin@hadir' is set on object 'Object Repository/Login/Login_Page/input_Password_password'
+
+03-12-2024T09:02:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Login/Login_Page/button_HiddenPassword")): Object: 'Object Repository/Login/Login_Page/button_HiddenPassword' is clicked on
+
+03-12-2024T09:02:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Login/Login_Page/button_HiddenPassword' is clicked on
+
+03-12-2024T09:02:05 - [TEST_STEP][PASSED] - passwordFieldType = getAttribute(findTestObject("Object Repository/Login/Login_Page/input_Password_password"), "type"): Attribute 'type' of object 'Object Repository/Login/Login_Page/input_Password_password' is: 'text'
+
+03-12-2024T09:02:06 - [MESSAGE][PASSED] - Attribute 'type' of object 'Object Repository/Login/Login_Page/input_Password_password' is: 'text'
+
+03-12-2024T09:02:06 - [TEST_STEP][PASSED] - Assert.assertEquals(passwordFieldType, "text"): null
+
+03-12-2024T09:02:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T09:02:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-12-2024T09:01:28 - [TEST_SUITE][PASSED] - Login: Test Cases/Admin/Login/TCC.Hadir.01.012]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

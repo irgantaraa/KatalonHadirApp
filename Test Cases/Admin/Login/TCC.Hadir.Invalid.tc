@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC.Hadir.Invalid</name>
+   <tag>Laogin</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>513167cd-d28a-4274-b42b-02746706bfb6</testCaseGuid>
+</TestCaseEntity>

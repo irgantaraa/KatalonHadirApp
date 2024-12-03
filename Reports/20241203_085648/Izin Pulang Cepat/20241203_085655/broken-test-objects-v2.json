@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/IzinPulangCepatPage/November1",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div/div/div[3]/div/div[2]/button[6]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sat\u0027])[1]/following::span[12]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241203_085648/Izin Pulang Cepat/20241203_085655/Object Repository/Admin/IzinPulangCepatPage/November1_neighbor.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Admin/IzinPulangCepatPage/November24",
+      "brokenLocator": "//div[@id\u003d\u0027__next\u0027]/div/div[2]/div/div/div/div/div/div[2]/form/div/div/div[3]/div/div/div/div[3]/div/div[2]/button[29]/span[2]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Sat\u0027])[1]/following::span[81]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241203_085648/Izin Pulang Cepat/20241203_085655/Object Repository/Admin/IzinPulangCepatPage/November24_neighbor.png"
+    }
+  ]
+}

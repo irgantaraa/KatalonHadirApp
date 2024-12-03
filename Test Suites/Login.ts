@@ -43,6 +43,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Login/TCC.Hadir.01.003</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>27cf42f8-5bcc-45b8-937a-c56d8f846f1e</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>167dc9a2-ef6b-466a-8b1b-f489b98cfca1</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ff10db45-b978-488c-ab99-d0ac88f026c8</guid>
@@ -50,6 +62,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Login/TCC.Hadir.01.004</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>ef811e28-d848-4347-b351-7b132957f8cd</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>e6d8600a-b8c1-42d2-8be2-750d75f663d5</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>ef82dde2-c56d-4d6d-b0f4-406377147682</guid>
@@ -57,6 +81,18 @@
       <isRun>true</isRun>
       <testCaseId>Test Cases/Admin/Login/TCC.Hadir.01.005</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>7bcdac64-2c5d-4b54-aedf-4c69155db8fa</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId></testDataLinkId>
+         <type>DEFAULT</type>
+         <value></value>
+         <variableId>cf129223-52d6-422f-8609-135a5e78c895</variableId>
+      </variableLink>
    </testCaseLink>
    <testCaseLink>
       <guid>99f99c33-355f-4f2a-bc42-228e160b9305</guid>

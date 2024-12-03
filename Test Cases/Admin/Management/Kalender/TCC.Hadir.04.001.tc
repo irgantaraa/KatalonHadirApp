@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC.Hadir.04.001</name>
+   <tag>Kalender</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>d28931a3-0354-4571-bbf8-6a082a9830f7</testCaseGuid>
+</TestCaseEntity>

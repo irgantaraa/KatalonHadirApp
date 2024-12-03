@@ -1,0 +1,274 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cuti,Chrome 131.0.0.0,,,03-12-2024 08:57:15,03-12-2024 09:00:58,3m - 43.365s,ERROR
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.014,Chrome 131.0.0.0,Menampilkan data cuti dengan input tanggal yang sesuai,Cuti,03-12-2024 08:57:54,03-12-2024 08:58:01,7.553s,ERROR
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:57:54,03-12-2024 08:57:54,0.750s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:57:54,03-12-2024 08:57:55,0.029s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:57:55,03-12-2024 08:57:55,0.371s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:57:55,03-12-2024 08:57:56,0.739s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:57:56,03-12-2024 08:57:56,0.287s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:57:56,03-12-2024 08:57:56,0.271s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:57:56,03-12-2024 08:57:58,1.464s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:57:58,03-12-2024 08:57:59,1.117s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,03-12-2024 08:57:59,03-12-2024 08:58:00,0.963s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/StartDate""), ""Jun 1, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:00,03-12-2024 08:58:00,0.509s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,03-12-2024 08:58:00,03-12-2024 08:58:01,0.261s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/EndDate""), ""Nov 16, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.510s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.264s,PASSED
+"expectedLeaveDate = ""24 Sep 2024""",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.001s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.001s,PASSED
+"dateObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal"")",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.001s,PASSED
+"verifyElementText(nameObject, expectedName, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:01,0.002s,ERROR
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.015,Chrome 131.0.0.0,Menampilkan data cuti dengan input nama dan tanggal yang sesuai,Cuti,03-12-2024 08:58:01,03-12-2024 08:58:11,9.559s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:01,03-12-2024 08:58:02,0.762s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:02,03-12-2024 08:58:02,0.036s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:02,03-12-2024 08:58:03,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:03,03-12-2024 08:58:03,0.736s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:03,03-12-2024 08:58:04,0.287s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:04,03-12-2024 08:58:04,0.274s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:04,03-12-2024 08:58:05,1.361s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:05,03-12-2024 08:58:06,1.108s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Anif Biantoro"")",Chrome 131.0.0.0,,,03-12-2024 08:58:06,03-12-2024 08:58:08,1.206s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,03-12-2024 08:58:08,03-12-2024 08:58:08,0.259s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/StartDate""), ""Jun 1, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:08,03-12-2024 08:58:08,0.508s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,03-12-2024 08:58:08,03-12-2024 08:58:09,0.258s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/EndDate""), ""Nov 16, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.508s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.259s,PASSED
+"expectedName = ""Anif Biantoro""",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.001s,PASSED
+"expectedLeaveDate = ""24 Sep 2024""",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.001s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.002s,PASSED
+"dateObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Tanggal"")",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:09,0.002s,PASSED
+"verifyElementText(nameObject, expectedName, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 08:58:09,03-12-2024 08:58:10,0.590s,PASSED
+"verifyElementText(dateObject, expectedLeaveDate, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 08:58:10,03-12-2024 08:58:10,0.248s,PASSED
+"actualStartDate = getAttribute(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/StartDate""), ""value"")",Chrome 131.0.0.0,,,03-12-2024 08:58:10,03-12-2024 08:58:10,0.237s,PASSED
+"actualEndDate = getAttribute(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/EndDate""), ""value"")",Chrome 131.0.0.0,,,03-12-2024 08:58:10,03-12-2024 08:58:11,0.234s,PASSED
+"verifyMatch(actualStartDate, ""Jun 1, 2024"", false)",Chrome 131.0.0.0,,,03-12-2024 08:58:11,03-12-2024 08:58:11,0.016s,PASSED
+"verifyMatch(actualEndDate, ""Nov 16, 2024"", false)",Chrome 131.0.0.0,,,03-12-2024 08:58:11,03-12-2024 08:58:11,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:11,03-12-2024 08:58:11,0.111s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.016,Chrome 131.0.0.0,Menampilkan data cuti dengan input nama yang tidak valid,Cuti,03-12-2024 08:58:11,03-12-2024 08:58:23,12.478s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:11,03-12-2024 08:58:12,0.639s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:12,03-12-2024 08:58:12,0.036s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:12,03-12-2024 08:58:12,0.454s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:12,03-12-2024 08:58:13,0.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:13,03-12-2024 08:58:13,0.269s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:13,03-12-2024 08:58:13,0.277s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:13,03-12-2024 08:58:15,1.297s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:15,03-12-2024 08:58:16,1.032s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Abc"")",Chrome 131.0.0.0,,,03-12-2024 08:58:16,03-12-2024 08:58:17,1.080s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:17,03-12-2024 08:58:17,0.272s,PASSED
+"tableObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:17,03-12-2024 08:58:17,0.008s,PASSED
+"isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL)",Chrome 131.0.0.0,,,03-12-2024 08:58:17,03-12-2024 08:58:23,6.144s,PASSED
+if (isTablePresent),Chrome 131.0.0.0,,,03-12-2024 08:58:23,03-12-2024 08:58:23,0.001s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 08:58:23,03-12-2024 08:58:23,0.008s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:23,03-12-2024 08:58:23,0.108s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.017,Chrome 131.0.0.0,Menampilkan data cuti dengan input angka pada nama,Cuti,03-12-2024 08:58:23,03-12-2024 08:58:36,12.738s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:23,03-12-2024 08:58:24,0.639s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:24,03-12-2024 08:58:24,0.033s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:24,03-12-2024 08:58:25,0.467s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:25,03-12-2024 08:58:25,0.751s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:25,03-12-2024 08:58:26,0.283s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:26,03-12-2024 08:58:26,0.271s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:26,03-12-2024 08:58:27,1.398s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:27,03-12-2024 08:58:28,1.119s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""29001"")",Chrome 131.0.0.0,,,03-12-2024 08:58:28,03-12-2024 08:58:30,1.184s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:30,03-12-2024 08:58:30,0.270s,PASSED
+"tableObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:30,03-12-2024 08:58:30,0.002s,PASSED
+"isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL)",Chrome 131.0.0.0,,,03-12-2024 08:58:30,03-12-2024 08:58:36,6.141s,PASSED
+if (isTablePresent),Chrome 131.0.0.0,,,03-12-2024 08:58:36,03-12-2024 08:58:36,0.001s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 08:58:36,03-12-2024 08:58:36,0.003s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:36,03-12-2024 08:58:36,0.105s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.018,Chrome 131.0.0.0,"Menampilkan data cuti tanpa mengisi nama, tanggal, dan filter",Cuti,03-12-2024 08:58:36,03-12-2024 08:58:43,7.113s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:36,03-12-2024 08:58:37,0.653s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:37,03-12-2024 08:58:37,0.030s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:37,03-12-2024 08:58:37,0.365s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:37,03-12-2024 08:58:38,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:38,03-12-2024 08:58:38,0.288s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:38,03-12-2024 08:58:39,0.280s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:39,03-12-2024 08:58:40,1.420s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:40,03-12-2024 08:58:41,1.320s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:41,03-12-2024 08:58:42,0.995s,PASSED
+"tableObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:42,03-12-2024 08:58:42,0.002s,PASSED
+"isTablePresent = verifyElementPresent(tableObject, 5, OPTIONAL)",Chrome 131.0.0.0,,,03-12-2024 08:58:42,03-12-2024 08:58:43,0.576s,PASSED
+if (isTablePresent),Chrome 131.0.0.0,,,03-12-2024 08:58:43,03-12-2024 08:58:43,0.263s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:43,03-12-2024 08:58:43,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.019,Chrome 131.0.0.0,Menampilkan data cuti dengan input tanggal tanpa memilih start date,Cuti,03-12-2024 08:58:43,03-12-2024 08:58:50,7.024s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:43,03-12-2024 08:58:44,0.656s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:44,03-12-2024 08:58:44,0.035s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:44,03-12-2024 08:58:44,0.353s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:44,03-12-2024 08:58:45,0.733s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:45,03-12-2024 08:58:45,0.275s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:45,03-12-2024 08:58:46,0.281s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:46,03-12-2024 08:58:47,1.316s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:47,03-12-2024 08:58:48,1.029s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,03-12-2024 08:58:48,03-12-2024 08:58:49,0.830s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/EndDate""), ""Nov 16, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:49,03-12-2024 08:58:49,0.515s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:49,03-12-2024 08:58:50,0.260s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:50,03-12-2024 08:58:50,0.001s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 08:58:50,03-12-2024 08:58:50,0.586s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 08:58:50,03-12-2024 08:58:50,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:50,03-12-2024 08:58:50,0.100s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.020,Chrome 131.0.0.0,Menampilkan data cuti dengan input tanggal tanpa memilih end date,Cuti,03-12-2024 08:58:50,03-12-2024 08:58:59,9.191s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:58:50,03-12-2024 08:58:51,0.644s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:58:51,03-12-2024 08:58:51,0.028s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:58:51,03-12-2024 08:58:51,0.322s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:58:51,03-12-2024 08:58:52,0.747s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:58:52,03-12-2024 08:58:52,0.289s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:58:52,03-12-2024 08:58:53,0.272s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:58:53,03-12-2024 08:58:54,1.247s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:58:54,03-12-2024 08:58:55,1.016s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,03-12-2024 08:58:55,03-12-2024 08:58:56,1.096s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/StartDate""), ""Jun 1, 2024"")",Chrome 131.0.0.0,,,03-12-2024 08:58:56,03-12-2024 08:58:56,0.510s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:58:56,03-12-2024 08:58:57,0.266s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:58:57,03-12-2024 08:58:57,0.002s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 08:58:57,03-12-2024 08:58:59,2.596s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 08:58:59,03-12-2024 08:58:59,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:58:59,03-12-2024 08:58:59,0.092s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.021,Chrome 131.0.0.0,Menampilkan data cuti dengan input tanggal yang akan datang,Cuti,03-12-2024 08:59:25,03-12-2024 08:59:33,7.774s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:59:25,03-12-2024 08:59:26,0.733s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:59:26,03-12-2024 08:59:26,0.039s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:59:26,03-12-2024 08:59:26,0.405s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:59:26,03-12-2024 08:59:27,0.740s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:59:27,03-12-2024 08:59:27,0.281s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:59:27,03-12-2024 08:59:27,0.273s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:59:27,03-12-2024 08:59:29,1.299s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:59:29,03-12-2024 08:59:30,1.026s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/StartDate""))",Chrome 131.0.0.0,,,03-12-2024 08:59:30,03-12-2024 08:59:30,0.845s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/StartDate""), ""Nov 30, 2025"")",Chrome 131.0.0.0,,,03-12-2024 08:59:30,03-12-2024 08:59:31,0.507s,PASSED
+"click(findTestObject(""Admin/Cuti/014/Page_HADIR/EndDate""))",Chrome 131.0.0.0,,,03-12-2024 08:59:31,03-12-2024 08:59:31,0.262s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/EndDate""), ""Nov 30, 2025"")",Chrome 131.0.0.0,,,03-12-2024 08:59:31,03-12-2024 08:59:32,0.501s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 08:59:32,03-12-2024 08:59:32,0.268s,PASSED
+"table = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Table"")",Chrome 131.0.0.0,,,03-12-2024 08:59:32,03-12-2024 08:59:32,0.002s,PASSED
+isTableEmpty = getText(table).isEmpty(),Chrome 131.0.0.0,,,03-12-2024 08:59:32,03-12-2024 08:59:33,0.582s,PASSED
+"assert isTableEmpty : ""The table is not empty. It contains data.""",Chrome 131.0.0.0,,,03-12-2024 08:59:33,03-12-2024 08:59:33,0.001s,FAILED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.022,Chrome 131.0.0.0,Menampilkan data cuti dengan filter departemen,Cuti,03-12-2024 08:59:33,03-12-2024 08:59:43,10.258s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:59:33,03-12-2024 08:59:33,0.821s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:59:33,03-12-2024 08:59:33,0.027s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:59:33,03-12-2024 08:59:34,0.810s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:59:34,03-12-2024 08:59:35,0.746s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:59:35,03-12-2024 08:59:35,0.284s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:59:35,03-12-2024 08:59:36,0.282s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:59:36,03-12-2024 08:59:37,1.193s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:59:37,03-12-2024 08:59:38,0.922s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter""))",Chrome 131.0.0.0,,,03-12-2024 08:59:38,03-12-2024 08:59:41,2.961s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), ""AMEX MERCHANT"")",Chrome 131.0.0.0,,,03-12-2024 08:59:41,03-12-2024 08:59:41,0.741s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,03-12-2024 08:59:41,03-12-2024 08:59:42,0.802s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,03-12-2024 08:59:42,03-12-2024 08:59:42,0.251s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:59:42,03-12-2024 08:59:42,0.002s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 08:59:42,03-12-2024 08:59:43,0.251s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 08:59:43,03-12-2024 08:59:43,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:59:43,03-12-2024 08:59:43,0.102s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.023,Chrome 131.0.0.0,Menampilkan data cuti dengan filter nama yang tidak valid,Cuti,03-12-2024 08:59:43,03-12-2024 08:59:53,10.277s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:59:43,03-12-2024 08:59:44,0.635s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:59:44,03-12-2024 08:59:44,0.027s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:59:44,03-12-2024 08:59:44,0.839s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:59:44,03-12-2024 08:59:45,0.744s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:59:45,03-12-2024 08:59:45,0.272s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:59:45,03-12-2024 08:59:46,0.272s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:59:46,03-12-2024 08:59:47,1.141s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:59:47,03-12-2024 08:59:48,0.923s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter""))",Chrome 131.0.0.0,,,03-12-2024 08:59:48,03-12-2024 08:59:51,2.957s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), ""ABC"")",Chrome 131.0.0.0,,,03-12-2024 08:59:51,03-12-2024 08:59:51,0.715s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,03-12-2024 08:59:51,03-12-2024 08:59:52,0.675s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,03-12-2024 08:59:52,03-12-2024 08:59:52,0.267s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 08:59:52,03-12-2024 08:59:52,0.004s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 08:59:52,03-12-2024 08:59:53,0.643s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 08:59:53,03-12-2024 08:59:53,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 08:59:53,03-12-2024 08:59:53,0.099s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.024,Chrome 131.0.0.0,Menampilkan data cuti dengan nama karyawan dan filter departemen,Cuti,03-12-2024 08:59:53,03-12-2024 09:00:05,11.618s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 08:59:53,03-12-2024 08:59:54,0.669s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 08:59:54,03-12-2024 08:59:54,0.025s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 08:59:54,03-12-2024 08:59:54,0.505s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 08:59:54,03-12-2024 08:59:55,0.631s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 08:59:55,03-12-2024 08:59:55,0.290s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 08:59:55,03-12-2024 08:59:56,0.278s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 08:59:56,03-12-2024 08:59:57,1.261s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 08:59:57,03-12-2024 08:59:58,1.020s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter""))",Chrome 131.0.0.0,,,03-12-2024 08:59:58,03-12-2024 08:59:59,0.853s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), ""IT Programmer"")",Chrome 131.0.0.0,,,03-12-2024 08:59:59,03-12-2024 08:59:59,0.736s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,03-12-2024 08:59:59,03-12-2024 09:00:00,0.881s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,03-12-2024 09:00:00,03-12-2024 09:00:01,0.249s,PASSED
+"click(findTestObject(""Admin/Cuti/022/Page_HADIR/button__FilterTerapkan""))",Chrome 131.0.0.0,,,03-12-2024 09:00:01,03-12-2024 09:00:01,0.285s,PASSED
+"setText(findTestObject(""Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search""), ""Anif Biantoro"")",Chrome 131.0.0.0,,,03-12-2024 09:00:01,03-12-2024 09:00:04,2.896s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 09:00:04,03-12-2024 09:00:04,0.267s,PASSED
+"expectedName = ""Anif Biantoro""",Chrome 131.0.0.0,,,03-12-2024 09:00:04,03-12-2024 09:00:04,0.001s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 09:00:04,03-12-2024 09:00:04,0.002s,PASSED
+"verifyElementText(nameObject, expectedName, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 09:00:04,03-12-2024 09:00:05,0.591s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 09:00:05,03-12-2024 09:00:05,0.105s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.025,Chrome 131.0.0.0,Menggunakan tombol Batal untuk keluar dari modal filter,Cuti,03-12-2024 09:00:05,03-12-2024 09:00:13,8.722s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 09:00:05,03-12-2024 09:00:05,0.645s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 09:00:05,03-12-2024 09:00:05,0.032s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 09:00:05,03-12-2024 09:00:06,0.580s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 09:00:06,03-12-2024 09:00:07,0.738s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 09:00:07,03-12-2024 09:00:07,0.290s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 09:00:07,03-12-2024 09:00:07,0.280s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 09:00:07,03-12-2024 09:00:09,1.222s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 09:00:09,03-12-2024 09:00:10,0.929s,PASSED
+"click(findTestObject(""Admin/Cuti/025/Page_HADIR/button__filter""))",Chrome 131.0.0.0,,,03-12-2024 09:00:10,03-12-2024 09:00:10,0.879s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby""))",Chrome 131.0.0.0,,,03-12-2024 09:00:10,03-12-2024 09:00:11,0.452s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal""))",Chrome 131.0.0.0,,,03-12-2024 09:00:11,03-12-2024 09:00:11,0.265s,PASSED
+delay(2),Chrome 131.0.0.0,,,03-12-2024 09:00:11,03-12-2024 09:00:13,2.021s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 09:00:13,03-12-2024 09:00:13,0.002s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 09:00:13,03-12-2024 09:00:13,0.244s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 09:00:13,03-12-2024 09:00:13,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 09:00:13,03-12-2024 09:00:13,0.096s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.026,Chrome 131.0.0.0,Menghapus filter yang dipilih dengan tombol X,Cuti,03-12-2024 09:00:13,03-12-2024 09:00:22,8.415s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 09:00:14,03-12-2024 09:00:14,0.631s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 09:00:14,03-12-2024 09:00:14,0.032s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 09:00:14,03-12-2024 09:00:15,0.518s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 09:00:15,03-12-2024 09:00:15,0.627s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 09:00:15,03-12-2024 09:00:16,0.270s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 09:00:16,03-12-2024 09:00:16,0.280s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 09:00:16,03-12-2024 09:00:17,1.219s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/div_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 09:00:17,03-12-2024 09:00:18,0.896s,PASSED
+"click(findTestObject(""Admin/Cuti/025/Page_HADIR/button__filter""))",Chrome 131.0.0.0,,,03-12-2024 09:00:18,03-12-2024 09:00:19,0.838s,PASSED
+"verifyElementVisible(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/form_filterby""))",Chrome 131.0.0.0,,,03-12-2024 09:00:19,03-12-2024 09:00:19,0.448s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/025/Page_HADIR/button_Batal""))",Chrome 131.0.0.0,,,03-12-2024 09:00:19,03-12-2024 09:00:20,0.262s,PASSED
+delay(2),Chrome 131.0.0.0,,,03-12-2024 09:00:20,03-12-2024 09:00:22,2.003s,PASSED
+"nameObject = findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/Nama_table"")",Chrome 131.0.0.0,,,03-12-2024 09:00:22,03-12-2024 09:00:22,0.002s,PASSED
+"isTableVisible = verifyElementPresent(nameObject, 10)",Chrome 131.0.0.0,,,03-12-2024 09:00:22,03-12-2024 09:00:22,0.238s,PASSED
+if (isTableVisible),Chrome 131.0.0.0,,,03-12-2024 09:00:22,03-12-2024 09:00:22,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 09:00:22,03-12-2024 09:00:22,0.104s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.027,Chrome 131.0.0.0,Menghapus filter yang dipilih dengan tombol X,Cuti,03-12-2024 09:00:22,03-12-2024 09:00:30,8.548s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 09:00:22,03-12-2024 09:00:23,0.703s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 09:00:23,03-12-2024 09:00:23,0.037s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 09:00:23,03-12-2024 09:00:23,0.370s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 09:00:23,03-12-2024 09:00:24,0.735s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 09:00:24,03-12-2024 09:00:24,0.285s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 09:00:24,03-12-2024 09:00:24,0.271s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 09:00:24,03-12-2024 09:00:26,1.428s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 09:00:26,03-12-2024 09:00:27,1.021s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/button__Filter""))",Chrome 131.0.0.0,,,03-12-2024 09:00:27,03-12-2024 09:00:28,0.969s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), ""IT Programmer"")",Chrome 131.0.0.0,,,03-12-2024 09:00:28,03-12-2024 09:00:29,0.725s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(DOWN))",Chrome 131.0.0.0,,,03-12-2024 09:00:29,03-12-2024 09:00:29,0.892s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,03-12-2024 09:00:29,03-12-2024 09:00:30,0.250s,PASSED
+"click(findTestObject(""Admin/Cuti/025/Page_HADIR/button_clear""))",Chrome 131.0.0.0,,,03-12-2024 09:00:30,03-12-2024 09:00:30,0.264s,PASSED
+"inputValue = getAttribute(findTestObject(""Object Repository/Admin/Cuti/022/Page_HADIR/input_Unit_job_departement""), ""value"")",Chrome 131.0.0.0,,,03-12-2024 09:00:30,03-12-2024 09:00:30,0.443s,PASSED
+"assert inputValue == """" : ""Input field is not cleared!""",Chrome 131.0.0.0,,,03-12-2024 09:00:30,03-12-2024 09:00:30,0.000s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 09:00:30,03-12-2024 09:00:30,0.098s,PASSED
+,,,,,,,
+Test Cases/Admin/Laporan/02 Cuti/TCC.Hadir.04.028,Chrome 131.0.0.0,Melakukan edit pada tabel,Cuti,03-12-2024 09:00:51,03-12-2024 09:00:58,6.913s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 09:00:51,03-12-2024 09:00:52,0.800s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 09:00:52,03-12-2024 09:00:52,0.030s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 09:00:52,03-12-2024 09:00:53,0.456s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 09:00:53,03-12-2024 09:00:53,0.737s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 09:00:53,03-12-2024 09:00:54,0.267s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/014/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 09:00:54,03-12-2024 09:00:54,0.281s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/div_Laporan""))",Chrome 131.0.0.0,,,03-12-2024 09:00:54,03-12-2024 09:00:55,1.301s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/p_Cuti""))",Chrome 131.0.0.0,,,03-12-2024 09:00:55,03-12-2024 09:00:56,1.005s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/svg_Menunggu Approval V1_feather feather-mo_10e371""))",Chrome 131.0.0.0,,,03-12-2024 09:00:56,03-12-2024 09:00:57,0.831s,PASSED
+"click(findTestObject(""Object Repository/Admin/Cuti/028/Page_HADIR/button_Edit""))",Chrome 131.0.0.0,,,03-12-2024 09:00:57,03-12-2024 09:00:58,0.677s,PASSED
+try,Chrome 131.0.0.0,,,03-12-2024 09:00:58,03-12-2024 09:00:58,0.522s,FAILED
+catch (Exception e),Chrome 131.0.0.0,,,03-12-2024 09:00:58,03-12-2024 09:00:58,0.001s,FAILED

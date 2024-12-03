@@ -7742,4 +7742,18 @@ TCC.Hadir.01.001.run(TCC.Hadir.01.001:38)
   <nestedLevel>0</nestedLevel>
   <escapedJava>false</escapedJava>
 </record>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<record>
+  <date>2024-12-02T04:55:36.594403400Z</date>
+  <millis>1733115336594</millis>
+  <nanos>403400</nanos>
+  <sequence>3298</sequence>
+  <level>INFO</level>
+  <class>com.kms.katalon.core.logging.XmlKeywordLogger</class>
+  <method>logMessage</method>
+  <thread>239</thread>
+  <message>Action delay is set to 0 milliseconds</message>
+  <nestedLevel>0</nestedLevel>
+  <escapedJava>false</escapedJava>
+</record>
 </log>
