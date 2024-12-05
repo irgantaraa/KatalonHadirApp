@@ -1,0 +1,939 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Jabatan" time="107.095" tests="13" failures="0" errors="0">
+   <testsuite name="Jabatan" tests="13" failures="0" errors="0" time="107.095" skipped="0" timestamp="03-12-2024T16:59:35" hostname="Irga - Irga.mshome.net" id="Test Suites/Jabatan">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Jabatan\\20241203_165114"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Jabatan\\20241203_165114\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.24.112.1"/>
+         <property name="sessionId" value="e75f6b6cb239ebce6b0a4d4cfbbd55c4"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.061" time="7.616" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.061" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:59:35 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.061: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.061
+
+03-12-2024T16:59:35 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:59:35 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:59:35 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:59:37 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:59:37 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:59:37 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:59:37 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:37 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:38 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:38 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:38 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "3"): Text '3' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:42 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:42 - [TEST_STEP][PASSED] - isPresent = verifyElementPresent(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/tableRows"), 5, STOP_ON_FAILURE): Object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is present
+
+03-12-2024T16:59:43 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is present
+
+03-12-2024T16:59:43 - [TEST_STEP][PASSED] - assert isPresent == true : "Data not found!": null
+
+03-12-2024T16:59:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:59:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.062" time="6.768" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.062" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:59:43 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.062: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.062
+
+03-12-2024T16:59:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:59:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:59:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:59:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:59:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:59:43 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:59:43 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:44 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:45 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "Abc"): Text 'Abc' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:49 - [MESSAGE][PASSED] - Text 'Abc' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:49 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:49 - [TEST_STEP][PASSED] - isNotPresent = verifyElementNotPresent(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/tableRows"), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' located by 'By.xpath: //tbody/tr' is not present after '5' second(s)
+
+03-12-2024T16:59:49 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' located by 'By.xpath: //tbody/tr' is not present after '5' second(s)
+
+03-12-2024T16:59:49 - [TEST_STEP][PASSED] - assert isNotPresent == true : "Unexpected data found in the table!": null
+
+03-12-2024T16:59:49 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:59:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.063" time="6.55" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.063" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:59:49 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.063: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.063
+
+03-12-2024T16:59:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:59:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:59:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:59:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:59:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:59:50 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:59:50 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:51 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:51 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:51 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T16:59:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T16:59:54 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "Service"): Text 'Service' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:55 - [MESSAGE][PASSED] - Text 'Service' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T16:59:55 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:59:55 - [TEST_STEP][PASSED] - isNotPresent = verifyElementNotPresent(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/tableRows"), 5, CONTINUE_ON_FAILURE): Web element with id: 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' located by 'By.xpath: //tbody/tr' is not present after '5' second(s)
+
+03-12-2024T16:59:56 - [MESSAGE][PASSED] - Web element with id: 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' located by 'By.xpath: //tbody/tr' is not present after '5' second(s)
+
+03-12-2024T16:59:56 - [TEST_STEP][PASSED] - assert isNotPresent == true : "Unexpected data found in the table!": null
+
+03-12-2024T16:59:56 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:59:56 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.064" time="9.861" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.064" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:59:56 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.064: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.064
+
+03-12-2024T16:59:56 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:59:56 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:59:56 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:59:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:59:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:59:57 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:59:57 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:57 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:59:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:58 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T16:59:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:58 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T16:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:59:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:01 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:01 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambahkan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:02 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:02 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), "Service Customer"): Text 'Service Customer' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:03 - [MESSAGE][PASSED] - Text 'Service Customer' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:03 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:00:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:00:03 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), "2"): Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:04 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambah")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "2"): Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:05 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:05 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:00:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:00:05 - [TEST_STEP][PASSED] - rowText = getText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/tableRows")): Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Service Customer
+2'
+
+03-12-2024T17:00:06 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Service Customer
+2'
+
+03-12-2024T17:00:06 - [TEST_STEP][PASSED] - actualLevel = split("\s+").last(): null
+
+03-12-2024T17:00:06 - [TEST_STEP][PASSED] - expectedLevel = "2": null
+
+03-12-2024T17:00:06 - [TEST_STEP][PASSED] - assert actualLevel == expectedLevel: null
+
+03-12-2024T17:00:06 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:06 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.065" time="7.477" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.065" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:06 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.065: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.065
+
+03-12-2024T17:00:06 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:07 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:07 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:07 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:07 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:07 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:08 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:08 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:11 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambahkan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:11 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:12 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:12 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:13 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambah")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - namaField = findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"): null
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage;", Arrays.asList(findWebElement(namaField, 5))): Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:13 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - assert validationMessage == "Please fill out this field.": null
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:13 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.066" time="7.611" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.066" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:13 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.066: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.066
+
+03-12-2024T17:00:13 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:14 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:14 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:14 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:14 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:14 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:14 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:15 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:15 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:15 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:16 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:18 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambahkan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:19 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:20 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:20 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), "1"): Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:20 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambah")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:20 - [TEST_STEP][PASSED] - namaField = findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"): null
+
+03-12-2024T17:00:20 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage;", Arrays.asList(findWebElement(namaField, 5))): Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:21 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:21 - [TEST_STEP][PASSED] - assert validationMessage == "Please fill out this field.": null
+
+03-12-2024T17:00:21 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:21 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.067" time="7.531" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.067" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:21 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.067: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.067
+
+03-12-2024T17:00:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:22 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:22 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:22 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:23 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:26 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambahkan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambahkan' is clicked on
+
+03-12-2024T17:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), "Customer"): Text 'Customer' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:27 - [MESSAGE][PASSED] - Text 'Customer' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:27 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:28 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:28 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Tambah")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:28 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Tambah' is clicked on
+
+03-12-2024T17:00:28 - [TEST_STEP][PASSED] - levelField = findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"): null
+
+03-12-2024T17:00:28 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage;", Arrays.asList(findWebElement(levelField, 5))): Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:28 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:28 - [TEST_STEP][PASSED] - assert validationMessage == "Please fill out this field.": null
+
+03-12-2024T17:00:28 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.068" time="11.47" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.068" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:29 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.068: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.068
+
+03-12-2024T17:00:29 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:29 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:29 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:29 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:29 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:29 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:29 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:30 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:30 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:30 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:31 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:31 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:35 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Action"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:36 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_EditTabel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:37 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:37 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:37 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:38 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), "Customer Service"): Text 'Customer Service' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:38 - [MESSAGE][PASSED] - Text 'Customer Service' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:38 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:38 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "2"): Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:40 - [MESSAGE][PASSED] - Text '2' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:40 - [TEST_STEP][PASSED] - searchResult = findTestObject("Admin/Jabatan/Page_HADIR/tableRows"): null
+
+03-12-2024T17:00:40 - [TEST_STEP][PASSED] - resultText = getText(searchResult): Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Customer Service
+2'
+
+03-12-2024T17:00:40 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Customer Service
+2'
+
+03-12-2024T17:00:40 - [TEST_STEP][PASSED] - assert resultText.contains("2"): null
+
+03-12-2024T17:00:40 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:40 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.069" time="9.666" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.069" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:40 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.069: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.069
+
+03-12-2024T17:00:40 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:40 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:40 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:41 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:41 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:41 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:41 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:41 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:41 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:42 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:42 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:42 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:45 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Action"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_EditTabel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:46 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:00:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:00:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:47 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:47 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:47 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:47 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), "1"): Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:48 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:48 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:48 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "1"): Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:49 - [MESSAGE][PASSED] - Text '1' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:00:49 - [TEST_STEP][PASSED] - searchResult = findTestObject("Admin/Jabatan/Page_HADIR/tableRows"): null
+
+03-12-2024T17:00:49 - [TEST_STEP][PASSED] - resultText = getText(searchResult): Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Customer Service
+1'
+
+03-12-2024T17:00:50 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is: 'Customer Service
+1'
+
+03-12-2024T17:00:50 - [TEST_STEP][PASSED] - assert resultText.contains("1"): null
+
+03-12-2024T17:00:50 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:50 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.070" time="8.462" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.070" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:50 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.070: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.070
+
+03-12-2024T17:00:50 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:50 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:50 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:50 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:50 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:50 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:50 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:51 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:00:51 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:52 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:00:52 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:52 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:00:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:53 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:00:53 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:00:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:55 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:00:55 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Action"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_EditTabel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:00:56 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama' is clicked on
+
+03-12-2024T17:00:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:57 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:57 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:57 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:57 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:58 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanNama'
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:58 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - namaField = findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanNama"): null
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - validationMessage = executeJavaScript("return arguments[0].validationMessage;", Arrays.asList(findWebElement(namaField, 5))): Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:58 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - assert validationMessage == "Please fill out this field.": null
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:00:58 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.071" time="9.364" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.071" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:00:58 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.071: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.071
+
+03-12-2024T17:00:58 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:00:58 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:00:58 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:00:59 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:00:59 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:00:59 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:00:59 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:00 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:00 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:01 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:01 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:01 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:04 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Action"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:01:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_EditTabel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:01:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_EditTabel' is clicked on
+
+03-12-2024T17:01:05 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:01:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel' is clicked on
+
+03-12-2024T17:01:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(CONTROL, "a")): Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:06 - [MESSAGE][PASSED] - Keys 'CONTROL + a' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:06 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(DELETE)): Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:06 - [MESSAGE][PASSED] - Keys 'DELETE + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:06 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), ""): Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:07 - [MESSAGE][PASSED] - Text '' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:07 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:07 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/Jabatan/Page_HADIR/txtTambahkanLevel'
+
+03-12-2024T17:01:07 - [TEST_STEP][PASSED] - levelField = findTestObject("Admin/Jabatan/Page_HADIR/txtTambahkanLevel"): null
+
+03-12-2024T17:01:07 - [TEST_STEP][PASSED] - validationMessageLevel = executeJavaScript("return arguments[0].validationMessage;", Arrays.asList(findWebElement(levelField, 5))): Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:01:07 - [MESSAGE][PASSED] - Execute JavaScript 'return arguments[0].validationMessage;' successfully
+
+03-12-2024T17:01:07 - [TEST_STEP][PASSED] - assert validationMessageLevel == "Please fill out this field.": null
+
+03-12-2024T17:01:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:01:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.072" time="7.191" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.072" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:01:07 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.072: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.072
+
+03-12-2024T17:01:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:01:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:01:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:01:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:01:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:01:08 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:01:08 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:09 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:09 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:10 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:10 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:10 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:13 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Action"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Action' is clicked on
+
+03-12-2024T17:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_DeleteTabel"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_DeleteTabel' is clicked on
+
+03-12-2024T17:01:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_DeleteTabel' is clicked on
+
+03-12-2024T17:01:14 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Yes"), STOP_ON_FAILURE): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Yes' is clicked on
+
+03-12-2024T17:01:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Yes' is clicked on
+
+03-12-2024T17:01:15 - [TEST_STEP][PASSED] - closeBrowser(STOP_ON_FAILURE): Browser is closed
+
+03-12-2024T17:01:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073" time="7.394" classname="Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:01:15 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073
+
+03-12-2024T17:01:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:01:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:01:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:01:15 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:01:15 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:01:15 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:01:15 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:16 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:01:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:17 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Email_email'
+
+03-12-2024T17:01:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Password_password'
+
+03-12-2024T17:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:01:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:01:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/p_Jabatan' is clicked on
+
+03-12-2024T17:01:19 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search"), "3"): Text '3' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:01:20 - [MESSAGE][PASSED] - Text '3' is set on object 'Object Repository/Admin/Jabatan/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:01:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:01:21 - [TEST_STEP][PASSED] - click(findTestObject("Admin/Jabatan/Page_HADIR/button_Reset")): Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Reset' is clicked on
+
+03-12-2024T17:01:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Jabatan/Page_HADIR/button_Reset' is clicked on
+
+03-12-2024T17:01:21 - [TEST_STEP][PASSED] - isPresent = verifyElementPresent(findTestObject("Object Repository/Admin/Jabatan/Page_HADIR/tableRows"), 5, STOP_ON_FAILURE): Object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is present
+
+03-12-2024T17:01:22 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/Jabatan/Page_HADIR/tableRows' is present
+
+03-12-2024T17:01:22 - [TEST_STEP][PASSED] - assert isPresent == true : "Data not found!": null
+
+03-12-2024T17:01:22 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:01:22 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-12-2024T16:59:35 - [TEST_SUITE][PASSED] - Jabatan: Test Cases/Admin/Management/Jabatan/TCC.Hadir.04.073]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

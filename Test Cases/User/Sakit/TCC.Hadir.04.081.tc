@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Verifikasi sistem hanya menerima file gambar (.jpg, .png, .jpeg) untuk upload surat sakit</description>
+   <name>TCC.Hadir.04.081</name>
+   <tag>SakitUser</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>b58833ed-bb42-4685-8725-2bad45189b3e</testCaseGuid>
+</TestCaseEntity>

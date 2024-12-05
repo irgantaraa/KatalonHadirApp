@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Login/Login_Page/Page_HADIR/polyline",
+      "brokenLocator": "",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "button \u003e\u003e internal:has-text\u003d\"AHi,Admin Hadir\"i",
+      "proposedLocatorMethod": "SMART_LOCATOR",
+      "recoveryMethod": "SMART_LOCATOR",
+      "pathToScreenshot": "Reports/20241203_165105/Logout/20241203_165108/Object Repository/Login/Login_Page/Page_HADIR/polyline_SMART_LOCATOR.png"
+    }
+  ]
+}

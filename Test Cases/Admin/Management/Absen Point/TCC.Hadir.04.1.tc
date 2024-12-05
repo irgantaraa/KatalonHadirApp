@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<TestCaseEntity>
-   <description></description>
-   <name>TCC.Hadir.04.1</name>
-   <tag>Absen Point</tag>
-   <comment></comment>
-   <recordOption>OTHER</recordOption>
-   <testCaseGuid>43c8647c-541d-4ef1-a996-df0d8d2d2712</testCaseGuid>
-</TestCaseEntity>

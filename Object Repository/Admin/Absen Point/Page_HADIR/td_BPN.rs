@@ -3,15 +3,15 @@
    <description></description>
    <name>td_BPN</name>
    <tag></tag>
-   <elementGuidId>41d35285-078f-40df-8994-1acbde81a59d</elementGuidId>
+   <elementGuidId>3e1b52c3-cf6e-471e-9d74-52d3e622cb02</elementGuidId>
    <selectorCollection>
-      <entry>
-         <key>XPATH</key>
-         <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[2]/div/table/tbody/tr/td</value>
-      </entry>
       <entry>
          <key>CSS</key>
          <value>td.MuiTableCell-root.MuiTableCell-body.MuiTableCell-sizeMedium.css-8k6it1</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[2]/div/table/tbody/tr/td</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>td</value>
-      <webElementGuid>d3b299ab-4589-4847-9734-8a838eed338e</webElementGuid>
+      <webElementGuid>c66935a7-6b43-4095-bceb-d29731ad15d2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-8k6it1</value>
-      <webElementGuid>2f996c47-0e33-47ff-9b2f-87d37ed60250</webElementGuid>
+      <webElementGuid>bbb33930-f2c7-458d-971d-a04c8bb53f86</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>BPN</value>
-      <webElementGuid>c93df1bf-1bf4-4f86-882c-2a225c148085</webElementGuid>
+      <webElementGuid>1a283772-9ad1-4dc0-adc0-9974453ae408</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;__next&quot;)/div[@class=&quot;css-10f63sf&quot;]/div[@class=&quot;css-11qbmxu&quot;]/div[@class=&quot;MuiContainer-root css-1p62yps&quot;]/div[@class=&quot;MuiBox-root css-76jx17&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-container css-1d3bbye&quot;]/div[@class=&quot;MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-lg-12 css-15j76c0&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-oim7up&quot;]/div[@class=&quot;MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 css-1d88nt7&quot;]/div[@class=&quot;MuiTableContainer-root css-kge0eu&quot;]/table[@class=&quot;MuiTable-root MuiTable-stickyHeader css-15ulo97&quot;]/tbody[@class=&quot;MuiTableBody-root css-1xnox0e&quot;]/tr[@class=&quot;MuiTableRow-root css-9arnca&quot;]/td[@class=&quot;MuiTableCell-root MuiTableCell-body MuiTableCell-sizeMedium css-8k6it1&quot;]</value>
-      <webElementGuid>af4a8d4d-d0c4-4c4a-bd30-e8f2a484b193</webElementGuid>
+      <webElementGuid>fb2d160c-928d-4e74-bae5-6279a11d077b</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='__next']/div/div[2]/div/div/div/div/div/div[2]/div/table/tbody/tr/td</value>
-      <webElementGuid>0c606bf8-971f-418b-9fa5-613f53bbf3e7</webElementGuid>
+      <webElementGuid>d25d938d-4aa1-4bc2-8bfc-aabff7be11ad</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='DESCRIPTION'])[1]/following::td[1]</value>
-      <webElementGuid>47766720-7851-4828-8fa0-dbca44958679</webElementGuid>
+      <webElementGuid>898a79f9-8f19-4f11-903c-592582274b43</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='MAKSIMAL RADIUS (Meter)'])[1]/following::td[1]</value>
-      <webElementGuid>3c7b9adf-4296-460e-a933-58dd5f29a7b4</webElementGuid>
+      <webElementGuid>303ccee6-9f2f-45b5-a29f-c4114871d07a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Jl. Marsma iswahyud, Kel sepinggan baru, Kec Balikpapan Selatan, Kota balikpapan, Kalimantan timur'])[1]/preceding::td[4]</value>
-      <webElementGuid>61d0ddde-91ef-4529-b348-84cccc385fcb</webElementGuid>
+      <webElementGuid>525c3977-bc59-49c6-818e-b027dfed93af</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,7 +93,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//td</value>
-      <webElementGuid>6541ef4e-2743-4127-bfa9-c0e4493fda5b</webElementGuid>
+      <webElementGuid>babb200d-5c68-42b8-8839-3a67ca266da0</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -101,6 +101,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//td[(text() = 'BPN' or . = 'BPN')]</value>
-      <webElementGuid>b2ebe4d5-7bfe-4e67-a76a-317906888a4b</webElementGuid>
+      <webElementGuid>3bbced30-ad88-4095-9d0f-053ca4068ef8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description>Menampilkan Info Cuti</description>
+   <name>TCC.Hadir.04.074</name>
+   <tag>CutiUser</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>3dac3b7f-dd08-4f71-8909-aeb46b53c27b</testCaseGuid>
+</TestCaseEntity>

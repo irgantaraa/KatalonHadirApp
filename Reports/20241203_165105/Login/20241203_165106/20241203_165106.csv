@@ -1,0 +1,156 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Login,Chrome 131.0.0.0,Login Test,,03-12-2024 16:51:26,03-12-2024 16:52:03,36.826s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.001,Chrome 131.0.0.0,Login Valid,Login,03-12-2024 16:51:26,03-12-2024 16:51:31,5.118s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:26,03-12-2024 16:51:28,1.439s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:28,03-12-2024 16:51:28,0.053s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:28,03-12-2024 16:51:28,0.567s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:28,03-12-2024 16:51:29,0.506s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:29,03-12-2024 16:51:29,0.532s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:29,03-12-2024 16:51:30,0.297s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:30,03-12-2024 16:51:30,0.274s,PASSED
+waitForPageLoad(10),Chrome 131.0.0.0,,,03-12-2024 16:51:30,03-12-2024 16:51:30,0.088s,PASSED
+"loginSuccess = verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/p_2022 Aplikasi Hadir""), 10, CONTINUE_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:30,03-12-2024 16:51:31,1.097s,PASSED
+if (loginSuccess),Chrome 131.0.0.0,,,03-12-2024 16:51:31,03-12-2024 16:51:31,0.014s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:31,03-12-2024 16:51:31,0.097s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.002,Chrome 131.0.0.0,Login dengan email yang tidak terdaftar,Login,03-12-2024 16:51:31,03-12-2024 16:51:34,2.759s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:31,03-12-2024 16:51:32,0.696s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:32,03-12-2024 16:51:32,0.048s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:32,03-12-2024 16:51:32,0.407s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:32,03-12-2024 16:51:33,0.351s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Irga@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:33,03-12-2024 16:51:33,0.528s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:33,03-12-2024 16:51:34,0.285s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:34,0.272s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:34,0.012s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:34,0.000s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:34,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:34,0.079s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.003,Chrome 131.0.0.0,Login dengan email yang belum di aktivasi,Login,03-12-2024 16:51:34,03-12-2024 16:51:37,2.776s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:34,03-12-2024 16:51:35,0.725s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:35,03-12-2024 16:51:35,0.041s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:35,03-12-2024 16:51:35,0.325s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:35,03-12-2024 16:51:36,0.450s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Irga@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:36,03-12-2024 16:51:36,0.523s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:36,03-12-2024 16:51:36,0.276s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:36,03-12-2024 16:51:37,0.277s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.001s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.082s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.004,Chrome 131.0.0.0,"Login dengan email tanpa menggunakan simbol ""@""",Login,03-12-2024 16:51:37,03-12-2024 16:51:40,3.259s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.680s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:37,0.045s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:37,03-12-2024 16:51:38,0.385s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10)",Chrome 131.0.0.0,,,03-12-2024 16:51:38,03-12-2024 16:51:38,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Adminhadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:38,03-12-2024 16:51:39,0.519s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:39,03-12-2024 16:51:39,0.281s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:39,03-12-2024 16:51:39,0.265s,PASSED
+"emailField = getWebDriver().findElement(By.name(""email""))",Chrome 131.0.0.0,,,03-12-2024 16:51:39,03-12-2024 16:51:40,0.449s,PASSED
+"validationMessage = emailField.getAttribute(""validationMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:40,0.010s,PASSED
+"expectedMessage = ""Please include an '@' in the email address. 'adminhadir.com' is missing an '@'.""",Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:40,0.001s,PASSED
+if (validationMessage == expectedMessage),Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:40,0.000s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:40,0.021s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:40,0.084s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.005,Chrome 131.0.0.0,"Login dengan email dengan menggunakan double simbol ""@""",Login,03-12-2024 16:51:40,03-12-2024 16:51:43,3.079s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:40,03-12-2024 16:51:41,0.696s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:41,03-12-2024 16:51:41,0.029s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:41,03-12-2024 16:51:41,0.462s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10)",Chrome 131.0.0.0,,,03-12-2024 16:51:41,03-12-2024 16:51:41,0.243s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:41,03-12-2024 16:51:42,0.523s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:42,03-12-2024 16:51:42,0.281s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:42,03-12-2024 16:51:43,0.265s,PASSED
+"emailField = getWebDriver().findElement(By.name(""email""))",Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:43,0.433s,PASSED
+"validationMessage = emailField.getAttribute(""validationMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:43,0.010s,PASSED
+"expectedMessage = ""A part following '@' should not contain the symbol '@'.""",Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:43,0.001s,PASSED
+if (validationMessage == expectedMessage),Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:43,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:43,0.084s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.006,Chrome 131.0.0.0,"Login dengan email tanpa menggunakan format .com, .co.id, dll",Login,03-12-2024 16:51:43,03-12-2024 16:51:46,2.674s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:43,03-12-2024 16:51:44,0.638s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:44,03-12-2024 16:51:44,0.035s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:44,03-12-2024 16:51:44,0.337s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:44,03-12-2024 16:51:45,0.465s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.co.id"")",Chrome 131.0.0.0,,,03-12-2024 16:51:45,03-12-2024 16:51:45,0.512s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:45,03-12-2024 16:51:45,0.269s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:45,03-12-2024 16:51:46,0.263s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:46,03-12-2024 16:51:46,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:46,03-12-2024 16:51:46,0.001s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:46,03-12-2024 16:51:46,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:46,03-12-2024 16:51:46,0.105s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.007,Chrome 131.0.0.0,Login tanpa memasukkan Email & password,,03-12-2024 16:51:46,03-12-2024 16:51:48,2.785s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:46,03-12-2024 16:51:47,0.706s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:47,03-12-2024 16:51:47,0.034s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:47,03-12-2024 16:51:47,0.356s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:47,03-12-2024 16:51:47,0.454s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), """")",Chrome 131.0.0.0,,,03-12-2024 16:51:47,03-12-2024 16:51:48,0.503s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), """")",Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.275s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.283s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.000s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:48,03-12-2024 16:51:48,0.082s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.008,Chrome 131.0.0.0,Login dengan email kosong,Login,03-12-2024 16:51:48,03-12-2024 16:51:51,2.710s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:49,03-12-2024 16:51:49,0.659s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:49,03-12-2024 16:51:49,0.039s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:49,03-12-2024 16:51:50,0.361s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:50,03-12-2024 16:51:50,0.457s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), """")",Chrome 131.0.0.0,,,03-12-2024 16:51:50,03-12-2024 16:51:51,0.507s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.285s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.272s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.000s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.002s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:51,0.073s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.009,Chrome 131.0.0.0,Login dengan password kosong,Login,03-12-2024 16:51:51,03-12-2024 16:51:54,2.804s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:51,03-12-2024 16:51:52,0.644s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:52,03-12-2024 16:51:52,0.037s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:52,03-12-2024 16:51:52,0.423s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:52,03-12-2024 16:51:53,0.460s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:53,03-12-2024 16:51:53,0.542s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), """")",Chrome 131.0.0.0,,,03-12-2024 16:51:53,03-12-2024 16:51:54,0.281s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:54,0.274s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:54,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:54,0.000s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:54,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:54,0.088s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.010,Chrome 131.0.0.0,Login dengan menggunakan password invalid,Login,03-12-2024 16:51:54,03-12-2024 16:51:57,3.139s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:54,03-12-2024 16:51:55,0.659s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:55,03-12-2024 16:51:55,0.043s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:55,03-12-2024 16:51:56,0.817s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:56,03-12-2024 16:51:56,0.445s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:56,03-12-2024 16:51:57,0.515s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""4nvbrPglk7k="")",Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.265s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.267s,PASSED
+"errorMessageObject = findTestObject(""Object Repository/Login/Login_Page/div_ErrorMessage"")",Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.001s,PASSED
+if (errorMessageObject != null),Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.001s,PASSED
+else,Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.001s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:57,0.073s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.011,Chrome 131.0.0.0,Verifikasi Password Masking ketika memasukkan password,Login,03-12-2024 16:51:57,03-12-2024 16:52:00,2.483s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:51:57,03-12-2024 16:51:58,0.717s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:51:58,03-12-2024 16:51:58,0.050s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:51:58,03-12-2024 16:51:58,0.364s,PASSED
+"verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10, STOP_ON_FAILURE)",Chrome 131.0.0.0,,,03-12-2024 16:51:58,03-12-2024 16:51:59,0.440s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:51:59,03-12-2024 16:51:59,0.530s,PASSED
+"inputFieldType = getAttribute(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""type"")",Chrome 131.0.0.0,,,03-12-2024 16:51:59,03-12-2024 16:52:00,0.240s,PASSED
+"verifyMatch(inputFieldType, ""password"", false)",Chrome 131.0.0.0,,,03-12-2024 16:52:00,03-12-2024 16:52:00,0.008s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:52:00,03-12-2024 16:52:00,0.088s,PASSED
+,,,,,,,
+Test Cases/Admin/Login/TCC.Hadir.01.012,Chrome 131.0.0.0,Nonaktifkan Password Masking,Login,03-12-2024 16:52:00,03-12-2024 16:52:03,3.109s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:52:00,03-12-2024 16:52:00,0.697s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:52:00,03-12-2024 16:52:00,0.039s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:52:00,03-12-2024 16:52:01,0.295s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:52:01,03-12-2024 16:52:01,0.745s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""admin@hadir"")",Chrome 131.0.0.0,,,03-12-2024 16:52:01,03-12-2024 16:52:02,0.505s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_HiddenPassword""))",Chrome 131.0.0.0,,,03-12-2024 16:52:02,03-12-2024 16:52:02,0.262s,PASSED
+"passwordFieldType = getAttribute(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""type"")",Chrome 131.0.0.0,,,03-12-2024 16:52:02,03-12-2024 16:52:03,0.431s,PASSED
+"Assert.assertEquals(passwordFieldType, ""text"")",Chrome 131.0.0.0,,,03-12-2024 16:52:03,03-12-2024 16:52:03,0.007s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:52:03,03-12-2024 16:52:03,0.093s,PASSED

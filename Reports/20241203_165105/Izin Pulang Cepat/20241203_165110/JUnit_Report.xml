@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Izin Pulang Cepat" time="192.961" tests="13" failures="0" errors="0">
+   <testsuite name="Izin Pulang Cepat" tests="13" failures="0" errors="0" time="192.961" skipped="0" timestamp="03-12-2024T16:52:33" hostname="Irga - Irga.mshome.net" id="Test Suites/Izin Pulang Cepat">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Izin Pulang Cepat\\20241203_165110"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Izin Pulang Cepat\\20241203_165110\\execution0.log"/>
+         <property name="attachments" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Izin Pulang Cepat\\20241203_165110\\1733219661338.png"/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.24.112.1"/>
+         <property name="sessionId" value="62626ca84f7a052fdbeba520bf29620a"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.001" time="9.768" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.001" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:52:33 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.001: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.001
+
+03-12-2024T16:52:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:52:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:52:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:52:35 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:52:35 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:52:35 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:52:35 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:35 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:35 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/input_Email_email (1)"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/input_Email_email (1)'
+
+03-12-2024T16:52:36 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/input_Email_email (1)'
+
+03-12-2024T16:52:36 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)'
+
+03-12-2024T16:52:36 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)'
+
+03-12-2024T16:52:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/button_Masuk (1)")): Object: 'Object Repository/Admin/IzinPulangCepatPage/button_Masuk (1)' is clicked on
+
+03-12-2024T16:52:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/button_Masuk (1)' is clicked on
+
+03-12-2024T16:52:37 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/p_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/p_Laporan' is clicked on
+
+03-12-2024T16:52:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/p_Laporan' is clicked on
+
+03-12-2024T16:52:38 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:39 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/svg_Start Date_feather feather-calendar (1)")): Object: 'Object Repository/Admin/IzinPulangCepatPage/svg_Start Date_feather feather-calendar (1)' is clicked on
+
+03-12-2024T16:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/svg_Start Date_feather feather-calendar (1)' is clicked on
+
+03-12-2024T16:52:40 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:52:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:52:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate"), "Nov 1, 2024"): Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:52:41 - [MESSAGE][PASSED] - Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:52:41 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:52:41 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:52:41 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate"), "Nov 25, 2024"): Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:52:42 - [MESSAGE][PASSED] - Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:52:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/button_Search (1)")): Object: 'Object Repository/Admin/IzinPulangCepatPage/button_Search (1)' is clicked on
+
+03-12-2024T16:52:42 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/button_Search (1)' is clicked on
+
+03-12-2024T16:52:42 - [TEST_STEP][PASSED] - assert verifyElementText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/td_kazama (1)"), "kazama"): Actual text and expected text of test object 'Object Repository/Admin/IzinPulangCepatPage/td_kazama (1)' are matched.
+
+03-12-2024T16:52:43 - [MESSAGE][PASSED] - Actual text and expected text of test object 'Object Repository/Admin/IzinPulangCepatPage/td_kazama (1)' are matched.
+
+03-12-2024T16:52:43 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:52:43 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.002" time="9.138" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.002" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:52:43 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.002: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.002
+
+03-12-2024T16:52:43 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:52:43 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:52:43 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:52:43 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:52:43 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:52:43 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:52:43 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:44 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:44 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:52:45 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:52:45 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:52:45 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:52:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:52:46 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:52:46 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:52:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:52:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:48 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Kazama"): Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:52:49 - [MESSAGE][PASSED] - Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:52:49 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:52:49 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:52:49 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate"), "Nov 1, 2024"): Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:52:50 - [MESSAGE][PASSED] - Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:52:50 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:52:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:52:50 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate"), "Nov 25, 2024"): Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:52:51 - [MESSAGE][PASSED] - Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:52:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:52:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:52:51 - [TEST_STEP][PASSED] - isKazamaPresent = verifyElementPresent(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:52:52 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:52:52 - [TEST_STEP][PASSED] - assert isKazamaPresent : "The search result for 'Kazama' is not displayed.": null
+
+03-12-2024T16:52:52 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:52:52 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.003" time="7.429" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.003" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:52:52 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.003: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.003
+
+03-12-2024T16:52:52 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:52:52 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:52:52 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:52:53 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:52:53 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:52:53 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:52:53 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:53 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:52:53 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:52:54 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:52:54 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:52:54 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:52:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:52:54 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:52:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:52:56 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:57 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:52:57 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Abc"): Text 'Abc' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:52:58 - [MESSAGE][PASSED] - Text 'Abc' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:52:58 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:52:58 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:52:58 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:52:59 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - paginationElement = findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"): null
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - if (paginationElement != null): No search results found.
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - waitForElementVisible(paginationElement, 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:52:59 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - paginationText = getText(paginationElement): Text of object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is: '0-0 of 0'
+
+03-12-2024T16:52:59 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is: '0-0 of 0'
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - println("Pagination text: " + paginationText): null
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - if (paginationText == "0-0 of 0"): No search results found.
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - comment("No search results found."): No search results found.
+
+03-12-2024T16:52:59 - [MESSAGE][INFO] - No search results found.
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:52:59 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.004" time="7.705" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.004" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:52:59 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.004: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.004
+
+03-12-2024T16:52:59 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:52:59 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:52:59 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:53:00 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:53:00 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:53:00 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:53:00 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:01 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:01 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:01 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:02 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:03 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:04 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "123"): Text '123' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:06 - [MESSAGE][PASSED] - Text '123' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:06 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:06 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:06 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:53:06 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:53:06 - [TEST_STEP][PASSED] - paginationElement = findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows"): null
+
+03-12-2024T16:53:06 - [TEST_STEP][PASSED] - if (paginationElement != null): No search results found.
+
+03-12-2024T16:53:06 - [TEST_STEP][PASSED] - waitForElementVisible(paginationElement, 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:53:07 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is visible
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - paginationText = getText(paginationElement): Text of object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is: '0-0 of 0'
+
+03-12-2024T16:53:07 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/pagination_DisplayedRows' is: '0-0 of 0'
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - println("Pagination text: " + paginationText): null
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - if (paginationText == "0-0 of 0"): No search results found.
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - comment("No search results found."): No search results found.
+
+03-12-2024T16:53:07 - [MESSAGE][INFO] - No search results found.
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:53:07 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.005" time="8.505" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.005" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:53:07 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.005: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.005
+
+03-12-2024T16:53:07 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:53:07 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:53:07 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:53:08 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:53:08 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:53:08 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:53:08 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:08 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:09 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:09 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:09 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:11 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T16:53:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama")): Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama' is clicked on
+
+03-12-2024T16:53:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama' is clicked on
+
+03-12-2024T16:53:15 - [TEST_STEP][PASSED] - isPresent = verifyElementVisible(findTestObject("Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama")): Object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama' is visible
+
+03-12-2024T16:53:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/005/Page_HADIR/td_kazama' is visible
+
+03-12-2024T16:53:15 - [TEST_STEP][PASSED] - assert isPresent == true : "Search result for 'Kazama' not found.": null
+
+03-12-2024T16:53:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:53:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.006" time="9.342" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.006" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:53:15 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.006: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.006
+
+03-12-2024T16:53:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:53:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:53:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:53:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:53:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:53:16 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:53:16 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:17 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:17 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:18 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:18 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:18 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:20 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:53:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:53:23 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate"), "Nov 25, 2024"): Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:53:24 - [MESSAGE][PASSED] - Text 'Nov 25, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:53:24 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:24 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:24 - [TEST_STEP][PASSED] - isKazamaPresent = verifyElementPresent(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:25 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:25 - [TEST_STEP][PASSED] - assert isKazamaPresent : "The search result for 'Nov 25, 2024' is displayed.": null
+
+03-12-2024T16:53:25 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:53:25 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.007" time="7.832" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.007" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:53:25 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.007: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.007
+
+03-12-2024T16:53:25 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:53:25 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:53:25 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:53:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:53:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:53:25 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:53:25 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:26 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:27 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:27 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:29 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:30 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:30 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Kazama"): Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:31 - [MESSAGE][PASSED] - Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:31 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:53:31 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:53:31 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate"), "Nov 1, 2024"): Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:53:32 - [MESSAGE][PASSED] - Text 'Nov 1, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:53:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:32 - [TEST_STEP][PASSED] - isKazamaPresent = verifyElementPresent(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:33 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:33 - [TEST_STEP][PASSED] - assert isKazamaPresent : "The search result for 'Nov 1, 2024' is displayed.": null
+
+03-12-2024T16:53:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:53:33 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.008" time="8.39" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.008" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:53:33 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.008: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.008
+
+03-12-2024T16:53:33 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:53:33 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:53:33 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:53:33 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:53:33 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:53:33 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:53:33 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:34 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:53:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:34 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:53:34 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:35 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:35 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:53:35 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:36 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:53:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:37 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:53:37 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Kazama"): Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:39 - [MESSAGE][PASSED] - Text 'Kazama' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:53:39 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate' is clicked on
+
+03-12-2024T16:53:39 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate"), "Nov 30, 2024"): Text 'Nov 30, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:53:39 - [MESSAGE][PASSED] - Text 'Nov 30, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'
+
+03-12-2024T16:53:39 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate' is clicked on
+
+03-12-2024T16:53:40 - [TEST_STEP][PASSED] - setText(findTestObject("Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate"), "Nov 30, 2024"): Text 'Nov 30, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:53:40 - [MESSAGE][PASSED] - Text 'Nov 30, 2024' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'
+
+03-12-2024T16:53:40 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:40 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:53:40 - [TEST_STEP][PASSED] - isTablePresent = verifyElementPresent(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:41 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/td_kazama' is present
+
+03-12-2024T16:53:41 - [TEST_STEP][PASSED] - assert isTablePresent : "The search result for 'Nov 30,2024' is displayed.": null
+
+03-12-2024T16:53:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:53:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009" time="35.718" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:54:21 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009
+
+03-12-2024T16:54:21 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:54:21 - [MESSAGE][WARNING] - A browser is already opened. Closing browser and opening a new one
+
+03-12-2024T16:54:21 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:54:21 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:54:22 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:54:22 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:54:22 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:54:22 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:54:22 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:54:22 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:54:23 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:54:23 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:23 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:23 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:23 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:23 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:54:25 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:54:25 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:54:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:54:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:54:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "IT Programmer"): Text 'IT Programmer' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:27 - [MESSAGE][PASSED] - Text 'IT Programmer' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:27 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:28 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:28 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:28 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:54:28 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:54:56 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:54:56 - [TEST_STEP][PASSED] - actualNama = getText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama")): Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama' is: 'kazama'
+
+03-12-2024T16:54:56 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama' is: 'kazama'
+
+03-12-2024T16:54:56 - [TEST_STEP][PASSED] - actualUnit = getText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit")): Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'IT Programmer'
+
+03-12-2024T16:54:57 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'IT Programmer'
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - expectedNama = "kazama": null
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - expectedUnit = "IT Programmer": null
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - assert actualNama == expectedNama: null
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - assert actualUnit == expectedUnit: null
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:54:57 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.010" time="8.745" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.010" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:54:57 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.010: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.010
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:54:57 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:54:57 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:54:57 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:54:57 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:54:57 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:54:58 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:54:58 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:54:58 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:54:58 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:59 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:59 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:59 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:54:59 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:00 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:00 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:02 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:02 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:02 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "Keuangan"): Text 'Keuangan' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:03 - [MESSAGE][PASSED] - Text 'Keuangan' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:03 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:04 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:04 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:55:05 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:55:05 - [TEST_STEP][PASSED] - actualUnit = getText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit")): Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'IT Programmer'
+
+03-12-2024T16:55:05 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'IT Programmer'
+
+03-12-2024T16:55:05 - [TEST_STEP][PASSED] - expectedUnit = "Keuangan": null
+
+03-12-2024T16:55:05 - [TEST_STEP][PASSED] - assert actualUnit != expectedUnit: null
+
+03-12-2024T16:55:05 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:55:05 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.012" time="9.917" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.012" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:55:05 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.012: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.012
+
+03-12-2024T16:55:05 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:55:05 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:55:05 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:55:06 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:55:06 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:55:06 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:55:06 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:07 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:07 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:07 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:07 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:08 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:08 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:08 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:10 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:13 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "Keuangan"): Text 'Keuangan' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:14 - [MESSAGE][PASSED] - Text 'Keuangan' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:14 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter' is visible
+
+03-12-2024T16:55:15 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter' is visible
+
+03-12-2024T16:55:15 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/ButtonbatalFilter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/ButtonbatalFilter' is clicked on
+
+03-12-2024T16:55:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/ButtonbatalFilter' is clicked on
+
+03-12-2024T16:55:15 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:55:15 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.013" time="8.597" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.013" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:55:15 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.013: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.013
+
+03-12-2024T16:55:15 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:55:15 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:55:15 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:55:16 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:55:16 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:55:16 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:55:16 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:16 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:16 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:17 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:17 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:17 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:17 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:18 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:18 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:19 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:19 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:20 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:20 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:21 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:21 - [TEST_STEP][PASSED] - waitForElementVisible(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter"), 10): Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter' is visible
+
+03-12-2024T16:55:21 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/modal_Filter' is visible
+
+03-12-2024T16:55:21 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "IT Programmer"): Text 'IT Programmer' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:22 - [MESSAGE][PASSED] - Text 'IT Programmer' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:22 - [TEST_STEP][PASSED] - click(findTestObject("Admin/IzinPulangCepatPage/009/Page_HADIR/buttonX")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/buttonX' is clicked on
+
+03-12-2024T16:55:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/buttonX' is clicked on
+
+03-12-2024T16:55:23 - [TEST_STEP][PASSED] - waitForElementAttributeValue(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "value", "", 10): Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement' has attribute 'value' with value ''
+
+03-12-2024T16:55:24 - [MESSAGE][PASSED] - Object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement' has attribute 'value' with value ''
+
+03-12-2024T16:55:24 - [TEST_STEP][PASSED] - unitValueAfterClear = getAttribute(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "value"): Attribute 'value' of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement' is: ''
+
+03-12-2024T16:55:24 - [MESSAGE][PASSED] - Attribute 'value' of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement' is: ''
+
+03-12-2024T16:55:24 - [TEST_STEP][PASSED] - assert unitValueAfterClear == "": null
+
+03-12-2024T16:55:24 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:55:24 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.011" time="21.826" classname="Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.011" status="PASSED">
+         <system-out><![CDATA[03-12-2024T16:55:24 - [TEST_CASE][PASSED] - Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.011: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.011
+
+03-12-2024T16:55:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T16:55:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T16:55:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T16:55:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T16:55:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T16:55:25 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T16:55:25 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:25 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T16:55:25 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:26 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Email_email'
+
+03-12-2024T16:55:26 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:26 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Password_password'
+
+03-12-2024T16:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:55:26 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T16:55:26 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:32 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/div_Laporan' is clicked on
+
+03-12-2024T16:55:32 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:33 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/p_Izin Pulang Cepat' is clicked on
+
+03-12-2024T16:55:33 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search"), "Agung Aji Nugraha"): Text 'Agung Aji Nugraha' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:55:34 - [MESSAGE][PASSED] - Text 'Agung Aji Nugraha' is set on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/input_Search_search'
+
+03-12-2024T16:55:34 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter")): Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:34 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/svg__feather feather-filter' is clicked on
+
+03-12-2024T16:55:34 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), "AMEX MERCHANT"): Text 'AMEX MERCHANT' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:35 - [MESSAGE][PASSED] - Text 'AMEX MERCHANT' is set on object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:35 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), Keys.chord(DOWN)): Keys 'DOWN + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:36 - [MESSAGE][PASSED] - Keys 'DOWN + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:36 - [TEST_STEP][PASSED] - sendKeys(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement"), Keys.chord(ENTER)): Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:36 - [MESSAGE][PASSED] - Keys 'ENTER + ' sent to object: 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/input_Unit_job_departement'
+
+03-12-2024T16:55:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60")): Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:55:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60' is clicked on
+
+03-12-2024T16:55:45 - [TEST_STEP][PASSED] - actualNama = getText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama")): Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama' is: 'Agung Aji Nugraha'
+
+03-12-2024T16:55:45 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_nama' is: 'Agung Aji Nugraha'
+
+03-12-2024T16:55:45 - [TEST_STEP][PASSED] - actualUnit = getText(findTestObject("Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit")): Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'AMEX MERCHANT'
+
+03-12-2024T16:55:46 - [MESSAGE][PASSED] - Text of object 'Object Repository/Admin/IzinPulangCepatPage/009/Page_HADIR/td_unit' is: 'AMEX MERCHANT'
+
+03-12-2024T16:55:46 - [TEST_STEP][PASSED] - expectedNama = "Agung Aji Nugraha": null
+
+03-12-2024T16:55:46 - [TEST_STEP][PASSED] - expectedUnit = "AMEX MERCHANT": null
+
+03-12-2024T16:55:46 - [TEST_STEP][PASSED] - assert actualNama == expectedNama: null
+
+03-12-2024T16:55:46 - [TEST_STEP][PASSED] - assert actualUnit == expectedUnit: null
+
+03-12-2024T16:55:46 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T16:55:46 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-12-2024T16:52:33 - [TEST_SUITE][FAILED] - Izin Pulang Cepat: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TCC.Hadir.04.009.run(TCC.Hadir.04.009:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733219470027.run(TempTestSuite1733219470027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SearchIcon">...</svg> is not clickable at point (1475, 171). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-ekeie0" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [895a2a8da41dc0658d5b27cf83f7128c, clickElement {id=f.7D920C2D4693FDED7F07A3F6E228B7A7.d.94C313F44BB00D4C3AD2338CB462D1DD.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58741/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29317/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (895a2a8da41dc0658d5b27cf83f7128c)] -> xpath: (.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]//*[name()='svg'][1]]
+Session ID: 895a2a8da41dc0658d5b27cf83f7128c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$H2HqkUpX.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-out>
+      <system-err><![CDATA[03-12-2024T16:52:33 - [TEST_SUITE][FAILED] - Izin Pulang Cepat: Test Cases/Admin/Laporan/01 Izin Pulang Cepat/TCC.Hadir.04.009 FAILED.
+Reason:
+com.kms.katalon.core.exception.StepFailedException: Unable to click on object 'Object Repository/Admin/IzinPulangCepatPage/002/Page_HADIR/svg_Search_MuiSvgIcon-root MuiSvgIcon-fontS_495b60'
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.stepFailed(WebUIKeywordMain.groovy:117)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.click(ClickKeyword.groovy:75)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.execute(ClickKeyword.groovy:40)
+	at com.kms.katalon.core.keyword.internal.KeywordExecutor.executeKeywordForPlatform(KeywordExecutor.groovy:74)
+	at com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords.click(WebUiBuiltInKeywords.groovy:696)
+	at TCC.Hadir.04.009.run(TCC.Hadir.04.009:49)
+	at com.kms.katalon.core.main.ScriptEngine.run(ScriptEngine.java:194)
+	at com.kms.katalon.core.main.ScriptEngine.runScriptAsRawText(ScriptEngine.java:119)
+	at com.kms.katalon.core.main.TestCaseExecutor.runScript(TestCaseExecutor.java:448)
+	at com.kms.katalon.core.main.TestCaseExecutor.doExecute(TestCaseExecutor.java:439)
+	at com.kms.katalon.core.main.TestCaseExecutor.processExecutionPhase(TestCaseExecutor.java:418)
+	at com.kms.katalon.core.main.TestCaseExecutor.accessMainPhase(TestCaseExecutor.java:410)
+	at com.kms.katalon.core.main.TestCaseExecutor.execute(TestCaseExecutor.java:285)
+	at com.kms.katalon.core.common.CommonExecutor.accessTestCaseMainPhase(CommonExecutor.java:65)
+	at com.kms.katalon.core.main.TestSuiteExecutor.accessTestSuiteMainPhase(TestSuiteExecutor.java:161)
+	at com.kms.katalon.core.main.TestSuiteExecutor.execute(TestSuiteExecutor.java:107)
+	at com.kms.katalon.core.main.TestCaseMain.startTestSuite(TestCaseMain.java:176)
+	at TempTestSuite1733219470027.run(TempTestSuite1733219470027.groovy:35)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+Caused by: org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <svg class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-1k33q06" focusable="false" aria-hidden="true" viewBox="0 0 24 24" data-testid="SearchIcon">...</svg> is not clickable at point (1475, 171). Other element would receive the click: <div class="MuiDialog-container MuiDialog-scrollPaper css-ekeie0" role="presentation" tabindex="-1" style="opacity: 1; transition: opacity 225ms cubic-bezier(0.4, 0, 0.2, 1);">...</div>
+  (Session info: chrome=131.0.6778.86)
+Build info: version: '4.22.0', revision: 'c5f3146703'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '17.0.7'
+Driver info: com.kms.katalon.selenium.driver.CChromeDriver
+Command: [895a2a8da41dc0658d5b27cf83f7128c, clickElement {id=f.7D920C2D4693FDED7F07A3F6E228B7A7.d.94C313F44BB00D4C3AD2338CB462D1DD.e.73}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 130.0.6723.91 (53ac07678369..., userDataDir: C:\Users\User\AppData\Local...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:58741}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:58741/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: ignore, webSocketUrl: ws://localhost:29317/sessio..., webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[CChromeDriver: chrome on windows (895a2a8da41dc0658d5b27cf83f7128c)] -> xpath: (.//*[normalize-space(text()) and normalize-space(.)='Search'])[2]//*[name()='svg'][1]]
+Session ID: 895a2a8da41dc0658d5b27cf83f7128c
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:518)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at jdk.internal.reflect.GeneratedMethodAccessor24.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.call(WebDriverDecorator.java:249)
+	at org.openqa.selenium.support.decorators.DefaultDecorated.call(DefaultDecorated.java:48)
+	at org.openqa.selenium.support.decorators.WebDriverDecorator.lambda$createProxy$2(WebDriverDecorator.java:321)
+	at net.bytebuddy.renamed.java.lang.Object$ByteBuddy$H2HqkUpX.click(Unknown Source)
+	at org.openqa.selenium.WebElement$click.call(Unknown Source)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy:82)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword.clickUntilSuccessWithTimeout(ClickKeyword.groovy)
+	at jdk.internal.reflect.GeneratedMethodAccessor22.invoke(Unknown Source)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.doCall(ClickKeyword.groovy:68)
+	at com.kms.katalon.core.webui.keyword.builtin.ClickKeyword$_click_closure1.call(ClickKeyword.groovy)
+	at com.kms.katalon.core.webui.keyword.internal.WebUIKeywordMain.runKeyword(WebUIKeywordMain.groovy:35)
+	... 20 more]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Client Upliner" time="8.197" tests="1" failures="0" errors="0">
+   <testsuite name="Client Upliner" tests="1" failures="0" errors="0" time="8.197" skipped="0" timestamp="03-12-2024T17:02:09" hostname="Irga - Irga.mshome.net" id="Test Suites/Client Upliner">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Client Upliner\\20241203_165120"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241203_165105\\Client Upliner\\20241203_165120\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.24.112.1"/>
+         <property name="sessionId" value="6860fc4070f38300a622dbb971964ee5"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/Admin/Management/Client Upliner/TCC.Hadir.04.1" time="8.091" classname="Test Cases/Admin/Management/Client Upliner/TCC.Hadir.04.1" status="PASSED">
+         <system-out><![CDATA[03-12-2024T17:02:09 - [TEST_CASE][PASSED] - Test Cases/Admin/Management/Client Upliner/TCC.Hadir.04.1: Test Cases/Admin/Management/Client Upliner/TCC.Hadir.04.1
+
+03-12-2024T17:02:09 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+03-12-2024T17:02:10 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+03-12-2024T17:02:10 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+03-12-2024T17:02:11 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+03-12-2024T17:02:11 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+03-12-2024T17:02:11 - [MESSAGE][PASSED] - Current window maximized
+
+03-12-2024T17:02:11 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/authentication/login"): Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:02:11 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/authentication/login' successfully
+
+03-12-2024T17:02:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/input_Email_email"), "Admin@hadir.com"): Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Email_email'
+
+03-12-2024T17:02:12 - [MESSAGE][PASSED] - Text 'Admin@hadir.com' is set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Email_email'
+
+03-12-2024T17:02:12 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/input_Password_password"), "aSC42nPN26UggVXAwmiGmQ=="): Text ****** has been set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Password_password'
+
+03-12-2024T17:02:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Password_password'
+
+03-12-2024T17:02:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/button_Masuk")): Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:02:13 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/button_Masuk' is clicked on
+
+03-12-2024T17:02:13 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/div_Management")): Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:02:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/div_Management' is clicked on
+
+03-12-2024T17:02:14 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/p_Client Upliner")): Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/p_Client Upliner' is clicked on
+
+03-12-2024T17:02:15 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/p_Client Upliner' is clicked on
+
+03-12-2024T17:02:15 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/input_Admin Hadir_search"), "Bagus Lesmana"): Text 'Bagus Lesmana' is set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:02:16 - [MESSAGE][PASSED] - Text 'Bagus Lesmana' is set on object 'Object Repository/Admin/Client Upliner/Page_HADIR/input_Admin Hadir_search'
+
+03-12-2024T17:02:16 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/button_Search")): Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/button_Search' is clicked on
+
+03-12-2024T17:02:17 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Admin/Client Upliner/Page_HADIR/td_Bagus Lesmana")): Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/td_Bagus Lesmana' is clicked on
+
+03-12-2024T17:02:17 - [MESSAGE][PASSED] - Object: 'Object Repository/Admin/Client Upliner/Page_HADIR/td_Bagus Lesmana' is clicked on
+
+03-12-2024T17:02:17 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+03-12-2024T17:02:17 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[03-12-2024T17:02:09 - [TEST_SUITE][PASSED] - Client Upliner: Test Cases/Admin/Management/Client Upliner/TCC.Hadir.04.1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

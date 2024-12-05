@@ -25,8 +25,7 @@ WebUI.navigateToUrl('https://magang.dikahadir.com/authentication/login')
 
 WebUI.setText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/input_Email_email (1)'), 'Admin@hadir.com')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)'), 
-    'aSC42nPN26UggVXAwmiGmQ==')
+WebUI.setEncryptedText(findTestObject('Object Repository/Admin/IzinPulangCepatPage/input_Password_password (1)'), 'aSC42nPN26UggVXAwmiGmQ==')
 
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/button_Masuk (1)'))
 
@@ -36,11 +35,13 @@ WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/p_Izin P
 
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/svg_Start Date_feather feather-calendar (1)'))
 
-WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/November1'))
+WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'))
 
-WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/November24'))
+WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/StartDate'), 'Nov 1, 2024')
 
-WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/button_save'))
+WebUI.click(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'))
+
+WebUI.setText(findTestObject('Admin/IzinPulangCepatPage/002/Page_HADIR/EndDate'), 'Nov 25, 2024')
 
 WebUI.click(findTestObject('Object Repository/Admin/IzinPulangCepatPage/button_Search (1)'))
 

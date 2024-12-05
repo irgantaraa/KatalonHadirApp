@@ -1,0 +1,5 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Absen Point,,,,03-12-2024 16:39:07,03-12-2024 16:39:07,0.291s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Absen Point/TCC.Hadir.04.1,,,Absen Point,03-12-2024 16:39:07,03-12-2024 16:39:07,0.152s,PASSED
+return null,,,,03-12-2024 16:39:07,03-12-2024 16:39:07,0.002s,PASSED

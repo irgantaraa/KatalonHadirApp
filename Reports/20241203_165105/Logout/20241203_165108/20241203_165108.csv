@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,Chrome 131.0.0.0,,,03-12-2024 16:52:13,03-12-2024 16:52:21,8.382s,PASSED
+,,,,,,,
+Test Cases/Admin/Logout/TCC.Hadir.01.013,Chrome 131.0.0.0,Verifikasi Log out akun,Logout,03-12-2024 16:52:13,03-12-2024 16:52:21,8.277s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 16:52:13,03-12-2024 16:52:15,1.460s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 16:52:15,03-12-2024 16:52:15,0.046s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 16:52:15,03-12-2024 16:52:15,0.362s,PASSED
+"setText(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 16:52:15,03-12-2024 16:52:16,0.815s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Login/Login_Page/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 16:52:16,03-12-2024 16:52:16,0.292s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/button_Masuk""))",Chrome 131.0.0.0,,,03-12-2024 16:52:16,03-12-2024 16:52:16,0.292s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/Page_HADIR/polyline""))",Chrome 131.0.0.0,,,03-12-2024 16:52:16,03-12-2024 16:52:20,3.510s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/Page_HADIR/button_Logout""))",Chrome 131.0.0.0,,,03-12-2024 16:52:20,03-12-2024 16:52:20,0.464s,PASSED
+"click(findTestObject(""Object Repository/Login/Login_Page/Page_HADIR/p_Login""))",Chrome 131.0.0.0,,,03-12-2024 16:52:20,03-12-2024 16:52:21,0.560s,PASSED
+"isEmailFieldVisible = verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10)",Chrome 131.0.0.0,,,03-12-2024 16:52:21,03-12-2024 16:52:21,0.234s,PASSED
+"Assert.assertTrue(isEmailFieldVisible, ""Login page is not displayed after logout."")",Chrome 131.0.0.0,,,03-12-2024 16:52:21,03-12-2024 16:52:21,0.010s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 16:52:21,03-12-2024 16:52:21,0.104s,PASSED

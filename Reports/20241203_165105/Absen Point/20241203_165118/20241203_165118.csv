@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Absen Point,Chrome 131.0.0.0,,,03-12-2024 17:01:52,03-12-2024 17:02:00,7.847s,PASSED
+,,,,,,,
+Test Cases/Admin/Management/Absen Point/TCC.Hadir.04.1,Chrome 131.0.0.0,,Absen Point,03-12-2024 17:01:52,03-12-2024 17:02:00,7.737s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,03-12-2024 17:01:52,03-12-2024 17:01:53,1.454s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,03-12-2024 17:01:53,03-12-2024 17:01:54,0.046s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/authentication/login"")",Chrome 131.0.0.0,,,03-12-2024 17:01:54,03-12-2024 17:01:54,0.545s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/input_Email_email""), ""Admin@hadir.com"")",Chrome 131.0.0.0,,,03-12-2024 17:01:54,03-12-2024 17:01:55,0.811s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/input_Password_password""), ""aSC42nPN26UggVXAwmiGmQ=="")",Chrome 131.0.0.0,,,03-12-2024 17:01:55,03-12-2024 17:01:55,0.298s,PASSED
+"sendKeys(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/input_Password_password""), Keys.chord(ENTER))",Chrome 131.0.0.0,,,03-12-2024 17:01:55,03-12-2024 17:01:55,0.280s,PASSED
+"click(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/div_Management""))",Chrome 131.0.0.0,,,03-12-2024 17:01:55,03-12-2024 17:01:57,1.209s,PASSED
+"click(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/p_Absen Point""))",Chrome 131.0.0.0,,,03-12-2024 17:01:57,03-12-2024 17:01:58,0.911s,PASSED
+"setText(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/input_Admin Hadir_search""), ""BPN"")",Chrome 131.0.0.0,,,03-12-2024 17:01:58,03-12-2024 17:01:59,1.071s,PASSED
+"click(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/button_Search""))",Chrome 131.0.0.0,,,03-12-2024 17:01:59,03-12-2024 17:01:59,0.264s,PASSED
+"click(findTestObject(""Object Repository/Admin/Absen Point/Page_HADIR/td_BPN""))",Chrome 131.0.0.0,,,03-12-2024 17:01:59,03-12-2024 17:01:59,0.583s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,03-12-2024 17:01:59,03-12-2024 17:02:00,0.110s,PASSED
