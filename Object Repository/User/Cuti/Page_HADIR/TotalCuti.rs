@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='mui-p-79547-P-infoCuti']/ul</value>
+         <value>//p[contains(text(), 'Total :')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>ul</value>
-      <webElementGuid>88e3a24f-4e63-49c8-affe-973899c28915</webElementGuid>
+      <webElementGuid>41be834c-b688-4177-b126-07898d5c6c08</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiList-root MuiList-padding css-1ontqvh</value>
-      <webElementGuid>486a5732-15c2-4270-a6f2-4ef5ca757ec8</webElementGuid>
+      <webElementGuid>a33b9516-fc16-423e-b573-348dca9d6172</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -45,7 +45,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Total Cuti: 0Total cuti tersedia: Total cuti bersama: 0Total cuti disetujui: 0Total cuti yang sedang diajukan: 0Total sisa cuti (Annual): 0</value>
-      <webElementGuid>307edbbe-7213-471d-824c-c19a0527cb0f</webElementGuid>
+      <webElementGuid>17a83bc8-c4e0-44e8-85b5-1fc12ef3cd18</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -53,7 +53,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-p-79547-P-infoCuti&quot;)/ul[@class=&quot;MuiList-root MuiList-padding css-1ontqvh&quot;]</value>
-      <webElementGuid>c38c74c6-035a-4fb5-8e53-8bae26c5266e</webElementGuid>
+      <webElementGuid>e3755b6a-0f73-413f-a260-5e1f086c2028</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -61,7 +61,7 @@
       <name>xpath:idRelative</name>
       <type>Main</type>
       <value>//div[@id='mui-p-79547-P-infoCuti']/ul</value>
-      <webElementGuid>89574b11-8040-4379-8555-084fe96acb22</webElementGuid>
+      <webElementGuid>088ca6e6-c53d-4668-8a6c-2d5d959901c3</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Info Cuti'])[1]/following::ul[1]</value>
-      <webElementGuid>740d7685-b869-4510-bd91-6044d275bd35</webElementGuid>
+      <webElementGuid>7eea19ee-7b94-4438-b674-cfec004e5051</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Form Cuti'])[1]/following::ul[1]</value>
-      <webElementGuid>83660f51-df70-4ce8-b837-c860e773a005</webElementGuid>
+      <webElementGuid>6389e580-1b98-425e-b4b3-232c02e7a589</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -85,7 +85,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//ul</value>
-      <webElementGuid>4e697d32-0b35-45b5-9d91-63f92609d7eb</webElementGuid>
+      <webElementGuid>ebf090f8-4954-4f50-bb6a-17963d65a637</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -93,6 +93,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//ul[(text() = 'Total Cuti: 0Total cuti tersedia: Total cuti bersama: 0Total cuti disetujui: 0Total cuti yang sedang diajukan: 0Total sisa cuti (Annual): 0' or . = 'Total Cuti: 0Total cuti tersedia: Total cuti bersama: 0Total cuti disetujui: 0Total cuti yang sedang diajukan: 0Total sisa cuti (Annual): 0')]</value>
-      <webElementGuid>38abfe9e-5d7b-44e1-867f-559917ad8563</webElementGuid>
+      <webElementGuid>f736dfb8-ebe0-46fa-bf9b-4c6b21379b00</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

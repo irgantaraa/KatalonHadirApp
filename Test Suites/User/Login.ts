@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Cuti</name>
+   <name>Login</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,12 +10,12 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>true</rerunImmediately>
-   <testSuiteGuid>dd848ebb-e3ef-4dfd-a06c-dfe32a0c7813</testSuiteGuid>
+   <testSuiteGuid>71792c27-4c24-445e-b01d-04c034736831</testSuiteGuid>
    <testCaseLink>
-      <guid>a0a44d4f-f407-4e18-912d-a3595d687b91</guid>
+      <guid>333c492c-23ed-44c3-9499-85fae83711a3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/User/Cuti/TCC.Hadir.04.074</testCaseId>
+      <testCaseId>Test Cases/User/Login/TCC.Hadir.01.001.Login</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

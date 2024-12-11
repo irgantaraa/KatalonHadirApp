@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Cuti" time="6.469" tests="1" failures="0" errors="0">
+   <testsuite name="Cuti" tests="1" failures="0" errors="0" time="6.469" skipped="0" timestamp="08-12-2024T13:08:24" hostname="Irga - Irga.mshome.net" id="Test Suites/User/Cuti">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241208_130818\\User\\Cuti\\20241208_130818"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241208_130818\\User\\Cuti\\20241208_130818\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.26.192.1"/>
+         <property name="sessionId" value="4ee609c39f5207e19cfd5e0bc2ef2a7e"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User/Cuti/TCC.Hadir.04.074" time="6.361" classname="Test Cases/User/Cuti/TCC.Hadir.04.074" status="PASSED">
+         <system-out><![CDATA[08-12-2024T13:08:24 - [TEST_CASE][PASSED] - Test Cases/User/Cuti/TCC.Hadir.04.074: Test Cases/User/Cuti/TCC.Hadir.04.074
+
+08-12-2024T13:08:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-12-2024T13:08:24 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T13:08:24 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T13:08:25 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-12-2024T13:08:25 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T13:08:25 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T13:08:25 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/absen/login"): Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+08-12-2024T13:08:26 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+08-12-2024T13:08:26 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/Cuti/Page_HADIR/input_Email_email"), "testuser1@gmail.com"): Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Cuti/Page_HADIR/input_Email_email'
+
+08-12-2024T13:08:27 - [MESSAGE][PASSED] - Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Cuti/Page_HADIR/input_Email_email'
+
+08-12-2024T13:08:27 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/Cuti/Page_HADIR/input_Password_password"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/User/Cuti/Page_HADIR/input_Password_password'
+
+08-12-2024T13:08:27 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/Cuti/Page_HADIR/input_Password_password'
+
+08-12-2024T13:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Cuti/Page_HADIR/button_Masuk")): Object: 'Object Repository/User/Cuti/Page_HADIR/button_Masuk' is clicked on
+
+08-12-2024T13:08:27 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Cuti/Page_HADIR/button_Masuk' is clicked on
+
+08-12-2024T13:08:27 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Cuti/Page_HADIR/img")): Object: 'Object Repository/User/Cuti/Page_HADIR/img' is clicked on
+
+08-12-2024T13:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Cuti/Page_HADIR/img' is clicked on
+
+08-12-2024T13:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Cuti/Page_HADIR/button_Ajukan Cuti")): Object: 'Object Repository/User/Cuti/Page_HADIR/button_Ajukan Cuti' is clicked on
+
+08-12-2024T13:08:29 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Cuti/Page_HADIR/button_Ajukan Cuti' is clicked on
+
+08-12-2024T13:08:29 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Cuti/Page_HADIR/button_Info Cuti")): Object: 'Object Repository/User/Cuti/Page_HADIR/button_Info Cuti' is clicked on
+
+08-12-2024T13:08:30 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Cuti/Page_HADIR/button_Info Cuti' is clicked on
+
+08-12-2024T13:08:30 - [TEST_STEP][PASSED] - if (findTestObject("Object Repository/TotalCuti") == null): Test Object 'TotalCuti' is null. Please check the Object Repository path.
+
+08-12-2024T13:08:30 - [MESSAGE][WARNING] - Test object with id 'Object Repository/TotalCuti' does not exist
+
+08-12-2024T13:08:30 - [TEST_STEP][PASSED] - comment("Test Object 'TotalCuti' is null. Please check the Object Repository path."): Test Object 'TotalCuti' is null. Please check the Object Repository path.
+
+08-12-2024T13:08:30 - [MESSAGE][INFO] - Test Object 'TotalCuti' is null. Please check the Object Repository path.
+
+08-12-2024T13:08:30 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T13:08:30 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-12-2024T13:08:24 - [TEST_SUITE][PASSED] - Cuti: Test Cases/User/Cuti/TCC.Hadir.04.074]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

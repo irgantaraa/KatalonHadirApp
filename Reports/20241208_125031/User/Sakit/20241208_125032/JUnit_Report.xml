@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Sakit" time="6.491" tests="1" failures="0" errors="0">
+   <testsuite name="Sakit" tests="1" failures="0" errors="0" time="6.491" skipped="0" timestamp="08-12-2024T12:50:38" hostname="Irga - Irga.mshome.net" id="Test Suites/User/Sakit">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241208_125031\\User\\Sakit\\20241208_125032"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241208_125031\\User\\Sakit\\20241208_125032\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga.mshome.net"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="172.26.192.1"/>
+         <property name="sessionId" value="ec269eef0c0fc723dee7a69c74b04b64"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User/Sakit/TCC.Hadir.04.081" time="6.383" classname="Test Cases/User/Sakit/TCC.Hadir.04.081" status="PASSED">
+         <system-out><![CDATA[08-12-2024T12:50:38 - [TEST_CASE][PASSED] - Test Cases/User/Sakit/TCC.Hadir.04.081: Test Cases/User/Sakit/TCC.Hadir.04.081
+
+08-12-2024T12:50:38 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+08-12-2024T12:50:38 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+08-12-2024T12:50:38 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+08-12-2024T12:50:40 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+08-12-2024T12:50:40 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+08-12-2024T12:50:40 - [MESSAGE][PASSED] - Current window maximized
+
+08-12-2024T12:50:40 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/absen/login"): Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+08-12-2024T12:50:40 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+08-12-2024T12:50:40 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/Sakit/Page_HADIR/input_Email_email"), "testuser1@gmail.com"): Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Sakit/Page_HADIR/input_Email_email'
+
+08-12-2024T12:50:41 - [MESSAGE][PASSED] - Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Sakit/Page_HADIR/input_Email_email'
+
+08-12-2024T12:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Sakit/Page_HADIR/input_Password_password")): Object: 'Object Repository/User/Sakit/Page_HADIR/input_Password_password' is clicked on
+
+08-12-2024T12:50:41 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Sakit/Page_HADIR/input_Password_password' is clicked on
+
+08-12-2024T12:50:41 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/Sakit/Page_HADIR/input_Password_password"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/User/Sakit/Page_HADIR/input_Password_password'
+
+08-12-2024T12:50:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/Sakit/Page_HADIR/input_Password_password'
+
+08-12-2024T12:50:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Sakit/Page_HADIR/button_Masuk")): Object: 'Object Repository/User/Sakit/Page_HADIR/button_Masuk' is clicked on
+
+08-12-2024T12:50:42 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Sakit/Page_HADIR/button_Masuk' is clicked on
+
+08-12-2024T12:50:42 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Sakit/Page_HADIR/img")): Object: 'Object Repository/User/Sakit/Page_HADIR/img' is clicked on
+
+08-12-2024T12:50:43 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Sakit/Page_HADIR/img' is clicked on
+
+08-12-2024T12:50:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Sakit/Page_HADIR/div_List Request SakitTotal  5Test User 1Da_641d4a")): Object: 'Object Repository/User/Sakit/Page_HADIR/div_List Request SakitTotal  5Test User 1Da_641d4a' is clicked on
+
+08-12-2024T12:50:44 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Sakit/Page_HADIR/div_List Request SakitTotal  5Test User 1Da_641d4a' is clicked on
+
+08-12-2024T12:50:44 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+08-12-2024T12:50:44 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[08-12-2024T12:50:38 - [TEST_SUITE][PASSED] - Sakit: Test Cases/User/Sakit/TCC.Hadir.04.081]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

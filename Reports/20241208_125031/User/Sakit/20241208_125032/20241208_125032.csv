@@ -1,0 +1,14 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Sakit,Chrome 131.0.0.0,,,08-12-2024 12:50:38,08-12-2024 12:50:44,6.491s,PASSED
+,,,,,,,
+Test Cases/User/Sakit/TCC.Hadir.04.081,Chrome 131.0.0.0,"Verifikasi sistem hanya menerima file gambar (.jpg, .png, .jpeg) untuk upload surat sakit",SakitUser,08-12-2024 12:50:38,08-12-2024 12:50:44,6.383s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,08-12-2024 12:50:38,08-12-2024 12:50:40,1.581s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,08-12-2024 12:50:40,08-12-2024 12:50:40,0.044s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,08-12-2024 12:50:40,08-12-2024 12:50:40,0.486s,PASSED
+"setText(findTestObject(""Object Repository/User/Sakit/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,08-12-2024 12:50:40,08-12-2024 12:50:41,0.802s,PASSED
+"click(findTestObject(""Object Repository/User/Sakit/Page_HADIR/input_Password_password""))",Chrome 131.0.0.0,,,08-12-2024 12:50:41,08-12-2024 12:50:41,0.276s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/User/Sakit/Page_HADIR/input_Password_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 131.0.0.0,,,08-12-2024 12:50:41,08-12-2024 12:50:41,0.301s,PASSED
+"click(findTestObject(""Object Repository/User/Sakit/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,08-12-2024 12:50:41,08-12-2024 12:50:42,0.286s,PASSED
+"click(findTestObject(""Object Repository/User/Sakit/Page_HADIR/img""))",Chrome 131.0.0.0,,,08-12-2024 12:50:42,08-12-2024 12:50:43,1.573s,PASSED
+"click(findTestObject(""Object Repository/User/Sakit/Page_HADIR/div_List Request SakitTotal  5Test User 1Da_641d4a""))",Chrome 131.0.0.0,,,08-12-2024 12:50:43,08-12-2024 12:50:44,0.807s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 12:50:44,08-12-2024 12:50:44,0.088s,PASSED

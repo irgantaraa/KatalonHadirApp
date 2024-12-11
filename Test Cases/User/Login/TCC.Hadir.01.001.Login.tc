@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>TCC.Hadir.01.001.Login</name>
+   <tag>Login App</tag>
+   <comment></comment>
+   <recordOption>OTHER</recordOption>
+   <testCaseGuid>ad1fab93-a112-4754-8389-5a9a90e39953</testCaseGuid>
+</TestCaseEntity>

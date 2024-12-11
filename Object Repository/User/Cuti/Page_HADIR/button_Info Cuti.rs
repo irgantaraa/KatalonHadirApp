@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//button[@id='mui-p-79547-T-infoCuti']</value>
+         <value>//button[contains(text(), 'Info Cuti')]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -29,7 +29,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>d6bfbec3-a5d8-47b4-bc4d-3bb8cc7b2a64</webElementGuid>
+      <webElementGuid>d8121de5-c6e6-44e4-9f1b-de1ea8239316</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -37,7 +37,7 @@
       <name>class</name>
       <type>Main</type>
       <value>MuiButtonBase-root MuiTab-root MuiTab-textColorPrimary css-1sh52gn</value>
-      <webElementGuid>9d4195dc-ff40-4298-beae-eef0204800b1</webElementGuid>
+      <webElementGuid>b9f4d219-df47-4022-9409-b7e03a84332e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -45,7 +45,7 @@
       <name>tabindex</name>
       <type>Main</type>
       <value>-1</value>
-      <webElementGuid>68bda375-6f35-410f-9ad7-6ac1dc608bf5</webElementGuid>
+      <webElementGuid>d673acc7-b6cd-4cce-83ec-1dfa6e890561</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -53,7 +53,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>c774e44a-8e4e-4417-8e60-8237fb4d5d74</webElementGuid>
+      <webElementGuid>b441ae4e-8f36-4971-8301-03a89d582652</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -61,7 +61,7 @@
       <name>role</name>
       <type>Main</type>
       <value>tab</value>
-      <webElementGuid>5dfd7e1b-3033-4d74-9cd9-9bd2ca0dd005</webElementGuid>
+      <webElementGuid>17ecbe0c-edfb-4987-8fd7-0c6d7871c66e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -69,7 +69,7 @@
       <name>aria-selected</name>
       <type>Main</type>
       <value>false</value>
-      <webElementGuid>30ed34ea-ff37-4bbe-a715-ef620fd610f2</webElementGuid>
+      <webElementGuid>352dd918-4e5b-4195-b551-e3f6a683277f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -77,7 +77,7 @@
       <name>aria-controls</name>
       <type>Main</type>
       <value>mui-p-79547-P-infoCuti</value>
-      <webElementGuid>044776ce-4e6b-4751-8815-63f30aaa3efc</webElementGuid>
+      <webElementGuid>83796932-e9e9-46c6-8227-28883b6bdb7d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -85,7 +85,7 @@
       <name>id</name>
       <type>Main</type>
       <value>mui-p-79547-T-infoCuti</value>
-      <webElementGuid>ccb5c71b-5812-4cc0-a373-ca2340605cc0</webElementGuid>
+      <webElementGuid>976da190-ae2d-420b-9323-6f3138abbdad</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -93,7 +93,7 @@
       <name>text</name>
       <type>Main</type>
       <value>Info Cuti</value>
-      <webElementGuid>3ba25143-59f5-4009-8d9f-9dca05b7259a</webElementGuid>
+      <webElementGuid>711a3971-add4-4972-8b1b-c2bc74bd52f1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -101,7 +101,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;mui-p-79547-T-infoCuti&quot;)</value>
-      <webElementGuid>70fc1745-2016-4a4b-9e50-562b85904cce</webElementGuid>
+      <webElementGuid>deb0b255-04af-445c-a080-178b9508d98f</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -109,7 +109,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='mui-p-79547-T-infoCuti']</value>
-      <webElementGuid>1fdb06ed-54bb-4a08-94be-ffd2b7326261</webElementGuid>
+      <webElementGuid>466c5cea-deaa-4cb1-833d-d4b8487afcb1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -117,7 +117,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Form Cuti'])[1]/following::button[1]</value>
-      <webElementGuid>11a25ce1-2591-47dc-a332-cd8de9762a2d</webElementGuid>
+      <webElementGuid>16d9c8f8-fadf-40b7-82a8-c661d6ea8423</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,7 +125,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tipe Cuti'])[1]/preceding::button[1]</value>
-      <webElementGuid>2cff7ce4-9e5f-4385-8b90-3ba8452d7873</webElementGuid>
+      <webElementGuid>1ae769ba-27d2-4127-a9bd-5ea943085674</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -133,7 +133,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Pilih Tipe Absen'])[1]/preceding::button[1]</value>
-      <webElementGuid>44513d8f-9832-406d-af92-466b901bea14</webElementGuid>
+      <webElementGuid>d1a1bf24-e9e8-471f-a06f-52b14f1239d8</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -141,7 +141,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='Info Cuti']/parent::*</value>
-      <webElementGuid>a9498a79-c3e4-4952-9dea-eed34a8842ac</webElementGuid>
+      <webElementGuid>8d358447-bd75-43e3-848c-096dc027b975</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -149,7 +149,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>eb2e7ce9-dc57-42d3-8fd6-098245edabbc</webElementGuid>
+      <webElementGuid>f2bd434a-9f98-4ed5-8502-74de72587bca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -157,6 +157,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@type = 'button' and @id = 'mui-p-79547-T-infoCuti' and (text() = 'Info Cuti' or . = 'Info Cuti')]</value>
-      <webElementGuid>513b8b67-032d-4a57-8a60-c4e497940fcf</webElementGuid>
+      <webElementGuid>274afd79-79ed-4af6-bcca-284189c43c47</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

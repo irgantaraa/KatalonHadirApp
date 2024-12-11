@@ -1,0 +1,14 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/User/Cuti/Page_HADIR/button_Info Cuti",
+      "brokenLocator": "//button[@id\u003d\u0027mui-p-79547-T-infoCuti\u0027]",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "(.//*[normalize-space(text()) and normalize-space(.)\u003d\u0027Form Cuti\u0027])[1]/following::button[1]",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/20241205_184508/User/Cuti/20241205_184508/Object Repository/User/Cuti/Page_HADIR/button_Info Cuti_neighbor.png"
+    }
+  ]
+}

@@ -1,43 +1,37 @@
-import static com.kms.katalon.core.checkpoint.CheckpointFactory.findCheckpoint
-import static com.kms.katalon.core.testcase.TestCaseFactory.findTestCase
-import static com.kms.katalon.core.testdata.TestDataFactory.findTestData
 import static com.kms.katalon.core.testobject.ObjectRepository.findTestObject
-import static com.kms.katalon.core.testobject.ObjectRepository.findWindowsObject
-import com.kms.katalon.core.checkpoint.Checkpoint as Checkpoint
-import com.kms.katalon.core.cucumber.keyword.CucumberBuiltinKeywords as CucumberKW
-import com.kms.katalon.core.mobile.keyword.MobileBuiltInKeywords as Mobile
-import com.kms.katalon.core.model.FailureHandling as FailureHandling
-import com.kms.katalon.core.testcase.TestCase as TestCase
-import com.kms.katalon.core.testdata.TestData as TestData
-import com.kms.katalon.core.testng.keyword.TestNGBuiltinKeywords as TestNGKW
-import com.kms.katalon.core.testobject.TestObject as TestObject
-import com.kms.katalon.core.webservice.keyword.WSBuiltInKeywords as WS
 import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
-import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
-import internal.GlobalVariable as GlobalVariable
-import org.openqa.selenium.Keys as Keys
 
+// Buka browser dan navigasi ke URL
 WebUI.openBrowser('')
-
 WebUI.maximizeWindow()
-
 WebUI.navigateToUrl('https://magang.dikahadir.com/absen/login')
 
-WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/body_nprogress         pointer-events none _a7e546'))
-
+// Masuk ke akun
 WebUI.setText(findTestObject('Object Repository/User/Cuti/Page_HADIR/input_Email_email'), 'testuser1@gmail.com')
-
 WebUI.setEncryptedText(findTestObject('Object Repository/User/Cuti/Page_HADIR/input_Password_password'), 'RigbBhfdqOBGNlJIWM1ClA==')
-
 WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/button_Masuk'))
 
+// Navigasi ke halaman Info Cuti
 WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/img'))
-
 WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/button_Ajukan Cuti'))
-
 WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/button_Info Cuti'))
 
-WebUI.click(findTestObject('Object Repository/User/Cuti/Page_HADIR/TotalCuti'))
+// Memeriksa apakah Test Object 'TotalCuti' tersedia
+if (findTestObject('Object Repository/TotalCuti') == null) {
+    WebUI.comment("Test Object 'TotalCuti' is null. Please check the Object Repository path.")
+} else {
+    // Ambil nilai "Total Cuti" dari Test Object
+    WebUI.delay(3) // Menunggu elemen untuk dimuat
+    String totalCutiText = WebUI.getText(findTestObject('Object Repository/TotalCuti')).trim()
+    
+    // Validasi dan ekstraksi nilai
+    if (totalCutiText.contains("Total :")) {
+        String totalCutiValue = totalCutiText.replace("Total :", "").trim()
+        WebUI.comment("Total Cuti value is: " + totalCutiValue)
+    } else {
+        WebUI.comment("Unexpected text format: " + totalCutiText)
+    }
+}
 
+// Tutup browser
 WebUI.closeBrowser()
-

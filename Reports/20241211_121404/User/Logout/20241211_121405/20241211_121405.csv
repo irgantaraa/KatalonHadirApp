@@ -1,0 +1,16 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,Chrome 131.0.0.0,,,11-12-2024 12:14:10,11-12-2024 12:14:17,7.445s,PASSED
+,,,,,,,
+Test Cases/User/Logout/TCC.Hadir.01.001.Logout,Chrome 131.0.0.0,,,11-12-2024 12:14:10,11-12-2024 12:14:17,7.327s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,11-12-2024 12:14:10,11-12-2024 12:14:12,1.596s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,11-12-2024 12:14:12,11-12-2024 12:14:12,0.061s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,11-12-2024 12:14:12,11-12-2024 12:14:12,0.411s,PASSED
+"setText(findTestObject(""Object Repository/User/Logout/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,11-12-2024 12:14:12,11-12-2024 12:14:13,0.754s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/User/Logout/Page_HADIR/input_Password_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 131.0.0.0,,,11-12-2024 12:14:13,11-12-2024 12:14:13,0.300s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,11-12-2024 12:14:13,11-12-2024 12:14:13,0.295s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/div_Berhasil login""))",Chrome 131.0.0.0,,,11-12-2024 12:14:13,11-12-2024 12:14:15,2.004s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/img""))",Chrome 131.0.0.0,,,11-12-2024 12:14:15,11-12-2024 12:14:16,0.492s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/button_Logout""))",Chrome 131.0.0.0,,,11-12-2024 12:14:16,11-12-2024 12:14:17,0.574s,PASSED
+"isEmailFieldVisible = verifyElementPresent(findTestObject(""Object Repository/Login/Login_Page/input_Email_email""), 10)",Chrome 131.0.0.0,,,11-12-2024 12:14:17,11-12-2024 12:14:17,0.542s,PASSED
+"Assert.assertTrue(isEmailFieldVisible, ""Login page is not displayed after logout."")",Chrome 131.0.0.0,,,11-12-2024 12:14:17,11-12-2024 12:14:17,0.011s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,11-12-2024 12:14:17,11-12-2024 12:14:17,0.125s,PASSED

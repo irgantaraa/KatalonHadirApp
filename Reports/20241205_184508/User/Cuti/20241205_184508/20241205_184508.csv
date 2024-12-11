@@ -1,0 +1,9 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cuti,Chrome 131.0.0.0,,,05-12-2024 18:45:13,05-12-2024 18:46:29,1m - 16.301s,FAILED
+,,,,,,,
+Test Cases/User/Cuti/TCC.Hadir.04.074,Chrome 131.0.0.0,Menampilkan Info Cuti,CutiUser,05-12-2024 18:46:26,05-12-2024 18:46:29,3.029s,FAILED
+"openBrowser("""")",Chrome 131.0.0.0,,,05-12-2024 18:46:26,05-12-2024 18:46:27,0.700s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,05-12-2024 18:46:27,05-12-2024 18:46:27,0.027s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,05-12-2024 18:46:27,05-12-2024 18:46:27,0.442s,PASSED
+"click(findTestObject(""Object Repository/User/Cuti/Page_HADIR/body_nprogress         pointer-events none _a7e546""))",Chrome 131.0.0.0,,,05-12-2024 18:46:27,05-12-2024 18:46:28,0.486s,PASSED
+"setText(findTestObject(""Object Repository/User/Cuti/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,05-12-2024 18:46:28,05-12-2024 18:46:29,1.366s,FAILED

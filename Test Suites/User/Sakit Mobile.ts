@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Sakit</name>
+   <name>Sakit Mobile</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -12,7 +12,7 @@
    <rerunImmediately>true</rerunImmediately>
    <testSuiteGuid>af830525-97a5-4954-a5d7-415f730d7022</testSuiteGuid>
    <testCaseLink>
-      <guid>4102d225-49a0-46c8-85ad-ed0560d83026</guid>
+      <guid>9fe3dbf6-bdde-4a07-8127-b226ed92e62b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/User/Sakit/TCC.Hadir.04.081</testCaseId>

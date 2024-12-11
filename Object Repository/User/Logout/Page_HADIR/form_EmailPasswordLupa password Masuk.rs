@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>form_EmailPasswordLupa password Masuk</name>
+   <tag></tag>
+   <elementGuidId>28299c8e-e8b8-42ef-af71-dc6af2bd82e6</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='__next']/div/div/div/form</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>form</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorCollection>
+      <entry>
+         <key>SMART_LOCATOR</key>
+         <value>internal:text=&quot;EmailPasswordLupa password ?Masuk&quot;i</value>
+      </entry>
+   </smartLocatorCollection>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>form</value>
+      <webElementGuid>3993a7ee-f2a9-436a-b6c6-08a6f371d992</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Email​Password​Lupa password ?Masuk</value>
+      <webElementGuid>4caec670-4ec1-48b3-8abc-302c89b1529e</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;__next&quot;)/div[@class=&quot;MuiBox-root css-0&quot;]/div[@class=&quot;MuiBox-root css-1ltr304&quot;]/div[@class=&quot;MuiBox-root css-8atqhb&quot;]/form[1]</value>
+      <webElementGuid>ffedfd03-8aad-4033-8156-513fab9ed68c</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='__next']/div/div/div/form</value>
+      <webElementGuid>4d064fe7-eb81-4159-9c5a-d9b3b8eac188</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//form</value>
+      <webElementGuid>a71df2b4-a343-4667-af9e-be4fadde55e6</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//form[(text() = 'Email​Password​Lupa password ?Masuk' or . = 'Email​Password​Lupa password ?Masuk')]</value>
+      <webElementGuid>00d37a3b-482d-4c0e-af69-2b9116e42589</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

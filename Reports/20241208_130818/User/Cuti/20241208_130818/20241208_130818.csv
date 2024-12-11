@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Cuti,Chrome 131.0.0.0,,,08-12-2024 13:08:24,08-12-2024 13:08:30,6.469s,PASSED
+,,,,,,,
+Test Cases/User/Cuti/TCC.Hadir.04.074,Chrome 131.0.0.0,Menampilkan Info Cuti,CutiUser,08-12-2024 13:08:24,08-12-2024 13:08:30,6.361s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,08-12-2024 13:08:24,08-12-2024 13:08:25,1.539s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,08-12-2024 13:08:25,08-12-2024 13:08:25,0.048s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,08-12-2024 13:08:25,08-12-2024 13:08:26,0.556s,PASSED
+"setText(findTestObject(""Object Repository/User/Cuti/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,08-12-2024 13:08:26,08-12-2024 13:08:27,0.801s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/User/Cuti/Page_HADIR/input_Password_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 131.0.0.0,,,08-12-2024 13:08:27,08-12-2024 13:08:27,0.312s,PASSED
+"click(findTestObject(""Object Repository/User/Cuti/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,08-12-2024 13:08:27,08-12-2024 13:08:27,0.280s,PASSED
+"click(findTestObject(""Object Repository/User/Cuti/Page_HADIR/img""))",Chrome 131.0.0.0,,,08-12-2024 13:08:27,08-12-2024 13:08:29,1.301s,PASSED
+"click(findTestObject(""Object Repository/User/Cuti/Page_HADIR/button_Ajukan Cuti""))",Chrome 131.0.0.0,,,08-12-2024 13:08:29,08-12-2024 13:08:29,0.779s,PASSED
+"click(findTestObject(""Object Repository/User/Cuti/Page_HADIR/button_Info Cuti""))",Chrome 131.0.0.0,,,08-12-2024 13:08:29,08-12-2024 13:08:30,0.468s,PASSED
+"if (findTestObject(""Object Repository/TotalCuti"") == null)",Chrome 131.0.0.0,,,08-12-2024 13:08:30,08-12-2024 13:08:30,0.016s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,08-12-2024 13:08:30,08-12-2024 13:08:30,0.106s,PASSED

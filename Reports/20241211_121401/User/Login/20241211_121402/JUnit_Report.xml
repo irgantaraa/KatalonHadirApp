@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Login" time="6.386" tests="1" failures="0" errors="0">
+   <testsuite name="Login" tests="1" failures="0" errors="0" time="6.386" skipped="0" timestamp="11-12-2024T12:14:07" hostname="Irga - Irga" id="Test Suites/User/Login">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241211_121401\\User\\Login\\20241211_121402"/>
+         <property name="logFiles" value="C:\\Users\\User\\git\\KatalonHadirApp\\Reports\\20241211_121401\\User\\Login\\20241211_121402\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Irga - Irga"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="10.0.0.223"/>
+         <property name="browser" value="Chrome 131.0.0.0"/>
+         <property name="hostAddress" value="192.168.0.106"/>
+         <property name="sessionId" value="3cdb8288d2675bdf1bf0e9939b89f8df"/>
+         <property name="seleniumVersion" value="4.22.0"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/User/Login/TCC.Hadir.01.001.Login" time="6.266" classname="Test Cases/User/Login/TCC.Hadir.01.001.Login" status="PASSED">
+         <system-out><![CDATA[11-12-2024T12:14:07 - [TEST_CASE][PASSED] - Test Cases/User/Login/TCC.Hadir.01.001.Login: Test Cases/User/Login/TCC.Hadir.01.001.Login
+
+11-12-2024T12:14:08 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+11-12-2024T12:14:08 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+11-12-2024T12:14:08 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+11-12-2024T12:14:09 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+11-12-2024T12:14:09 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+11-12-2024T12:14:09 - [MESSAGE][PASSED] - Current window maximized
+
+11-12-2024T12:14:09 - [TEST_STEP][PASSED] - navigateToUrl("https://magang.dikahadir.com/absen/login"): Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+11-12-2024T12:14:11 - [MESSAGE][PASSED] - Navigate to 'https://magang.dikahadir.com/absen/login' successfully
+
+11-12-2024T12:14:11 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/User/Login/Page_HADIR/input_Email_email"), "testuser1@gmail.com"): Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Login/Page_HADIR/input_Email_email'
+
+11-12-2024T12:14:11 - [MESSAGE][PASSED] - Text 'testuser1@gmail.com' is set on object 'Object Repository/User/Login/Page_HADIR/input_Email_email'
+
+11-12-2024T12:14:11 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/User/Login/Page_HADIR/input_Password_password"), "RigbBhfdqOBGNlJIWM1ClA=="): Text ****** has been set on object 'Object Repository/User/Login/Page_HADIR/input_Password_password'
+
+11-12-2024T12:14:12 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/User/Login/Page_HADIR/input_Password_password'
+
+11-12-2024T12:14:12 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/User/Login/Page_HADIR/button_Masuk")): Object: 'Object Repository/User/Login/Page_HADIR/button_Masuk' is clicked on
+
+11-12-2024T12:14:12 - [MESSAGE][PASSED] - Object: 'Object Repository/User/Login/Page_HADIR/button_Masuk' is clicked on
+
+11-12-2024T12:14:12 - [TEST_STEP][PASSED] - waitForPageLoad(10): Wait for page load successfully
+
+11-12-2024T12:14:12 - [MESSAGE][PASSED] - Wait for page load successfully
+
+11-12-2024T12:14:12 - [TEST_STEP][PASSED] - loginSuccess = verifyElementPresent(findTestObject("Object Repository/User/Login/Page_HADIR/div_Berhasil login"), 10, CONTINUE_ON_FAILURE): Object 'Object Repository/User/Login/Page_HADIR/div_Berhasil login' is present
+
+11-12-2024T12:14:14 - [MESSAGE][PASSED] - Object 'Object Repository/User/Login/Page_HADIR/div_Berhasil login' is present
+
+11-12-2024T12:14:14 - [TEST_STEP][PASSED] - if (loginSuccess): Login successful. Verification passed.
+
+11-12-2024T12:14:14 - [TEST_STEP][PASSED] - comment("Login successful. Verification passed."): Login successful. Verification passed.
+
+11-12-2024T12:14:14 - [MESSAGE][INFO] - Login successful. Verification passed.
+
+11-12-2024T12:14:14 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+11-12-2024T12:14:14 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[11-12-2024T12:14:07 - [TEST_SUITE][PASSED] - Login: Test Cases/User/Login/TCC.Hadir.01.001.Login]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

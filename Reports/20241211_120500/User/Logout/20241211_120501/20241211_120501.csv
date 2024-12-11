@@ -1,0 +1,22 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Logout,Chrome 131.0.0.0,,,11-12-2024 12:05:10,11-12-2024 12:05:23,12.415s,PASSED
+,,,,,,,
+Test Cases/User/Logout/TCC.Hadir.01.001.Logout,Chrome 131.0.0.0,,,11-12-2024 12:05:10,11-12-2024 12:05:23,12.297s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,11-12-2024 12:05:11,11-12-2024 12:05:12,1.604s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,11-12-2024 12:05:12,11-12-2024 12:05:12,0.061s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,11-12-2024 12:05:12,11-12-2024 12:05:14,1.993s,PASSED
+"setText(findTestObject(""Object Repository/User/Login/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,11-12-2024 12:05:14,11-12-2024 12:05:15,0.819s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/User/Login/Page_HADIR/input_Password_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 131.0.0.0,,,11-12-2024 12:05:15,11-12-2024 12:05:15,0.304s,PASSED
+"click(findTestObject(""Object Repository/User/Login/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,11-12-2024 12:05:15,11-12-2024 12:05:16,0.309s,PASSED
+"click(findTestObject(""Object Repository/User/Login/Page_HADIR/div_Berhasil login""))",Chrome 131.0.0.0,,,11-12-2024 12:05:16,11-12-2024 12:05:16,0.771s,PASSED
+closeBrowser(),Chrome 131.0.0.0,,,11-12-2024 12:05:16,11-12-2024 12:05:16,0.096s,PASSED
+"openBrowser("""")",Chrome 131.0.0.0,,,11-12-2024 12:05:16,11-12-2024 12:05:17,0.647s,PASSED
+maximizeWindow(),Chrome 131.0.0.0,,,11-12-2024 12:05:17,11-12-2024 12:05:17,0.032s,PASSED
+"navigateToUrl(""https://magang.dikahadir.com/absen/login"")",Chrome 131.0.0.0,,,11-12-2024 12:05:17,11-12-2024 12:05:18,0.376s,PASSED
+"setText(findTestObject(""Object Repository/User/Logout/Page_HADIR/input_Email_email""), ""testuser1@gmail.com"")",Chrome 131.0.0.0,,,11-12-2024 12:05:18,11-12-2024 12:05:18,0.738s,PASSED
+"setEncryptedText(findTestObject(""Object Repository/User/Logout/Page_HADIR/input_Password_password""), ""RigbBhfdqOBGNlJIWM1ClA=="")",Chrome 131.0.0.0,,,11-12-2024 12:05:18,11-12-2024 12:05:19,0.287s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/button_Masuk""))",Chrome 131.0.0.0,,,11-12-2024 12:05:19,11-12-2024 12:05:19,0.279s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/div_Berhasil login""))",Chrome 131.0.0.0,,,11-12-2024 12:05:19,11-12-2024 12:05:21,1.872s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/img""))",Chrome 131.0.0.0,,,11-12-2024 12:05:21,11-12-2024 12:05:21,0.491s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/button_Logout""))",Chrome 131.0.0.0,,,11-12-2024 12:05:21,11-12-2024 12:05:22,0.696s,PASSED
+"click(findTestObject(""Object Repository/User/Logout/Page_HADIR/div_Email_MuiBox-root css-1id4siv""))",Chrome 131.0.0.0,,,11-12-2024 12:05:22,11-12-2024 12:05:23,0.771s,PASSED
